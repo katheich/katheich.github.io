@@ -27,29 +27,29 @@ const Skills = () => {
 
       <div className="columns is-mobile is-multiline">
         
-        <div className="column is-one-fifth"><i className="devicon-javascript-plain"></i><div className="label">JavaScript</div></div>
-        <div className="column is-one-fifth"><i className="devicon-python-plain"></i><div className="label">Python</div></div>
+        <div className="column is-one-fifth"><i className="devicon-javascript-plain"></i><div className="label">Java&shy;Script</div></div>
+        <div className="column is-one-fifth"><i className="devicon-python-plain"></i><div className="label">Py&shy;thon</div></div>
         <div className="column is-one-fifth"><i className="devicon-html5-plain"></i><div className="label">HTML</div></div>
         <div className="column is-one-fifth"><i className="devicon-css3-plain"></i><div className="label">CSS</div></div>
         <div className="column is-one-fifth"><i className="devicon-sass-original"></i><div className="label">SASS</div></div>
 
-        <div className="column is-one-fifth"><i className="devicon-react-original"></i><div className="label">React.js</div></div>
-        <div className="column is-one-fifth"><i className="devicon-nodejs-plain"></i><div className="label">Node.js</div></div>
-        <div className="column is-one-fifth"><i className="devicon-express-original"></i><div className="label">Express.js</div></div>
-        <div className="column is-one-fifth"><i className="devicon-webpack-plain"></i><div className="label">Webpack</div></div>
-        <div className="column is-one-fifth"><i className="devicon-django-plain"></i><div className="label">Django</div></div>
+        <div className="column is-one-fifth"><i className="devicon-react-original"></i><div className="label">Re&shy;act&shy;.js</div></div>
+        <div className="column is-one-fifth"><i className="devicon-nodejs-plain"></i><div className="label">Node&shy;.js</div></div>
+        <div className="column is-one-fifth"><i className="devicon-express-original"></i><div className="label">Ex&shy;press&shy;.js</div></div>
+        <div className="column is-one-fifth"><i className="devicon-webpack-plain"></i><div className="label">Web&shy;pack</div></div>
+        <div className="column is-one-fifth"><i className="devicon-django-plain"></i><div className="label">Djan&shy;go</div></div>
 
         <div className="column is-one-fifth"><i className="fab fa-npm"></i><div className="label">NPM</div></div>
         <div className="column is-one-fifth"><i className="fab fa-yarn"></i><div className="label">Yarn</div></div>
         <div className="column is-one-fifth"><i className="devicon-babel-plain"></i><div className="label">Babel</div></div>
-        <div className="column is-one-fifth"><i className="devicon-mongodb-plain"></i><div className="label">MongoDB</div></div>
-        <div className="column is-one-fifth"><i className="devicon-postgresql-plain"></i><div className="label">PostgreSQL</div></div>
+        <div className="column is-one-fifth"><i className="devicon-mongodb-plain"></i><div className="label">Mongo&shy;DB</div></div>
+        <div className="column is-one-fifth"><i className="devicon-postgresql-plain"></i><div className="label">Post&shy;gre&shy;SQL</div></div>
 
-        <div className="column is-one-fifth"><i className="devicon-mocha-plain"></i><div className="label">Mocha</div></div>
+        <div className="column is-one-fifth"><i className="devicon-mocha-plain"></i><div className="label">Mo&shy;cha</div></div>
         <div className="column is-one-fifth"><i className="devicon-git-plain"></i><div className="label">Git</div></div>
-        <div className="column is-one-fifth"><i className="devicon-github-plain"></i><div className="label">GitHub</div></div>
-        <div className="column is-one-fifth"><i className="devicon-visualstudio-plain"></i><div className="label">VSCode</div></div>
-        <div className="column is-one-fifth"><i className="devicon-trello-plain"></i><div className="label">Trello</div></div>
+        <div className="column is-one-fifth"><i className="devicon-github-plain"></i><div className="label">Git&shy;Hub</div></div>
+        <div className="column is-one-fifth"><i className="devicon-visualstudio-plain"></i><div className="label">VS&shy;Code</div></div>
+        <div className="column is-one-fifth"><i className="devicon-trello-plain"></i><div className="label">Trel&shy;lo</div></div>
 
       </div>
 

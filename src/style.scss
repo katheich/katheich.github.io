@@ -127,8 +127,9 @@ html {
     div.label {
       position: absolute;
       max-width: 100%;
-      padding: 10px;
       opacity: 0;
+      word-wrap: break-word;
+      text-align: center;
     }
   }
 
