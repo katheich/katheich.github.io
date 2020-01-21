@@ -10,13 +10,13 @@ const Projects = () => {
         Projects
       </div>
 
-      <ol>
+      <ul>
         <li>Tripbit</li>
         <li>Placeholder</li>
         <li>Metropolists</li>
         <li>Skystalker</li>
         <li>Vac-Man</li>
-      </ol>
+      </ul>
       
     </div>
   </section>)

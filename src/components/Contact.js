@@ -10,8 +10,15 @@ const Contact = () => {
         Contact
       </div>
 
-      <div className="text">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sollicitudin justo id libero varius, vitae blandit ante ullamcorper. Morbi at lacus risus. Etiam blandit tristique ipsum, id scelerisque nisi sollicitudin ut. Donec eu consequat eros. Quisque rutrum id tellus vitae imperdiet. Nulla sagittis ex tortor, eu tincidunt sapien dapibus convallis. Donec a faucibus mauris, a vestibulum lorem. In quis ornare odio. Nam pretium nisi leo, eget imperdiet urna vulputate mattis.
+      <div className="level">
+        <a className="level-item is-centered is-size-5" href="https://github.com/katheich" target="_blank" rel="noopener noreferrer">
+          <i className="fab fa-github-square"></i>
+          <div className="text">github.com/katheich</div>
+        </a>
+        <a className="level-item is-centered is-size-5" href="https://www.linkedin.com/in/kathrineichinger" target="_blank" rel="noopener noreferrer">
+          <i className="fab fa-linkedin"></i>
+          <div className="text">linkedin.com/in/kathrineichinger</div>
+        </a>
       </div>
     </div>
   </section>)

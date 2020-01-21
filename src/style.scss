@@ -56,6 +56,8 @@ html {
   color: $green;
 }
 
+/********* HERO *********/
+
 #hero {  
 
   background-image: url(./images/pattern-ice.png);
@@ -69,7 +71,8 @@ html {
   #title-column {
     height: 100%;
     background-color: rgba(255, 255, 255, 0.7);
-  }
+
+  } 
 
   .subtitle {
     margin-left: 30px;
@@ -107,10 +110,14 @@ html {
   }
 }
 
+/********* ABOUT / SKILLS *********/ 
+
 .columns.section {
   padding-top: 0;
   padding-bottom: 0;
 }
+
+/********* SKILLS *********/
 
 #skills {
 
@@ -140,5 +147,23 @@ html {
     div.label {
       opacity: 1;
     }
+  }
+}
+
+/********* CONTACT *********/
+
+#contact {
+  i {
+    color: $green;
+    font-size: 25px;
+    margin: 5px;
+  }
+
+  .text {
+    color: $text;
+  }
+
+  .text:hover {
+    color: $green;
   }
 }

@@ -9,7 +9,7 @@ const Hero = () => {
 
         <div className="column is-4-desktop" id="title-column">
           <h1 className="title text-js" on>
-            <span className="backslash" id="backslash-1">/</span>
+            <span className="backslash">/</span>
             <span className="backslash">/ </span>
             Kathrin Eichinger
           </h1>
@@ -25,7 +25,7 @@ const Hero = () => {
 
     </div>
 
-    <div className="hero-foot">
+    <div className="hero-foot is-hidden-mobile">
       <nav className="tabs">
         <div className="container">
           <ul>
