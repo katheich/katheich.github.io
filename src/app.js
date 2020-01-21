@@ -4,14 +4,17 @@ import ReactDOM from 'react-dom'
 import 'bulma'
 import './style.scss'
 
+import Hero from './components/Hero'
+import About from './components/About'
+import Skills from './components/Skills'
+
 const App = () => {
  
-  return (<section className="section">
-    <div className="container">
-      <div className="title">Hallo, Welt.</div>
-    </div>
-  </section>
-  )
+  return (<>
+    <Hero />
+    <About />
+    <Skills />
+  </>)
   
 }
 

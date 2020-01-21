@@ -1,0 +1,103 @@
+/**************** BULMA STYLES ****************/
+
+@charset "utf-8";
+
+// Import a Google Font
+@import url('https://fonts.googleapis.com/css?family=Hind:300,400,700|Raleway:300,300i,400,400i,500,500i,700,700i,900,900i&display=swap&subset=latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,400,500,600,700,800,900&display=swap');
+
+// Set your brand colors
+$skyblue: #00a4e8;
+$green: #6dff88;
+$slash-font: "Work Sans", sans-serif;
+
+
+// Update Bulma's global variables
+$family-sans-serif: "Raleway", sans-serif;
+$title-family: "Hind", sans-serif;
+$link: $skyblue;
+$success: $green;
+
+
+// Update some of Bulma's component variables
+$body-background-color: white;
+// $control-border-width: 2px;
+// $input-border-color: transparent;
+// $input-shadow: none;
+
+// Import only what you need from Bulma
+@import "../node_modules/bulma/sass/utilities/_all.sass";
+@import "../node_modules/bulma/sass/base/_all.sass";
+@import "../node_modules/bulma/sass/elements/button.sass";
+@import "../node_modules/bulma/sass/elements/container.sass";
+@import "../node_modules/bulma/sass/elements/title.sass";
+@import "../node_modules/bulma/sass/form/_all.sass";
+@import "../node_modules/bulma/sass/components/navbar.sass";
+@import "../node_modules/bulma/sass/layout/hero.sass";
+@import "../node_modules/bulma/sass/layout/section.sass";
+
+
+/**************** OWN STYLES ****************/
+
+* {
+  font-weight: 300;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.backslash {
+  font-family: $slash-font;
+}
+
+.title .backslash {
+  font-weight: 900;
+  color: $green;
+}
+
+#hero {
+  background-image: url(./images/pattern-ice.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  .columns {
+    height: 100%;
+  }
+  
+  #title-column {
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.7);
+  }
+
+  .hero-body {
+  /*Free Alternating Chevron SVG provided by SVGeez.com - CC 4.0 License - © 2019 Megan Young */
+  background-color:transparent;
+  fill:#fff;
+  background-size:355px 355px;
+  background-repeat:repeat;
+  background-image:url("data:image/svg+xml,%3Csvg id='Layer_1' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 500 500'%3E%3Cstyle%3E.st0%7Bfill:rgba(255,255,255,1)%7D%3C/style%3E%3Cpath class='st0' d='M125 250v125l125 125V375zM250 125L125 0v125l125 125zM250 250v125l125-125V125zM500 250V125L375 0v125zM500 500V375L375 250v125zM125 500V375L0 500zM375 500V375L250 500zM250 0v125L375 0zM0 125L125 0H0zM0 250v125l125-125V125z'/%3E%3C/svg%3E");
+  }
+
+  .hero-foot {
+    background-color: white;
+
+    a {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    a::after {
+      content: "";
+      border: 0.5px solid $white;
+    }
+    
+    a:hover::after {
+      content: "";
+      width: 50%;
+      border: 0.5px solid $green;
+    }
+  }
+}

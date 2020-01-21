@@ -6,8 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "serve": "webpack-dev-server --mode=development",
-    "build": "webpack -p",
-    "deploy": "yarn build"
+    "build": "webpack -p"
   },
   "author": "",
   "license": "ISC",
