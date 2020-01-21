@@ -56,7 +56,8 @@ html {
   color: $green;
 }
 
-#hero {
+#hero {  
+
   background-image: url(./images/pattern-ice.png);
   background-size: cover;
   background-repeat: no-repeat;
@@ -68,6 +69,10 @@ html {
   #title-column {
     height: 100%;
     background-color: rgba(255, 255, 255, 0.7);
+  }
+
+  .subtitle {
+    margin-left: 30px;
   }
 
   .hero-body {
@@ -96,8 +101,42 @@ html {
     
     a:hover::after {
       content: "";
-      width: 50%;
+      width: 20px;
       border: 0.5px solid $green;
+    }
+  }
+}
+
+.columns.section {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+#skills {
+
+  .column {
+    i {
+      font-size: 50px;
+    } 
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    div.label {
+      position: absolute;
+      max-width: 100%;
+      padding: 10px;
+      opacity: 0;
+    }
+  }
+
+  .column:hover {
+    i {
+      color: $green;
+    }
+    div.label {
+      opacity: 1;
     }
   }
 }
