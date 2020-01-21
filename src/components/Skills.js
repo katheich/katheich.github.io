@@ -17,7 +17,7 @@ const Skills = () => {
   // Geospatial analysis: ArcGIS Pro
   // Productivity: Microsoft Office (Excel, Powerpoint, Outlook, Word), Trello
 
-  return (<section className="section" id="skills">
+  return (<section className="" id="skills">
     <div className="container">
       <div className="title">
         <span className="backslash">/</span>

@@ -15,12 +15,15 @@ const App = () => {
  
   return (<>
     <Hero />
-    <div className="columns section">
-      <div className="column is-half-desktop">
-        <About />
-      </div>
-      <div className="column is-half-desktop">
-        <Skills />
+    <div className="section">
+      <div className="container columns">
+        <div className="column is-5-desktop">
+          <About />
+        </div>
+        <div className="column is-1-desktop"></div>
+        <div className="column is-6-desktop">
+          <Skills />
+        </div>
       </div>
     </div>
     <Projects />

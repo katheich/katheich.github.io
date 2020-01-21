@@ -17,6 +17,7 @@ const Projects = () => {
         <li>Skystalker</li>
         <li>Vac-Man</li>
       </ol>
+      
     </div>
   </section>)
 
