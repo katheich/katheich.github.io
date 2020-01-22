@@ -168,8 +168,16 @@ html {
       padding: 10px 18px;
     }
 
+    .pagenum:hover {
+      color: $green;
+    }
+
     .current {
       font-weight: 700;
+    }
+
+    .pagenum.current:hover {
+      color: $text;
     }
 
     .arrow {
