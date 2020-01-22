@@ -41,13 +41,13 @@ const Skills = () => {
 
         <div className="column is-one-fifth"><i className="fab fa-npm"></i><div className="label">NPM</div></div>
         <div className="column is-one-fifth"><i className="fab fa-yarn"></i><div className="label">Yarn</div></div>
-        <div className="column is-one-fifth"><i className="devicon-babel-plain"></i><div className="label">Babel</div></div>
         <div className="column is-one-fifth"><i className="devicon-mongodb-plain"></i><div className="label">Mongo&shy;DB</div></div>
         <div className="column is-one-fifth"><i className="devicon-postgresql-plain"></i><div className="label">Post&shy;gre&shy;SQL</div></div>
-
         <div className="column is-one-fifth"><i className="devicon-mocha-plain"></i><div className="label">Mo&shy;cha</div></div>
+        
         <div className="column is-one-fifth"><i className="devicon-git-plain"></i><div className="label">Git</div></div>
         <div className="column is-one-fifth"><i className="devicon-github-plain"></i><div className="label">Git&shy;Hub</div></div>
+        <div className="column is-one-fifth"><i className="devicon-heroku-original"></i><div className="label">He&shy;ro&shy;ku</div></div>
         <div className="column is-one-fifth"><i className="devicon-visualstudio-plain"></i><div className="label">VS&shy;Code</div></div>
         <div className="column is-one-fifth"><i className="devicon-trello-plain"></i><div className="label">Trel&shy;lo</div></div>
 
