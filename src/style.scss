@@ -15,6 +15,7 @@ $slash-font: "Work Sans", sans-serif;
 // Update Bulma's global variables
 $family-sans-serif: "Raleway", sans-serif;
 $title-family: "Hind", sans-serif;
+$family-secondary: $title-family;
 $link: $skyblue;
 $success: $green;
 
@@ -99,13 +100,14 @@ html {
 
     a::after {
       content: "";
-      border: 0.5px solid $white;
+      width: 20px;
+      border: 0.5px solid $green;
+      opacity: 0;
+      transition: opacity 0.5s ease-in-out;
     }
     
     a:hover::after {
-      content: "";
-      width: 20px;
-      border: 0.5px solid $green;
+      opacity: 1;
     }
   }
 }
@@ -124,6 +126,7 @@ html {
   .column {
     i {
       font-size: 50px;
+      transition: color 0.5s ease-in-out;
     } 
 
     position: relative;
@@ -137,6 +140,7 @@ html {
       opacity: 0;
       word-wrap: break-word;
       text-align: center;
+      transition: opacity 0.5s ease-in-out;
     }
   }
 
@@ -148,6 +152,50 @@ html {
       opacity: 1;
     }
   }
+}
+
+/********* PROJECTS *********/
+
+#projects {
+
+  .slidecontrol {
+    margin-bottom: 30px;
+    
+    a {
+      border: none;
+      font-weight: 700;
+      color: $text;
+      padding: 10px 18px;
+    }
+
+    .current {
+      background-image: url(./images/chevrongreen2.png);
+      background-size: contain;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+
+    .arrow {
+      color: lightgray;
+    }
+
+    .active {
+      color: $green;
+    }
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .slide {
+    display: none;
+  }
+
+  .selected {
+    display: flex;
+  }
+
 }
 
 /********* CONTACT *********/
