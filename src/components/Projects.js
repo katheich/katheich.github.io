@@ -119,7 +119,7 @@ const Projects = () => {
                     <figure className="image is-2by3 desktop-only">
                       <img className="screenshot" src={Transparency} id='image2' />
                     </figure>
-                    <figure className="image is-3by2 mobile-only">
+                    <figure className="image is-2by1 mobile-only">
                       <img className="screenshot" src={Transparency} id='image2a' />
                     </figure>                   
                   </div>
@@ -203,7 +203,7 @@ const Projects = () => {
                     <figure className="image is-2by3 desktop-only">
                       <img className="screenshot" src={Transparency} id='image2' />
                     </figure>
-                    <figure className="image is-3by2 mobile-only">
+                    <figure className="image is-2by1 mobile-only">
                       <img className="screenshot" src={Transparency} id='image2a' />
                     </figure>                   
                   </div>
@@ -373,7 +373,7 @@ const Projects = () => {
                     <figure className="image is-2by3 desktop-only">
                       <img className="screenshot" src={Transparency} id='image2' />
                     </figure>
-                    <figure className="image is-3by2 mobile-only">
+                    <figure className="image is-2by1 mobile-only">
                       <img className="screenshot" src={Transparency} id='image2a' />
                     </figure>                   
                   </div>
