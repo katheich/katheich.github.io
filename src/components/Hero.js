@@ -25,7 +25,7 @@ const Hero = () => {
 
     </div>
 
-    <div className="hero-foot is-hidden-mobile">
+    <div className="hero-foot">
       <nav className="tabs">
         <div className="container">
           <ul>
