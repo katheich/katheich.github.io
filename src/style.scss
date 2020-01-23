@@ -209,11 +209,142 @@ html {
   }
 
 
+  .mobile-only {
+    display: none !important;
+  }
+
+  @media only screen and (max-width: 768px) {
+    .desktop-only {
+      display: none !important;
+    }
+
+    .mobile-only {
+      display: block !important;
+    }
+  }
+
+  #slide1 {
+    .screenshot {
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+
+    #image1 {
+      background-image: url(./images//projects/tripbit-map6.png);
+    }
+
+    #image2 {
+      background-position: top;
+      background-image: url(./images//projects/tripbit-mobile1.png);
+    }
+
+    #image2a {
+      background-image: url(./images//projects/tripbit-allmobile.png);
+    }
+
+    #image3 {
+      background-image: url(./images//projects/tripbit-mobile2.png);
+    }
+
+    #image4 {
+      background-position: top;
+      background-image: url(./images//projects/tripbit-userprofile.png);
+    }
+  }
+
+  #slide2 {
+    .screenshot {
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+
+    #image1 {
+      background-image: url(./images//projects/placeholder-map.png);
+    }
+
+    #image2 {
+      background-image: url(./images//projects/placeholder-mobile1.png);
+    }
+
+    #image2a {
+      background-image: url(./images//projects/placeholder-allmobile.png);
+    }
+
+    #image3 {
+      background-image: url(./images//projects/placeholder-mobile2.png);
+    }
+
+    #image4 {
+      background-position: top;
+      background-image: url(./images//projects/placeholder-addnewlocation.png);
+    }
+  }
+
+  #slide3 {
+    .screenshot {
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+
+    #image1 {
+      background-image: url(./images//projects/metropolists-citieslist.png);
+    }
+
+    #image2 {
+      background-image: url(./images//projects/metropolists-citycomparison.png);
+    }
+
+    #image3 {
+      background-image: url(./images//projects/metropolists-home.png);
+    }
+
+    #image4 {
+      background-image: url(./images//projects/metropolists-citydetail.png);
+    }
+  }
+
+
+  #slide4 {
+    .screenshot {
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+
+    #image1 {
+      background-image: url(./images//projects/skystalker-fullscreen.png);
+    }
+
+    #image2 {
+      background-image: url(./images//projects/skystalker-mobile1.png);
+    }
+
+    #image2a {
+      background-image: url(./images//projects/skystalker-allmobile.png);
+    }
+
+    #image3 {
+      background-image: url(./images//projects/skystalker-mobile2.png);
+    }
+
+    #image4 {
+      background-image: url(./images//projects/skystalker-loading-fullscreen.png);
+    }
+  }
+
+
   #slide5 {
     .screenshot {
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
+    }
+
+    #image1 {
+      background-image: url(./images//projects/vac-man-gameplay.png);
     }
 
     #image2 {
