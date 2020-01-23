@@ -195,13 +195,61 @@ html {
 
   .slide {
     display: none;
+
+    a {
+      margin: 5px;
+      color: $green;
+    }
   }
 
   .selected {
     display: flex;
+    -webkit-animation: fade-in 0.8s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    animation: fade-in 0.8s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
   }
 
+
+  #slide5 {
+    .screenshot {
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+
+    #image2 {
+      background-image: url(./images//projects/vac-man-high-scores.png);
+    }
+
+    #image3 {
+      background-image: url(./images//projects/vac-man-start-screen.png);
+    }
+
+    #image4 {
+      background-image: url(./images//projects/vac-man-game-over.png);
+    }
+  }
+
+
 }
+
+ @-webkit-keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
 
 /********* CONTACT *********/
 
