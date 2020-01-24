@@ -11,11 +11,11 @@ const Contact = () => {
       </div>
 
       <div className="level">
-        <a className="level-item is-centered is-size-5" href="https://github.com/katheich" target="_blank" rel="noopener noreferrer">
+        <a className="level-item is-centered is-size-6" href="https://github.com/katheich" target="_blank" rel="noopener noreferrer">
           <i className="fab fa-github-square"></i>
           <div className="text">github.com/katheich</div>
         </a>
-        <a className="level-item is-centered is-size-5" href="https://www.linkedin.com/in/kathrineichinger" target="_blank" rel="noopener noreferrer">
+        <a className="level-item is-centered is-size-6" href="https://www.linkedin.com/in/kathrineichinger" target="_blank" rel="noopener noreferrer">
           <i className="fab fa-linkedin"></i>
           <div className="text">linkedin.com/in/kathrineichinger</div>
         </a>

@@ -10,10 +10,13 @@ const About = () => {
         About
       </div>
 
-      <div className="text">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sollicitudin justo id libero varius, vitae blandit ante ullamcorper. Morbi at lacus risus. Etiam blandit tristique ipsum, id scelerisque nisi sollicitudin ut. Donec eu consequat eros. Quisque rutrum id tellus vitae imperdiet. Nulla sagittis ex tortor, eu tincidunt sapien dapibus convallis. Donec a faucibus mauris, a vestibulum lorem. In quis ornare odio. Nam pretium nisi leo, eget imperdiet urna vulputate mattis.
+      <div className="text is-size-6">
+        A keen learner with a background in economic consulting, my interest in problem-solving perhaps inevitably led me to software engineering. Thriving in a collaborative environment and bringing with me an incessant need to understand “why”, I am looking to start my career in this field as part of a team where I can learn every day from more experienced colleagues.        
+        
         <br/><br/>
-        Donec eros massa, ullamcorper ut risus vel, interdum congue odio. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec eget quam efficitur ligula mattis viverra ac quis augue. Mauris eget enim lobortis, laoreet sem ut, tincidunt elit. Quisque laoreet sed diam id efficitur. Aenean venenatis pellentesque ligula, nec vestibulum orci dignissim nec. Ut eget arcu vel libero vulputate dapibus vitae et neque. Nulla interdum mi vel tellus lobortis, sed gravida lacus faucibus. Nullam lobortis tempor elementum. Etiam sagittis eu nunc sed placerat. Etiam lobortis, massa et porta aliquet, sapien mi bibendum leo, vitae volutpat erat magna tempor libero.
+        Holding a BA in Economics and Philosophy from the University of York and an MSc in Economic and Social Sciences from Bocconi University in Milan, my education provides a solid background in analytical thinking. After finishing my studies, I worked for three years as a competition economist at RBB Economics, where I also learned a lot; from hard skills such as expert report drafting and economic analyses to softer skills such as client-facing communication and working in a team.     
+        <br/><br/>
+        Recognising my desire to understand the "why" behind processes and a talent for logical thinking, I decided to dive into the field of software engineering. I enrolled in the Software Engineering Immersive course at General Assembly to not only gain the technical skills of coding, but to also understand the broader context of these tools. It was also great to spend twelve weeks in such a supportive environment, where everyone is going through the same experience of starting a new skill coming from a different background, and I look forward to continuing this learning journey in my next position. 
       </div>
     </div>
   </section>)
