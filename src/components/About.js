@@ -5,8 +5,7 @@ const About = () => {
   return (<section className="" id="about">
     <div className="container">
       <div className="title">
-        <span className="backslash">/</span>
-        <span className="backslash">/ </span>
+        <span className="backslash">// </span>
         About
       </div>
 

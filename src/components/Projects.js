@@ -49,8 +49,7 @@ const Projects = () => {
   return (<section className="section" id="projects">
     <div className="container">
       <div className="title">
-        <span className="backslash">/</span>
-        <span className="backslash">/ </span>
+        <span className="backslash">// </span>
         Projects
       </div>
 
@@ -97,8 +96,12 @@ const Projects = () => {
                   </div>
                   <br />
                   <div className="text is-size-7-desktop is-size-6-mobile">
-                  In a team of four, we built a Django app with a React front-end and PostgreSQL database, which allows users to select cities they have travelled to,  earning badges for achieving certain conditions and being able to visualise them using Mapbox	                  
-                  </div>             
+                  In a team of four, we built a Django app with a React front-end and PostgreSQL database, where users select cities they have travelled to, earning badges for achieving certain conditions. Users can also create and join groups, where they can see how their scores and travel locations compare. 	                  
+                  </div>   
+                  <br />
+                  <div className="text is-size-7-desktop is-size-6-mobile">
+                    <span className="has-text-weight-bold	">Tech used:</span> HTML <span className="backslash">//</span> SCSS <span className="backslash">//</span> JavaScript<span className="backslash">//</span> Python <span className="backslash">//</span> Django <span className="backslash">//</span> React.js <span className="backslash">//</span> Heroku <span className="backslash">//</span> React Map GL (Mapbox) <span className="backslash">//</span> PostgreSQL <span className="backslash">//</span> FileStack API <span className="backslash">//</span>  React Toastify <span className="backslash">//</span> Webpack <span className="backslash">//</span> Git and GitHub <span className="backslash">//</span> Pip <span className="backslash">//</span> Dotenv <span className="backslash">//</span> Bulma <span className="backslash">//</span> Google Fonts <span className="backslash">//</span> Font Awesome <span className="backslash">//</span> Adobe Photoshop Elements                  
+                  </div>          
                 </div>
               </div>
             </div>
@@ -176,11 +179,11 @@ const Projects = () => {
                   </div>
                   <br />
                   <div className="text is-size-7-desktop is-size-6-mobile">
-                  Built a React app that allows users to store favourite locations (e.g. restaurants, pubs, shops) in a MongoDB database hosted via Express.js, and displaying them using Mapbox                   
+                  Built a React app that allows users to store favourite locations (e.g. restaurants, pubs, shops) in a MongoDB database hosted via Express.js, and displaying them using Mapbox. We also included a 'circles' feature, which allos users to add other users to their Cirlce and subsequently share their locations with them.                  
                   </div>
                   <br />
                   <div className="text is-size-7-desktop is-size-6-mobile">
-                  Took the lead on the ‘circle’ feature on both back-end and front-end, where users can add friends so that they can access each other’s locations                 
+                    <span className="has-text-weight-bold	">Tech used:</span> HTML <span className="backslash">//</span> SCSS <span className="backslash">//</span> JavaScript <span className="backslash">//</span> React.js <span className="backslash">//</span> Express.js <span className="backslash">//</span> Heroku <span className="backslash">//</span> Mocha <span className="backslash">//</span> Chai <span className="backslash">//</span> React Map GL (Mapbox) <span className="backslash">//</span> Postcode API <span className="backslash">//</span> Mongo and Mongoose <span className="backslash">//</span> React Toastify <span className="backslash">//</span> Moment <span className="backslash">//</span> Webpack <span className="backslash">//</span> Git and GitHub <span className="backslash">//</span> Bulma <span className="backslash">//</span> Google Fonts <span className="backslash">//</span> Adobe Photoshop Elements                  
                   </div>
                 </div>
               </div>
@@ -264,6 +267,10 @@ const Projects = () => {
                   <br />
                   <div className="text is-size-7-desktop is-size-6-mobile">
                   Created a front-end React app for the Teleport API, which provides standard-of-living statistics for numerous cities around the world, allowing users to get details on individual cities or comparing two cities side-by-side
+                  </div>
+                  <br />
+                  <div className="text is-size-7-desktop is-size-6-mobile">
+                    <span className="has-text-weight-bold">Tech used:</span> HTML <span className="backslash">//</span> SCSS <span className="backslash">//</span> JavaScript <span className="backslash">//</span> React.js <span className="backslash">//</span> Teleport API <span className="backslash">//</span> React Map GL (Mapbox) <span className="backslash">//</span> Webpack <span className="backslash">//</span> Git and GitHub <span className="backslash">//</span> Bulma <span className="backslash">//</span> Google Fonts <span className="backslash">//</span> Font Awesome <span className="backslash">//</span> Adobe Photoshop Elements                 
                   </div>
                 </div>
               </div>
@@ -352,6 +359,10 @@ const Projects = () => {
                   <div className="text is-size-7-desktop is-size-6-mobile">
                   On the basis of the OpenSky API, built a React app that shows the current number of planes in the sky above London and comparing that number to the total number of planes above entire countries	                  
                   </div>
+                  <br />
+                  <div className="text is-size-7-desktop is-size-6-mobile">
+                    <span className="has-text-weight-bold">Tech used:</span> HTML <span className="backslash">//</span> CSS <span className="backslash">//</span> JavaScript <span className="backslash">//</span> React.js <span className="backslash">//</span> OpenSky API <span className="backslash">//</span> Anime.js <span className="backslash">//</span> Webpack <span className="backslash">//</span> Bulma <span className="backslash">//</span> Google Fonts <span className="backslash">//</span> BoundingBox <span className="backslash">//</span> Adobe Photoshop Elements
+                  </div>
                 </div>
               </div>
             </div>
@@ -435,6 +446,10 @@ const Projects = () => {
                   <br />
                   <div className="text is-size-7-desktop is-size-6-mobile">
                   Built a single-level version of Pac-Man using vanilla JavaScript, HTML and CSS
+                  </div>
+                  <br />
+                  <div className="text is-size-7-desktop is-size-6-mobile">
+                    <span className="has-text-weight-bold">Tech used:</span> HTML <span className="backslash">//</span> CSS <span className="backslash">//</span> JavaScript <span className="backslash">//</span> Adobe Photoshop Elements <span className="backslash">//</span> Google Fonts 
                   </div>
                 </div>
               </div>
