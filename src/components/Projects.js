@@ -83,7 +83,7 @@ const Projects = () => {
               </div>
               <div className="tile is-parent">
                 <div className="tile is-child box">
-                  <div className="title is-size-5">
+                  <div className="title is-size-5-desktop is-size-4-mobile">
                     <span className="backslash">// </span>
                     Tripbit
                   </div>
@@ -92,11 +92,11 @@ const Projects = () => {
                     <a href="https://tripbit.herokuapp.com/#/profile/1" className="link" target="_blank" rel="noopener noreferrer"><i className="fas fa-link is-size-4"></i></a>
                   </div>
                   <br />
-                  <div className="text is-size-7">
+                  <div className="text is-size-7-desktop is-size-6-mobile">
                   Task: Create a full-stack application individually or in teams within one week                  
                   </div>
                   <br />
-                  <div className="text is-size-7">
+                  <div className="text is-size-7-desktop is-size-6-mobile">
                   In a team of four, we built a Django app with a React front-end and PostgreSQL database, which allows users to select cities they have travelled to,  earning badges for achieving certain conditions and being able to visualise them using Mapbox	                  
                   </div>             
                 </div>
@@ -166,7 +166,7 @@ const Projects = () => {
               </div>
               <div className="tile is-parent">
                 <div className="tile is-child box">
-                  <div className="title is-size-5">
+                  <div className="title is-size-5-desktop is-size-4-mobile">
                     <span className="backslash">// </span>
                     Placeholder
                   </div>
@@ -175,11 +175,11 @@ const Projects = () => {
                     <a href="https://ga-placeholder.herokuapp.com/" className="link" target="_blank" rel="noopener noreferrer"><i className="fas fa-link is-size-4"></i></a>
                   </div>
                   <br />
-                  <div className="text is-size-7">
+                  <div className="text is-size-7-desktop is-size-6-mobile">
                   Built a React app that allows users to store favourite locations (e.g. restaurants, pubs, shops) in a MongoDB database hosted via Express.js, and displaying them using Mapbox                   
                   </div>
                   <br />
-                  <div className="text is-size-7">
+                  <div className="text is-size-7-desktop is-size-6-mobile">
                   Took the lead on the ‘circle’ feature on both back-end and front-end, where users can add friends so that they can access each other’s locations                 
                   </div>
                 </div>
@@ -249,7 +249,7 @@ const Projects = () => {
               </div>
               <div className="tile is-parent">
                 <div className="tile is-child box">
-                  <div className="title is-size-5">
+                  <div className="title is-size-5-desktop is-size-4-mobile">
                     <span className="backslash">// </span>
                     Metropolists
                   </div>
@@ -258,11 +258,11 @@ const Projects = () => {
                     <a href="https://kathrineichinger.com/metropolists/" className="link" target="_blank" rel="noopener noreferrer"><i className="fas fa-link is-size-4"></i></a>
                   </div>
                   <br />
-                  <div className="text is-size-7">
+                  <div className="text is-size-7-desktop is-size-6-mobile">
                   Mini hackathon to build a React application consuming a public API. to be completed in pair-programming within 48 hours 
                   </div>
                   <br />
-                  <div className="text is-size-7">
+                  <div className="text is-size-7-desktop is-size-6-mobile">
                   Created a front-end React app for the Teleport API, which provides standard-of-living statistics for numerous cities around the world, allowing users to get details on individual cities or comparing two cities side-by-side
                   </div>
                 </div>
@@ -336,7 +336,7 @@ const Projects = () => {
               </div>
               <div className="tile is-parent">
                 <div className="tile is-child box">
-                  <div className="title is-size-5">
+                  <div className="title is-size-5-desktop is-size-4-mobile">
                     <span className="backslash">// </span>
                     Skystalker
                   </div>
@@ -345,11 +345,11 @@ const Projects = () => {
                     <a href="https://kathrineichinger.com/skystalker/" className="link" target="_blank" rel="noopener noreferrer"><i className="fas fa-link is-size-4"></i></a>
                   </div>
                   <br />
-                  <div className="text is-size-7">
+                  <div className="text is-size-7-desktop is-size-6-mobile">
                   Extra-curricular project to create a React app using data from any API of our choice, to be completed individually over one weekend
                   </div>
                   <br />
-                  <div className="text is-size-7">
+                  <div className="text is-size-7-desktop is-size-6-mobile">
                   On the basis of the OpenSky API, built a React app that shows the current number of planes in the sky above London and comparing that number to the total number of planes above entire countries	                  
                   </div>
                 </div>
@@ -420,7 +420,7 @@ const Projects = () => {
               </div>
               <div className="tile is-parent">
                 <div className="tile is-child box">
-                  <div className="title is-size-5">
+                  <div className="title is-size-5-desktop is-size-4-mobile">
                     <span className="backslash">// </span>
                     Vac-Man
                   </div>
@@ -429,11 +429,11 @@ const Projects = () => {
                     <a href="https://kathrineichinger.com/vac-man/" className="link" target="_blank" rel="noopener noreferrer"><i className="fas fa-link is-size-4"></i></a>
                   </div>
                   <br />
-                  <div className="text is-size-7">
+                  <div className="text is-size-7-desktop is-size-6-mobile">
                   Task: Make a grid-based game, as an individual project to be completed in one week 
                   </div>
                   <br />
-                  <div className="text is-size-7">
+                  <div className="text is-size-7-desktop is-size-6-mobile">
                   Built a single-level version of Pac-Man using vanilla JavaScript, HTML and CSS
                   </div>
                 </div>
