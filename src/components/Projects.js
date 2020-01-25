@@ -92,7 +92,7 @@ const Projects = () => {
                   </div>
                   <br />
                   <div className="text is-size-7-desktop is-size-6-mobile">
-                  Task: Create a full-stack application individually or in teams within one week                  
+                  Task: Create a full-stack application individually or in teams within one week.                  
                   </div>
                   <br />
                   <div className="text is-size-7-desktop is-size-6-mobile">
@@ -100,7 +100,7 @@ const Projects = () => {
                   </div>   
                   <br />
                   <div className="text is-size-7-desktop is-size-6-mobile">
-                    <span className="has-text-weight-bold	">Tech used:</span> HTML <span className="backslash">//</span> SCSS <span className="backslash">//</span> JavaScript<span className="backslash">//</span> Python <span className="backslash">//</span> Django <span className="backslash">//</span> React.js <span className="backslash">//</span> Heroku <span className="backslash">//</span> React Map GL (Mapbox) <span className="backslash">//</span> PostgreSQL <span className="backslash">//</span> FileStack API <span className="backslash">//</span>  React Toastify <span className="backslash">//</span> Webpack <span className="backslash">//</span> Git and GitHub <span className="backslash">//</span> Pip <span className="backslash">//</span> Dotenv <span className="backslash">//</span> Bulma <span className="backslash">//</span> Google Fonts <span className="backslash">//</span> Font Awesome <span className="backslash">//</span> Adobe Photoshop Elements                  
+                    <span className="has-text-weight-bold	">Tech used:</span> HTML <span className="backslash">//</span> SCSS <span className="backslash">//</span> JavaScript <span className="backslash">//</span> Python <span className="backslash">//</span> Django <span className="backslash">//</span> React.js <span className="backslash">//</span> Heroku <span className="backslash">//</span> React Map GL (Mapbox) <span className="backslash">//</span> PostgreSQL <span className="backslash">//</span> FileStack API <span className="backslash">//</span>  React Toastify <span className="backslash">//</span> Webpack <span className="backslash">//</span> Git and GitHub <span className="backslash">//</span> Pip <span className="backslash">//</span> Dotenv <span className="backslash">//</span> Bulma <span className="backslash">//</span> Google Fonts <span className="backslash">//</span> Font Awesome <span className="backslash">//</span> Adobe Photoshop Elements                  
                   </div>          
                 </div>
               </div>
@@ -262,7 +262,7 @@ const Projects = () => {
                   </div>
                   <br />
                   <div className="text is-size-7-desktop is-size-6-mobile">
-                  Mini hackathon to build a React application consuming a public API. to be completed in pair-programming within 48 hours 
+                  Mini hackathon to build a React application consuming a public API. to be completed in pair-programming within 48 hours. 
                   </div>
                   <br />
                   <div className="text is-size-7-desktop is-size-6-mobile">
@@ -353,11 +353,11 @@ const Projects = () => {
                   </div>
                   <br />
                   <div className="text is-size-7-desktop is-size-6-mobile">
-                  Extra-curricular project to create a React app using data from any API of our choice, to be completed individually over one weekend
+                  Extra-curricular project to create a React app using data from any API of our choice, to be completed individually over one weekend.
                   </div>
                   <br />
                   <div className="text is-size-7-desktop is-size-6-mobile">
-                  On the basis of the OpenSky API, built a React app that shows the current number of planes in the sky above London and comparing that number to the total number of planes above entire countries	                  
+                  On the basis of the OpenSky API, built a React app that shows the current number of planes in the sky above London and comparing that number to the total number of planes above entire countries.	                  
                   </div>
                   <br />
                   <div className="text is-size-7-desktop is-size-6-mobile">
@@ -441,11 +441,11 @@ const Projects = () => {
                   </div>
                   <br />
                   <div className="text is-size-7-desktop is-size-6-mobile">
-                  Task: Make a grid-based game, as an individual project to be completed in one week 
+                  Task: Make a grid-based game, as an individual project to be completed in one week. 
                   </div>
                   <br />
                   <div className="text is-size-7-desktop is-size-6-mobile">
-                  Built a single-level version of Pac-Man using vanilla JavaScript, HTML and CSS
+                  Built a single-level version of Pac-Man using vanilla JavaScript, HTML and CSS.
                   </div>
                   <br />
                   <div className="text is-size-7-desktop is-size-6-mobile">
