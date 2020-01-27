@@ -168,6 +168,10 @@ html {
       padding: 10px 18px;
     }
 
+    .pagenum {
+      transition: color 0.3s ease-in-out;
+    }
+
     .pagenum:hover {
       color: $green;
     }
