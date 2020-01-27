@@ -84,7 +84,7 @@ const Projects = () => {
                 <div className="tile is-child box">
                   <div className="title is-size-5-desktop is-size-4-mobile">
                     <span className="backslash">// </span>
-                    Tripbit
+                    TripBit
                   </div>
                   <div className="links has-text-centered">
                     <a href="https://github.com/katheich/tripbit" className="github" target="_blank" rel="noopener noreferrer"><i className="fab fa-github is-size-4"></i></a>
@@ -176,6 +176,10 @@ const Projects = () => {
                   <div className="links has-text-centered">
                     <a href="https://github.com/katheich/placeholder" className="github" target="_blank" rel="noopener noreferrer"><i className="fab fa-github is-size-4"></i></a>
                     <a href="https://ga-placeholder.herokuapp.com/" className="link" target="_blank" rel="noopener noreferrer"><i className="fas fa-link is-size-4"></i></a>
+                  </div>
+                  <br />
+                  <div className="text is-size-7-desktop is-size-6-mobile">
+                  Task: Create a full-stack application in a team of three and within one week.             
                   </div>
                   <br />
                   <div className="text is-size-7-desktop is-size-6-mobile">
