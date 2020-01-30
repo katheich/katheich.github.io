@@ -119,6 +119,17 @@ html {
   padding-bottom: 0;
 }
 
+#about {
+  a {
+    color: $text;
+    transition: color 0.3s ease-in-out;
+  }
+
+  a:hover {
+    color: $green;
+  }
+}
+
 /********* SKILLS *********/
 
 #skills {
