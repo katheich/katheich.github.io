@@ -163,6 +163,21 @@ html {
       opacity: 1;
     }
   }
+
+
+  svg {
+
+    path:not(.white) {
+      fill: $text;
+      transition: fill 0.3s ease-in-out;
+    }
+  }
+
+  div.column:hover {
+    path:not(.white) {
+    fill: $green;
+    }
+  }
 }
 
 /********* PROJECTS *********/
