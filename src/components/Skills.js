@@ -2,21 +2,6 @@ import React from 'react'
 
 const Skills = () => {
 
-  // Programming languages: JavaScript, Python
-  // Markup languages: HTML, Markdown, LaTeX
-  // Stylesheet languages: CSS, SCSS/SASS
-  // Web: React.js, Node.js, Express.js, Webpack, Django, Bulma
-  // Databases: MongoDB, PostgreSQL
-  // Package managers: NPM, Yarn, Pip
-  // Version control: Git, GitHub
-  // Testing: Chai, Mocha
-  // Other programming tools: VSCode, Insomnia
-
-  // Statistics and research: Stata, EViews, Matlab
-  // Design: Adobe inDesign, Adobe Photoshop Elements
-  // Geospatial analysis: ArcGIS Pro
-  // Productivity: Microsoft Office (Excel, Powerpoint, Outlook, Word), Trello
-
   return (<section className="" id="skills">
     <div className="container">
       <div className="title">
@@ -43,7 +28,7 @@ const Skills = () => {
         <div className="column is-3-mobile is-one-fifth-desktop"><i className="fab fa-yarn"></i><div className="label">Yarn</div></div>
         <div className="column is-3-mobile is-one-fifth-desktop"><i className="devicon-mongodb-plain"></i><div className="label">Mongo&shy;DB</div></div>
         <div className="column is-3-mobile is-one-fifth-desktop"><i className="devicon-postgresql-plain"></i><div className="label">Post&shy;gre&shy;SQL</div></div>
-        <div className="column is-3-mobile is-one-fifth-desktop"><i className="devicon-mocha-plain"></i><div className="label">Mo&shy;cha</div></div>
+        <div className="column is-3-mobile is-one-fifth-desktop"><i className="devicon-mocha-plain"></i><div className="label">Mo&shy;cha&shy;.js</div></div>
         
         <div className="column is-3-mobile is-one-fifth-desktop"><i className="devicon-babel-plain"></i><div className="label">Ba&shy;bel</div></div>
         <div className="column is-3-mobile is-one-fifth-desktop"><i className="devicon-git-plain"></i><div className="label">Git</div></div>
