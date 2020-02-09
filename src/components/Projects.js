@@ -88,7 +88,7 @@ const Projects = () => {
                   </div>
                   <div className="links has-text-centered">
                     <a href="https://github.com/katheich/tripbit" className="github" target="_blank" rel="noopener noreferrer"><i className="fab fa-github is-size-4"></i></a>
-                    <a href="https://tripbit.herokuapp.com/#/profile/1" className="link" target="_blank" rel="noopener noreferrer"><i className="fas fa-link is-size-4"></i></a>
+                    <a href="https://tripbit.herokuapp.com" className="link" target="_blank" rel="noopener noreferrer"><i className="fas fa-link is-size-4"></i></a>
                   </div>
                   <br />
                   <div className="text is-size-7-desktop is-size-6-mobile">
