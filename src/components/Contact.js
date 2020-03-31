@@ -12,7 +12,7 @@ const Contact = () => {
         <a className="item" href="https://www.linkedin.com/in/kathrineichinger" target="_blank" rel="noopener noreferrer">
           <i className="fab fa-linkedin"></i>
         </a>
-        <a className="item" href="https://www.instagram.com/katheich" target="_blank" rel="noopener noreferrer">
+        <a className="item" href="https://www.instagram.com/katheich/" target="_blank" rel="noopener noreferrer">
           <i className="fab fa-instagram-square"></i>
         </a>
       </div>
