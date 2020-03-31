@@ -63,29 +63,29 @@ const Projects = () => {
       </div>
 
       
-      <div {...handlers} className={'slide ' + `${page === 1 ? 'selected' : ''}`} id="tripbit">
+      <div {...handlers} className={'slide ' + `${page === 2 ? 'selected' : ''}`} id="tripbit">
         <ProjectTripBit />
       </div>
 
 
-      <div {...handlers} className={'slide ' + `${page === 2 ? 'selected' : ''}`} id="placeholder">
+      <div {...handlers} className={'slide ' + `${page === 3 ? 'selected' : ''}`} id="placeholder">
         <ProjectPlaceholder />
       </div>
 
-      <div {...handlers} className={'slide ' + `${page === 3 ? 'selected' : ''}`} id="metropolists">
+      <div {...handlers} className={'slide ' + `${page === 4 ? 'selected' : ''}`} id="metropolists">
         <ProjectMetropolists />
       </div>
 
-      <div {...handlers} className={'slide ' + `${page === 4 ? 'selected' : ''}`} id="skystalker">
+      <div {...handlers} className={'slide ' + `${page === 5 ? 'selected' : ''}`} id="skystalker">
         <ProjectSkystalker />
       </div>
 
 
-      <div {...handlers} className={'slide ' + `${page === 5 ? 'selected' : ''}`} id="vacman">
+      <div {...handlers} className={'slide ' + `${page === 6 ? 'selected' : ''}`} id="vacman">
         <ProjectVacMan />
       </div>
 
-      <div {...handlers} className={'slide ' + `${page === 6 ? 'selected' : ''}`} id="joglog">
+      <div {...handlers} className={'slide ' + `${page === 1 ? 'selected' : ''}`} id="joglog">
         <ProjectJogLog />
       </div>
      

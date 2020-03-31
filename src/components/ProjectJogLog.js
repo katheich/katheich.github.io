@@ -35,7 +35,7 @@ const ProjectJogLog = () => {
             </div>
             <br />
             <div className="text is-size-7-desktop is-size-6-mobile">
-              <span className="has-text-weight-bold">Tech used:</span> Django <span className="backslash">//</span> PostgreSQL <span className="backslash">//</span> GraphQL <span className="backslash">//</span> Apollo <span className="backslash">//</span> React.js <span className="backslash">//</span> PostgreSQL <span className="backslash">//</span> Bulma <span className="backslash">//</span> Google Fonts <span className="backslash">//</span> Font Awesome <span className="backslash">//</span> Adobe Photoshop
+              <span className="has-text-weight-bold">Tech used:</span> Django <span className="backslash">//</span> GraphQL <span className="backslash">//</span> Graphene <span className="backslash">//</span> Apollo <span className="backslash">//</span> React.js <span className="backslash">//</span> PostgreSQL <span className="backslash">//</span> Bulma <span className="backslash">//</span> Google Fonts <span className="backslash">//</span> Font Awesome <span className="backslash">//</span> Adobe Photoshop
             </div>
           </div>
         </div>
