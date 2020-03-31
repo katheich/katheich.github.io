@@ -232,6 +232,9 @@ html {
     a {
       margin: 5px;
       color: $green;
+      &:hover {
+        color: rgba($green, 0.6)
+      }
     }
   }
 
@@ -453,18 +456,21 @@ html {
 /********* CONTACT *********/
 
 #contact {
+
+  .contact-level {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
   i {
     color: $green;
-    font-size: 25px;
-    margin: 5px;
-  }
-
-  .text {
-    color: $text;
+    font-size: 35px;
+    margin: 10px;
     transition: color 0.3s ease-in-out;
-  }
 
-  .text:hover {
-    color: $green;
+    &:hover {
+      color: rgba($green, 0.6)
+    }
   }
 }
