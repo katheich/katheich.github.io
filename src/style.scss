@@ -260,7 +260,7 @@ html {
     }
   }
 
-  #slide1 {
+  #tripbit {
     .screenshot {
       background-size: cover;
       background-position: center;
@@ -290,7 +290,7 @@ html {
     }
   }
 
-  #slide2 {
+  #placeholder {
     .screenshot {
       background-size: cover;
       background-position: center;
@@ -319,7 +319,7 @@ html {
     }
   }
 
-  #slide3 {
+  #metropolists {
     .screenshot {
       background-size: cover;
       background-position: center;
@@ -344,7 +344,7 @@ html {
   }
 
 
-  #slide4 {
+  #skystalker {
     .screenshot {
       background-size: cover;
       background-position: center;
@@ -373,7 +373,7 @@ html {
   }
 
 
-  #slide5 {
+  #vacman {
     .screenshot {
       background-size: cover;
       background-position: center;
@@ -397,11 +397,32 @@ html {
     }
   }
 
-  #slide6 {
-    #coming-soon {
-      display: flex;
-      align-items: center;
-      justify-content: center;
+  #joglog {
+    .screenshot {
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+
+    #image1 {
+      background-image: url(./images/projects/joglog-calendar.png);
+    }
+
+    #image2 {
+      background-image: url(./images/projects/joglog-mobile1.png);
+    }
+
+    #image2a {
+      background-image: url(./images/projects/joglog-allmobile.png);
+    }
+
+    #image3 {
+      background-image: url(./images/projects/joglog-mobile2.png);
+    }
+
+    #image4 {
+      background-position: top;
+      background-image: url(./images/projects/joglog-homescreen.png);
     }
   }
 
