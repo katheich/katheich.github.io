@@ -128,6 +128,24 @@ html {
   a:hover {
     color: $green;
   }
+
+
+}
+
+#experience {
+
+  margin-top: 20px;
+
+  .logo-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    svg {
+      fill: $text;
+    }
+  }
 }
 
 /********* SKILLS *********/

@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from 'react'
 import { useSwipeable } from 'react-swipeable'
 
-import ProjectVacMan from './ProjectVacMan'
-import ProjectSkystalker from './ProjectSkystalker'
-import ProjectMetropolists from './ProjectMetropolists'
-import ProjectPlaceholder from './ProjectPlaceholder'
-import ProjectTripBit from './ProjectTripBit'
-import ProjectJogLog from './ProjectJogLog'
+import ProjectVacMan from './projects/ProjectVacMan'
+import ProjectSkystalker from './projects/ProjectSkystalker'
+import ProjectMetropolists from './projects/ProjectMetropolists'
+import ProjectPlaceholder from './projects/ProjectPlaceholder'
+import ProjectTripBit from './projects/ProjectTripBit'
+import ProjectJogLog from './projects/ProjectJogLog'
 
 const config = {
   delta: 10,                             // min distance(px) before a swipe starts
