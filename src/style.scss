@@ -144,6 +144,10 @@ html {
 
     svg {
       fill: $text;
+
+      &:hover {
+        fill: $green;
+      }
     }
   }
 }
