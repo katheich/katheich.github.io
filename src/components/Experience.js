@@ -69,7 +69,7 @@ const Experience = () => {
         {info[hover].location}
       </div>
       <div className="company is-size-5">
-        {info[hover].company}
+        <a href={info[hover].link} target="_blank" rel="noopener noreferrer">{info[hover].company}</a>
       </div>
       
 
