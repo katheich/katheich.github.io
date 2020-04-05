@@ -16,7 +16,7 @@ const About = () => {
         <br/><br/>
         A keen learner with a background in economic consulting, my interest in problem-solving perhaps inevitably led me to software engineering. Thriving in a collaborative environment and bringing with me an incessant need to understand “why”, I am happy to work on any interesting challenge, be it in a front-end, back-end or non-coding context.        
         <br/><br/>
-        Below you can find further information on my experience and skills, as well as explore my projects.
+        On this page you may find further information on my experience and skills, as well as explore my projects.
         <br/><br/>
 
         <Experience />
