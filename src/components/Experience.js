@@ -10,35 +10,35 @@ const info = {
   pop: {
     company: 'We Got POP',
     dates: 'since April 2020',
-    title: [{ position: 'Associate Software Developer', dates: ''}],
+    title: [{ position: 'Associate Software Developer', details: ''}],
     location: 'London, United Kingdom',
     link: 'https://www.wegotpop.com/'
   },
   ga: {
     company: 'General Assembly',
     dates: 'October 2019 - January 2020',
-    title: [{ position: 'Software Engineering Immersive Student', dates: ''}],
+    title: [{ position: 'Software Engineering Immersive', details: '' }],
     location: 'London, United Kingdom',
     link: 'https://generalassemb.ly/education/software-engineering-immersive/london'
   },
   rbb: {
     company: 'RBB Economics',
     dates: 'July 2015 - June 2018',
-    title: [{ position: 'Senior Associate', dates: 'April-June \'18'}, { position: 'Associate', dates:'February \'16 - March \'18'}, { position: 'Intern', dates:'July-November \'15)'}],
+    title: [{ position: 'Senior Associate', details: 'April-June \'18' }, { position: 'Associate', details: 'February \'16 - March \'18' }, { position: 'Intern', details: 'July-November \'15' }],
     location: 'Brussels, Belgium & London, United Kingdom',
     link: 'http://www.rbbecon.com/'
   },
   bocconi: {
     company: 'Bocconi University',
     dates: '2013 - 2015',
-    title: [{ position: 'Master of Science in Economic and Social Sciences', dates: ''}],
+    title: [{ position: 'Economic and Social Sciences', details: 'Master of Science' }],
     location: 'Milan, Italy',
     link: 'https://www.unibocconi.eu/wps/wcm/connect/Bocconi/SitoPubblico_EN/Navigation+Tree/Home/Programs/Master+of+Science/Economic+and+Social+Sciences/'
   },
   york: {
     company: 'University of York',
     dates: '2010 - 2013',
-    title: [{ position: 'Bachelor of Arts in Economics and Philosophy', dates: ''}],
+    title: [{ position: 'Economics and Philosophy', details: 'Bachelor of Arts' }],
     location: 'York, United Kingdom',
     link: 'https://www.york.ac.uk/study/undergraduate/courses/ba-economics-philosophy/'
   }
@@ -56,11 +56,11 @@ const Experience = () => {
 
   return (<div id="experience">
     <div className="logo-container">
-      <POPLogo size={50} id="pop" handleHover={handleHover}/>
-      <GALogo size={50} id="ga" handleHover={handleHover}/>
-      <RBBLogo size={50} id="rbb" handleHover={handleHover}/>
-      <BocconiLogo size={50} id="bocconi" handleHover={handleHover}/>
-      <YorkLogo size={50} id="york" handleHover={handleHover}/>
+      <POPLogo size={50} id="pop" handleHover={handleHover} hover={hover} />
+      <GALogo size={50} id="ga" handleHover={handleHover} hover={hover} />
+      <RBBLogo size={50} id="rbb" handleHover={handleHover} hover={hover} />
+      <BocconiLogo size={50} id="bocconi" handleHover={handleHover} hover={hover} />
+      <YorkLogo size={50} id="york" handleHover={handleHover} hover={hover} />
     </div>
     {hover && <div className="infos">
       <div className="dates is-size-7">
@@ -73,16 +73,13 @@ const Experience = () => {
       </div>
       
 
-      {info[hover].title.length > 1 ? info[hover].title.map((title, i) => {
+      {info[hover].title.map((title, i) => {
         return <div key={i} className="jobtitles is-size-6 has-text-weight-bold">
-          {title.position} <span className="has-text-weight-light is-size-7">{title.dates}</span>
+          {title.position} <span className="has-text-weight-light is-size-7">{title.details}</span>
         </div>
-      }
-      ) : 
-      <div className="jobtitles is-size-6 has-text-weight-bold">{info[hover].title[0].position}</div>}
-  
-    </div>
-    }
+      })}
+    </div>}
+      
 
   </div>)
 
