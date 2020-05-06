@@ -30,7 +30,7 @@ const ProjectWNWN = () => {
             </div>
             <br />
             <div className="text is-size-7-desktop is-size-6-mobile">
-            Project created in a team of four for the <span className="is-italic">Code First: Girls Hack From Home</span> hackathon in April 2020.        
+            Project created in a team of four for the <span className="is-italic">Code First: Girls Hack From Home</span> hackathon over the month of April 2020.        
             </div>
             <br />
             <div className="text is-size-7-desktop is-size-6-mobile">

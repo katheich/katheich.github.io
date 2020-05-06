@@ -17,7 +17,7 @@ const info = {
   ga: {
     company: 'General Assembly',
     dates: 'October 2019 - January 2020',
-    title: [{ position: 'Software Engineering Immersive', details: '' }],
+    title: [{ position: 'Software Engineering Immersive', details: '12-weeks coding bootcamp' }],
     location: 'London, United Kingdom',
     link: 'https://generalassemb.ly/education/software-engineering-immersive/london'
   },
