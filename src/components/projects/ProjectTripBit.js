@@ -39,7 +39,7 @@ const ProjectTripBit = () => {
             </div>   
             <br />
             <div className="text is-size-7-desktop is-size-6-mobile">
-              <span className="has-text-weight-bold	">Tech used:</span> HTML <span className="backslash">//</span> SCSS <span className="backslash">//</span> JavaScript <span className="backslash">//</span> Python <span className="backslash">//</span> Django <span className="backslash">//</span> React.js <span className="backslash">//</span> Heroku <span className="backslash">//</span> React Map GL (Mapbox) <span className="backslash">//</span> PostgreSQL <span className="backslash">//</span> FileStack API <span className="backslash">//</span>  React Toastify <span className="backslash">//</span> Webpack <span className="backslash">//</span> Git and GitHub <span className="backslash">//</span> Dotenv <span className="backslash">//</span> Bulma <span className="backslash">//</span> Google Fonts <span className="backslash">//</span> Font Awesome <span className="backslash">//</span> Adobe Photoshop Elements                  
+              <span className="has-text-weight-bold	">Tech used:</span> Django <span className="backslash">//</span> React.js <span className="backslash">//</span> Heroku <span className="backslash">//</span> React Map GL (Mapbox) <span className="backslash">//</span> PostgreSQL <span className="backslash">//</span> FileStack API <span className="backslash">//</span>  React Toastify <span className="backslash">//</span> Bulma <span className="backslash">//</span> SCSS                
             </div>          
           </div>
         </div>

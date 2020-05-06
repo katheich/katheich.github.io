@@ -7,6 +7,7 @@ import ProjectMetropolists from './projects/ProjectMetropolists'
 import ProjectPlaceholder from './projects/ProjectPlaceholder'
 import ProjectTripBit from './projects/ProjectTripBit'
 import ProjectJogLog from './projects/ProjectJogLog'
+import ProjectWNWN from './projects/ProjectWNWN'
 
 const config = {
   delta: 10,                             // min distance(px) before a swipe starts
@@ -16,7 +17,7 @@ const config = {
   rotationAngle: 0                      // set a rotation angle
 }
 
-const lastPage = 6
+const lastPage = 7
 
 const Projects = () => {
 
@@ -58,38 +59,41 @@ const Projects = () => {
           <a className={'pagenum level-item is-centered is-size-5 is-family-secondary ' + `${page === 4 ? 'current' : ''}`} onClick={handlePage} id='4' aria-label="Goto page 4">4</a>
           <a className={'pagenum level-item is-centered is-size-5 is-family-secondary ' + `${page === 5 ? 'current' : ''}`} onClick={handlePage} id='5' aria-label="Goto page 5">5</a>
           <a className={'pagenum level-item is-centered is-size-5 is-family-secondary ' + `${page === 6 ? 'current' : ''}`} onClick={handlePage} id='6' aria-label="Goto page 6">6</a>
+          <a className={'pagenum level-item is-centered is-size-5 is-family-secondary ' + `${page === 7 ? 'current' : ''}`} onClick={handlePage} id='7' aria-label="Goto page 6">7</a>
           <a className={'arrow level-item is-centered is-size-5 ' + `${page === lastPage ? '' : 'active'}`} onClick={handleNext}><i className="fas fa-angle-right"></i></a>
         </nav>
       </div>
 
       
-      <div {...handlers} className={'slide ' + `${page === 2 ? 'selected' : ''}`} id="tripbit">
+      <div {...handlers} className={'slide ' + `${page === 3 ? 'selected' : ''}`} id="tripbit">
         <ProjectTripBit />
       </div>
 
 
-      <div {...handlers} className={'slide ' + `${page === 3 ? 'selected' : ''}`} id="placeholder">
+      <div {...handlers} className={'slide ' + `${page === 4 ? 'selected' : ''}`} id="placeholder">
         <ProjectPlaceholder />
       </div>
 
-      <div {...handlers} className={'slide ' + `${page === 4 ? 'selected' : ''}`} id="metropolists">
+      <div {...handlers} className={'slide ' + `${page === 5 ? 'selected' : ''}`} id="metropolists">
         <ProjectMetropolists />
       </div>
 
-      <div {...handlers} className={'slide ' + `${page === 5 ? 'selected' : ''}`} id="skystalker">
+      <div {...handlers} className={'slide ' + `${page === 6 ? 'selected' : ''}`} id="skystalker">
         <ProjectSkystalker />
       </div>
 
 
-      <div {...handlers} className={'slide ' + `${page === 6 ? 'selected' : ''}`} id="vacman">
+      <div {...handlers} className={'slide ' + `${page === 7 ? 'selected' : ''}`} id="vacman">
         <ProjectVacMan />
       </div>
 
-      <div {...handlers} className={'slide ' + `${page === 1 ? 'selected' : ''}`} id="joglog">
+      <div {...handlers} className={'slide ' + `${page === 2 ? 'selected' : ''}`} id="joglog">
         <ProjectJogLog />
       </div>
      
-      
+      <div {...handlers} className={'slide ' + `${page === 1 ? 'selected' : ''}`} id="wnwn">
+        <ProjectWNWN />
+      </div>
 
       
     </div>

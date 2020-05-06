@@ -39,7 +39,7 @@ const ProjectVacMan = () => {
             </div>
             <br />
             <div className="text is-size-7-desktop is-size-6-mobile">
-              <span className="has-text-weight-bold">Tech used:</span> HTML <span className="backslash">//</span> CSS <span className="backslash">//</span> JavaScript <span className="backslash">//</span> Adobe Photoshop Elements <span className="backslash">//</span> Google Fonts 
+              <span className="has-text-weight-bold">Tech used:</span> HTML <span className="backslash">//</span> CSS <span className="backslash">//</span> JavaScript <span className="backslash">//</span> Adobe Photoshop
             </div>
           </div>
         </div>

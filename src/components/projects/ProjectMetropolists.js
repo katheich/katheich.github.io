@@ -39,7 +39,7 @@ const ProjectMetropolists = () => {
             </div>
             <br />
             <div className="text is-size-7-desktop is-size-6-mobile">
-              <span className="has-text-weight-bold">Tech used:</span> HTML <span className="backslash">//</span> SCSS <span className="backslash">//</span> JavaScript <span className="backslash">//</span> React.js <span className="backslash">//</span> Teleport API <span className="backslash">//</span> React Map GL (Mapbox) <span className="backslash">//</span> Webpack <span className="backslash">//</span> Git and GitHub <span className="backslash">//</span> Bulma <span className="backslash">//</span> Google Fonts <span className="backslash">//</span> Font Awesome <span className="backslash">//</span> Adobe Photoshop Elements                 
+              <span className="has-text-weight-bold">Tech used:</span> React.js <span className="backslash">//</span> Teleport API <span className="backslash">//</span> React Map GL (Mapbox) <span className="backslash">//</span> Webpack <span className="backslash">//</span> Git and GitHub <span className="backslash">//</span> SCSS <span className="backslash">//</span> Bulma               
             </div>
           </div>
         </div>

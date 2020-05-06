@@ -39,7 +39,7 @@ const ProjectPlaceholder = () => {
             </div>
             <br />
             <div className="text is-size-7-desktop is-size-6-mobile">
-              <span className="has-text-weight-bold	">Tech used:</span> HTML <span className="backslash">//</span> SCSS <span className="backslash">//</span> JavaScript <span className="backslash">//</span> React.js <span className="backslash">//</span> Express.js <span className="backslash">//</span> Heroku <span className="backslash">//</span> Mocha <span className="backslash">//</span> Chai <span className="backslash">//</span> React Map GL (Mapbox) <span className="backslash">//</span> Postcode API <span className="backslash">//</span> Mongo and Mongoose <span className="backslash">//</span> React Toastify <span className="backslash">//</span> Moment <span className="backslash">//</span> Webpack <span className="backslash">//</span> Git and GitHub <span className="backslash">//</span> Bulma <span className="backslash">//</span> Google Fonts <span className="backslash">//</span> Adobe Photoshop Elements                  
+              <span className="has-text-weight-bold	">Tech used:</span> React.js <span className="backslash">//</span> Express.js <span className="backslash">//</span> Heroku <span className="backslash">//</span> Mocha and Chai <span className="backslash">//</span> React Map GL (Mapbox) <span className="backslash">//</span> Postcode API <span className="backslash">//</span> MongoDB and Mongoose <span className="backslash">//</span> React Toastify <span className="backslash">//</span> Bulma <span className="backslash">//</span> SCSS                 
             </div>
           </div>
         </div>
