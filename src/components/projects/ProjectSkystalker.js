@@ -31,7 +31,7 @@ const ProjectSkystalker = () => {
             </div>
             <br />
             <div className="text is-size-7-desktop is-size-6-mobile">
-            Extra-curricular project to create a React app using data from any API of our choice, to be completed individually over one weekend.
+            Extra-curricular project at GA to create a React app using data from any API of our choice, to be completed individually over one weekend.
             </div>
             <br />
             <div className="text is-size-7-desktop is-size-6-mobile">

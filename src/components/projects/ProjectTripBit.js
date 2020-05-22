@@ -31,7 +31,7 @@ const ProjectTripBit = () => {
             </div>
             <br />
             <div className="text is-size-7-desktop is-size-6-mobile">
-            Task: Create a full-stack application individually or in teams within one week.                  
+            Final project at GA to create a full-stack application individually or in teams within one week.                  
             </div>
             <br />
             <div className="text is-size-7-desktop is-size-6-mobile">

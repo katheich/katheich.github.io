@@ -17,7 +17,7 @@ const config = {
   rotationAngle: 0                      // set a rotation angle
 }
 
-const lastPage = 7
+const lastPage = 6
 
 const Projects = () => {
 
@@ -59,7 +59,7 @@ const Projects = () => {
           <a className={'pagenum level-item is-centered is-size-5 is-family-secondary ' + `${page === 4 ? 'current' : ''}`} onClick={handlePage} id='4' aria-label="Goto page 4">4</a>
           <a className={'pagenum level-item is-centered is-size-5 is-family-secondary ' + `${page === 5 ? 'current' : ''}`} onClick={handlePage} id='5' aria-label="Goto page 5">5</a>
           <a className={'pagenum level-item is-centered is-size-5 is-family-secondary ' + `${page === 6 ? 'current' : ''}`} onClick={handlePage} id='6' aria-label="Goto page 6">6</a>
-          <a className={'pagenum level-item is-centered is-size-5 is-family-secondary ' + `${page === 7 ? 'current' : ''}`} onClick={handlePage} id='7' aria-label="Goto page 6">7</a>
+          {/* <a className={'pagenum level-item is-centered is-size-5 is-family-secondary ' + `${page === 7 ? 'current' : ''}`} onClick={handlePage} id='7' aria-label="Goto page 6">7</a> */}
           <a className={'arrow level-item is-centered is-size-5 ' + `${page === lastPage ? '' : 'active'}`} onClick={handleNext}><i className="fas fa-angle-right"></i></a>
         </nav>
       </div>
@@ -78,12 +78,12 @@ const Projects = () => {
         <ProjectMetropolists />
       </div>
 
-      <div {...handlers} className={'slide ' + `${page === 6 ? 'selected' : ''}`} id="skystalker">
+      {/* <div {...handlers} className={'slide ' + `${page === 6 ? 'selected' : ''}`} id="skystalker">
         <ProjectSkystalker />
-      </div>
+      </div> */}
 
 
-      <div {...handlers} className={'slide ' + `${page === 7 ? 'selected' : ''}`} id="vacman">
+      <div {...handlers} className={'slide ' + `${page === 6 ? 'selected' : ''}`} id="vacman">
         <ProjectVacMan />
       </div>
 

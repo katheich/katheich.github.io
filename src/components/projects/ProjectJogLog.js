@@ -31,7 +31,7 @@ const ProjectJogLog = () => {
             </div>
             <br />
             <div className="text is-size-7-desktop is-size-6-mobile">
-            Personal project to create a full stack app where users can create running plans and log actual runs, also keeping track of different types of run (endurance, interval, tempo, easy or uncategorised).
+            Personal project to try out GraphQL and create a full stack app where users can create running plans and log actual runs. Also allows keeping track of different types of run (endurance, interval, tempo, easy or uncategorised). 
             </div>
             <br />
             <div className="text is-size-7-desktop is-size-6-mobile">

@@ -31,7 +31,7 @@ const ProjectMetropolists = () => {
             </div>
             <br />
             <div className="text is-size-7-desktop is-size-6-mobile">
-            Mini hackathon to build a React application consuming a public API. to be completed in pair-programming within 48 hours. 
+            Second project at GA, as a mini hackathon to build a React application consuming a public API. to be completed in pair-programming within 48 hours. 
             </div>
             <br />
             <div className="text is-size-7-desktop is-size-6-mobile">

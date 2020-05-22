@@ -30,11 +30,11 @@ const ProjectWNWN = () => {
             </div>
             <br />
             <div className="text is-size-7-desktop is-size-6-mobile">
-            Project created in a team of four for the <span className="is-italic">Code First: Girls Hack From Home</span> hackathon over the month of April 2020.        
+            Project chosen as the winning submission for the <a href="https://www.linkedin.com/events/codefirstgirls-hackfromhome/" className="textlink" target="_blank" rel="noopener noreferrer"><span className="is-italic">Code First: Girls Hack From Home</span></a> hackathon. Created in a team of four over the month of April 2020.        
             </div>
             <br />
             <div className="text is-size-7-desktop is-size-6-mobile">
-            In order battle food waste and shortages during the Covid-19 lockdown, we built a Django app with a React front-end that allows users to search recipes based on the ingredients they have at home. It also allows user to connect to others nearby based on their postcode to discuss exchanging ingredients (while respecting social distancing guidelines).                  
+            In order battle food waste and shortages during the Covid-19 lockdown, we built a Django app with a React front-end that allows users to search recipes based on the ingredients they have at home. It also allows users to connect to others nearby to arrange the exchange of ingredients (while respecting social distancing guidelines).                  
             </div>
             <br />
             <div className="text is-size-7-desktop is-size-6-mobile">

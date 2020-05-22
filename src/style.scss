@@ -284,12 +284,20 @@ html {
   .slide {
     display: none;
 
-    a {
+    a:not(.textlink) {
       margin: 5px;
       color: $green;
       &:hover {
         color: rgba($green, 0.6)
       }
+    }
+  }
+
+  a.textlink {
+    color: $text;
+    transition: color 0.3s ease-in-out;
+    &:hover {
+      color: $green;
     }
   }
 

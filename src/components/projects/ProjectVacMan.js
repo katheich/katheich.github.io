@@ -31,7 +31,7 @@ const ProjectVacMan = () => {
             </div>
             <br />
             <div className="text is-size-7-desktop is-size-6-mobile">
-            Task: Make a grid-based game, as an individual project to be completed in one week. 
+              First project at GA to build a grid-based game, to be completed individually in one week. 
             </div>
             <br />
             <div className="text is-size-7-desktop is-size-6-mobile">
