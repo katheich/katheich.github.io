@@ -24,7 +24,7 @@ const info = {
   rbb: {
     company: 'RBB Economics',
     dates: 'July 2015 - June 2018',
-    title: [{ position: 'Senior Associate', details: 'April-June \'18' }, { position: 'Associate', details: 'February \'16 - March \'18' }, { position: 'Intern', details: 'July-November \'15' }],
+    title: [{ position: 'Senior Associate, Associate, Intern', details: '' }],
     location: 'Brussels, Belgium & London, United Kingdom',
     link: 'http://www.rbbecon.com/'
   },
