@@ -15,6 +15,9 @@ const Contact = () => {
         <a className="item" href="https://www.instagram.com/katheich/" target="_blank" rel="noopener noreferrer">
           <i className="fab fa-instagram-square"></i>
         </a>
+        <a className="item" href="https://www.goodreads.com/user/show/110943889-kathrin" target="_blank" rel="noopener noreferrer">
+          <i className="fab fa-goodreads"></i>
+        </a>
       </div>
     </div>
   </section>)
