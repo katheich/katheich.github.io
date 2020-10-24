@@ -39,7 +39,11 @@ const ProjectPlaceholder = () => {
             </div>
             <br />
             <div className="text is-size-7-desktop is-size-6-mobile">
-              <span className="has-text-weight-bold	">Tech used:</span> React.js <span className="backslash">//</span> Express.js <span className="backslash">//</span> Heroku <span className="backslash">//</span> Mocha and Chai <span className="backslash">//</span> React Map GL (Mapbox) <span className="backslash">//</span> Postcode API <span className="backslash">//</span> MongoDB and Mongoose <span className="backslash">//</span> React Toastify <span className="backslash">//</span> Bulma <span className="backslash">//</span> SCSS                 
+              <div className="tech has-text-centered">
+                <i className="icon devicon-react-original is-size-3"></i>
+                <i className="icon devicon-express-original is-size-3"></i>
+                <i className="icon devicon-mongodb-plain is-size-3"></i>
+              </div>
             </div>
           </div>
         </div>

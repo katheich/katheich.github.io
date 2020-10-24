@@ -39,7 +39,9 @@ const ProjectMetropolists = () => {
             </div>
             <br />
             <div className="text is-size-7-desktop is-size-6-mobile">
-              <span className="has-text-weight-bold">Tech used:</span> React.js <span className="backslash">//</span> Teleport API <span className="backslash">//</span> React Map GL (Mapbox) <span className="backslash">//</span> Webpack <span className="backslash">//</span> Git and GitHub <span className="backslash">//</span> SCSS <span className="backslash">//</span> Bulma               
+              <div className="tech has-text-centered">
+                <i className="icon devicon-react-original is-size-3"></i>
+              </div>
             </div>
           </div>
         </div>

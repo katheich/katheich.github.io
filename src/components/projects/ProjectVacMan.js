@@ -39,7 +39,11 @@ const ProjectVacMan = () => {
             </div>
             <br />
             <div className="text is-size-7-desktop is-size-6-mobile">
-              <span className="has-text-weight-bold">Tech used:</span> HTML <span className="backslash">//</span> CSS <span className="backslash">//</span> JavaScript <span className="backslash">//</span> Adobe Photoshop
+              <div className="tech has-text-centered">
+                <i className="icon devicon-javascript-plain is-size-3"></i>
+                <i className="icon devicon-html5-plain is-size-3"></i>
+                <i className="icon devicon-css3-plain is-size-3"></i>
+              </div>
             </div>
           </div>
         </div>

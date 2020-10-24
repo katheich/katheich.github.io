@@ -39,8 +39,12 @@ const ProjectTripBit = () => {
             </div>   
             <br />
             <div className="text is-size-7-desktop is-size-6-mobile">
-              <span className="has-text-weight-bold	">Tech used:</span> Django <span className="backslash">//</span> React.js <span className="backslash">//</span> Heroku <span className="backslash">//</span> React Map GL (Mapbox) <span className="backslash">//</span> PostgreSQL <span className="backslash">//</span> FileStack API <span className="backslash">//</span>  React Toastify <span className="backslash">//</span> Bulma <span className="backslash">//</span> SCSS                
-            </div>          
+              <div className="tech has-text-centered">
+                <i className="icon devicon-react-original is-size-3"></i>
+                <i className="icon devicon-django-plain is-size-2"></i>
+                <i className="icon devicon-postgresql-plain is-size-3"></i>
+              </div>
+            </div>        
           </div>
         </div>
       </div>
