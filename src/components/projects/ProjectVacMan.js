@@ -35,7 +35,7 @@ const ProjectVacMan = () => {
             </div>
             <br />
             <div className="text is-size-7-desktop is-size-6-mobile">
-            Built a single-level version of Pac-Man using vanilla JavaScript, HTML and CSS.
+            I built a single-level version of Pac-Man using vanilla JavaScript, HTML and CSS. I also created the artwork.
             </div>
             <br />
             <div className="text is-size-7-desktop is-size-6-mobile">

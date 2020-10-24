@@ -34,7 +34,7 @@ const ProjectWNWN = () => {
             </div>
             <br />
             <div className="text is-size-7-desktop is-size-6-mobile">
-            Combatting food waste and shortages during the Covid-19 lockdown, we built a Django app with a React front-end that allows users to search recipes based on the ingredients they have at home. It also allows users to connect to others nearby to arrange the exchange of ingredients (while respecting social distancing guidelines).                  
+            Combatting food waste and shortages during the Covid-19 lockdown, we built a fullstack app that allows users to search recipes based on the ingredients they have at home, using the Spoonacular API. User can also connect to others nearby to arrange the exchange of ingredients (while respecting social distancing guidelines).                  
             </div>
             <br />
             <div className="text is-size-7-desktop is-size-6-mobile">

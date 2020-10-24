@@ -31,11 +31,11 @@ const ProjectPlaceholder = () => {
             </div>
             <br />
             <div className="text is-size-7-desktop is-size-6-mobile">
-            Third project at GA, tasked to create a full-stack application in a team of three and within one week.             
+            Third project at GA, tasked to create a full-stack MERN application in a team of three and within one week.             
             </div>
             <br />
             <div className="text is-size-7-desktop is-size-6-mobile">
-            Built a React app that allows users to store favourite locations (e.g. restaurants, pubs, shops) in a MongoDB database hosted via Express.js, and displaying them using Mapbox. We also included a 'circles' feature, which allows users to add other users to their Cirlce and subsequently share their locations with them.                  
+            We built a platform that allows users to store favourite locations (e.g. restaurants, pubs, shops) and displays them using Mapbox. We also included a 'circles' feature, through which users to add other users to their Cirlce and thereby share their locations with them.                  
             </div>
             <br />
             <div className="text is-size-7-desktop is-size-6-mobile">

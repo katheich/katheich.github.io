@@ -35,7 +35,7 @@ const ProjectTripBit = () => {
             </div>
             <br />
             <div className="text is-size-7-desktop is-size-6-mobile">
-            In a team of four, we built a Django app with a React front-end and PostgreSQL database, where users select cities they have travelled to, earning badges for achieving certain conditions. Users can also create and join groups, where they can see how their scores and travel locations compare. 	                  
+            In a team of four, we built a platform where users select cities they have travelled to, earning badges for certain achievements. Users can also create and join groups, where they may see how their scores and travel locations compare. 	                  
             </div>   
             <br />
             <div className="text is-size-7-desktop is-size-6-mobile">

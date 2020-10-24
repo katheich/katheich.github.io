@@ -35,7 +35,7 @@ const ProjectMetropolists = () => {
             </div>
             <br />
             <div className="text is-size-7-desktop is-size-6-mobile">
-            Created a front-end React app for the Teleport API, which provides standard-of-living statistics for numerous cities around the world, allowing users to get details on individual cities or comparing two cities side-by-side
+            We created a front-end React app for the Teleport API, which provides standard-of-living statistics for numerous cities around the world, allowing users to get details on individual cities or comparing two cities side-by-side.
             </div>
             <br />
             <div className="text is-size-7-desktop is-size-6-mobile">
