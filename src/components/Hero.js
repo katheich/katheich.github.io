@@ -13,7 +13,7 @@ const Hero = () => {
             Kathrin Eichinger
           </h1>
           <h2 className="subtitle">
-            Junior Software Developer
+            Software Developer
           </h2>
         </div>
 

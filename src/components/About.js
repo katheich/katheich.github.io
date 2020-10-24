@@ -14,7 +14,7 @@ const About = () => {
       <div className="text is-size-6">
         I am a software developer based in London, UK.
         <br/><br/>
-        A keen learner with a background in economic consulting, my interest in problem-solving perhaps inevitably led me to software engineering. Thriving in a collaborative environment and bringing with me an incessant need to understand “why”, I am happy to work on any interesting challenge, be it in a front-end, back-end or non-coding context.        
+        A keen learner with a background in economic consulting, I have experience in web development and data- processing, mainly in Python and JavaScript. Thriving in a collaborative environment and bringing with me an incessant need to understand “why”, I always look for opportunities to learn from and share my knowledge with others.        
         <br/><br/>
         On this page you may find further information on my experience and skills, as well as explore my projects.
         <br/><br/>
