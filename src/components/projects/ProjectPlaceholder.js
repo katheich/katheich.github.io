@@ -42,6 +42,7 @@ const ProjectPlaceholder = () => {
               <div className="tech has-text-centered">
                 <i className="icon devicon-react-original is-size-3"></i>
                 <i className="icon devicon-express-original is-size-3"></i>
+                <i className="icon devicon-nodejs-plain is-size-3"></i>
                 <i className="icon devicon-mongodb-plain is-size-3"></i>
               </div>
             </div>
