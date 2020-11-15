@@ -46,7 +46,7 @@ const info = {
 
 const Experience = () => {
 
-  const [hover, setHover] = useState(null)
+  const [hover, setHover] = useState('pop')
 
   function handleHover(e) {
     if (hover !== e.target.dataset.id) {
@@ -55,6 +55,10 @@ const Experience = () => {
   }
 
   return (<div id="experience">
+    <div className="text is-size-6">
+      Explore my experience:
+      <br/><br/>
+    </div>
     <div className="logo-container">
       <POPLogo size={50} id="pop" handleHover={handleHover} hover={hover} />
       <GALogo size={50} id="ga" handleHover={handleHover} hover={hover} />
