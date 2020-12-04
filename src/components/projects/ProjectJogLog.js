@@ -1,6 +1,6 @@
 import React from 'react'
 
-import Transparency from '../../images/projects/transparency.png'
+import Transparency from '../../images/transparency.png'
 
 const ProjectJogLog = () => {
 
