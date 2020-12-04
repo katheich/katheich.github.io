@@ -1,8 +1,6 @@
 import React from 'react'
 
 import Transparency from '../../images/projects/transparency.png'
-import Tripbit from '../../images/projects/tripbit.png'
-import TripbitVert from '../../images/projects/tripbit-vert.png'
 
 const ProjectTripBit = () => {
 
@@ -12,10 +10,10 @@ const ProjectTripBit = () => {
         <div className="tile is-parent">
           <div className="tile is-child box is-paddingless">           
             <figure className="image desktop-only" id="logo">
-              <img src={TripbitVert} />
+              <img src="https://i.imgur.com/JV1UCvn.png" />
             </figure>
             <figure className="image is-2by1 mobile-only" id="logo">
-              <img src={Tripbit} />
+              <img src="https://i.imgur.com/kurpFUP.png" />
             </figure>
           </div>
         </div>

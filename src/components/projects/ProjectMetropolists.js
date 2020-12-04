@@ -1,8 +1,6 @@
 import React from 'react'
 
 import Transparency from '../../images/projects/transparency.png'
-import Metro from '../../images/projects/metropolists.png'
-import MetroVert from '../../images/projects/metropolists-vert.png'
 
 const ProjectMetropolists = () => {
 
@@ -12,10 +10,10 @@ const ProjectMetropolists = () => {
         <div className="tile is-parent">
           <div className="tile is-child box">           
             <figure className="image is-1by2 desktop-only" id="logo">
-              <img src={MetroVert} />
+              <img src="https://i.imgur.com/KdkS0XI.png" />
             </figure>
             <figure className="image is-2by1 mobile-only" id="logo">
-              <img src={Metro} />
+              <img src="https://i.imgur.com/pg9LX0q.png" />
             </figure>
           </div>
         </div>

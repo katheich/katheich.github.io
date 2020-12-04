@@ -1,8 +1,6 @@
 import React from 'react'
 
 import Transparency from '../../images/projects/transparency.png'
-import VacManVert from '../../images/projects/vac-man-vert.png'
-import VacMan from '../../images/projects/vac-man.png'
 
 const ProjectVacMan = () => {
 
@@ -12,10 +10,10 @@ const ProjectVacMan = () => {
         <div className="tile is-parent">
           <div className="tile is-child box">           
             <figure className="image is-1by2 desktop-only" id="logo">
-              <img src={VacManVert} />
+              <img src="https://i.imgur.com/8AB3XGU.png" />
             </figure>
             <figure className="image is-2by1 mobile-only" id="logo">
-              <img src={VacMan} />
+              <img src="https://i.imgur.com/7hofUMl.png" />
             </figure>
           </div>
         </div>

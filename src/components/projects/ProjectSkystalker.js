@@ -1,8 +1,6 @@
 import React from 'react'
 
 import Transparency from '../../images/projects/transparency.png'
-import SkystalkerVert from '../../images/projects/skystalker-vert.png'
-import Skystalker from '../../images/projects/skystalker.png'
 
 const ProjectSkystalker = () => {
 
@@ -12,10 +10,10 @@ const ProjectSkystalker = () => {
         <div className="tile is-parent">
           <div className="tile is-child box is-paddingless">           
             <figure className="image desktop-only" id="logo">
-              <img src={SkystalkerVert} />
+              <img src="https://i.imgur.com/yOU9T6j.png" />
             </figure>
             <figure className="image is-2by1 mobile-only" id="logo">
-              <img src={Skystalker} />
+              <img src="https://i.imgur.com/xuURSM3.png" />
             </figure>
           </div>
         </div>

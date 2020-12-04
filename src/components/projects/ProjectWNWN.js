@@ -1,8 +1,6 @@
 import React from 'react'
 
 import Transparency from '../../images/projects/transparency.png'
-import WNWN from '../../images/projects/wnwn.png'
-import WNWNVert from '../../images/projects/wnwn-vert.png'
 
 const ProjectWNWN = () => {
   return (<div className="tile is-ancestor">
@@ -11,10 +9,10 @@ const ProjectWNWN = () => {
         <div className="tile is-parent">
           <div className="tile is-child box">           
             <figure className="image desktop-only" id="logo">
-              <img src={WNWNVert} />
+              <img src="https://i.imgur.com/xAXXk2v.png" />
             </figure>
             <figure className="image is-2by1 mobile-only" id="logo">
-              <img src={WNWN} />
+              <img src="https://i.imgur.com/QZF6wuG.png" />
             </figure>
           </div>
         </div>

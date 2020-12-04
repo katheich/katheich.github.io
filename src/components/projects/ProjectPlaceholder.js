@@ -1,8 +1,6 @@
 import React from 'react'
 
 import Transparency from '../../images/projects/transparency.png'
-import Place from '../../images/projects/placeholder.png'
-import PlaceVert from '../../images/projects/placeholder-vert.png'
 
 const ProjectPlaceholder = () => {
 
@@ -12,10 +10,10 @@ const ProjectPlaceholder = () => {
         <div className="tile is-parent">
           <div className="tile is-child box">           
             <figure className="image desktop-only" id="logo">
-              <img src={PlaceVert} />
+              <img src="https://i.imgur.com/EMNILai.png" />
             </figure>
             <figure className="image is-2by1 mobile-only" id="logo">
-              <img src={Place} />
+              <img src="https://i.imgur.com/NBuLqlL.png" />
             </figure>
           </div>
         </div>

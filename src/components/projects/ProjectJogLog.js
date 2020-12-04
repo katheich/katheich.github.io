@@ -1,8 +1,6 @@
 import React from 'react'
 
 import Transparency from '../../images/projects/transparency.png'
-import Joglog from '../../images/projects/joglog.png'
-import JoglogVert from '../../images/projects/joglog-vert.png'
 
 const ProjectJogLog = () => {
 
@@ -12,10 +10,10 @@ const ProjectJogLog = () => {
         <div className="tile is-parent">
           <div className="tile is-child box">           
             <figure className="image desktop-only" id="logo">
-              <img src={JoglogVert} />
+              <img src="https://i.imgur.com/NwsSvTn.png" />
             </figure>
             <figure className="image is-2by1 mobile-only" id="logo">
-              <img src={Joglog} />
+              <img src="https://i.imgur.com/ssAzU9U.png" />
             </figure>
           </div>
         </div>
