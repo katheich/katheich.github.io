@@ -1,7 +1,7 @@
 import React from 'react'
 
 import Transparency from '../../images/projects/transparency.png'
-import Metro from '../../images/projects/metropolists copy.png'
+import Metro from '../../images/projects/metropolists.png'
 import MetroVert from '../../images/projects/metropolists-vert.png'
 
 const ProjectMetropolists = () => {
