@@ -47,7 +47,7 @@ const Projects = () => {
     <div className="container">
       <div className="title">
         <span className="backslash">// </span>
-        Projects
+        Selected Projects
       </div>
 
       <div className="slidecontrol">

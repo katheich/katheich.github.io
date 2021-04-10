@@ -8,7 +8,7 @@ const Hero = () => {
       <div className="container columns">
 
         <div className="column is-4-desktop" id="title-column">
-          <h1 className="title text-js" on>
+          <h1 className="hero-title title text-js" on>
             <span className="backslash">// </span>
             Kathrin Eichinger
           </h1>
