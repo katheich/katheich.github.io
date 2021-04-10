@@ -7,39 +7,51 @@ const Skills = () => {
       <div className="title">
         <span className="backslash">/</span>
         <span className="backslash">/ </span>
-        Skills
+        Tech I&apos;ve worked with
       </div>
 
       <div className="columns is-mobile is-multiline">
         
-        <div className="column is-3-mobile is-one-fifth-desktop"><i className="devicon-javascript-plain"></i><div className="label">Java&shy;Script</div></div>
         <div className="column is-3-mobile is-one-fifth-desktop"><i className="devicon-python-plain"></i><div className="label">Py&shy;thon</div></div>
-        <div className="column is-3-mobile is-one-fifth-desktop"><i className="devicon-html5-plain"></i><div className="label">HTML</div></div>
-        <div className="column is-3-mobile is-one-fifth-desktop"><i className="devicon-css3-plain"></i><div className="label">CSS</div></div>
-        <div className="column is-3-mobile is-one-fifth-desktop"><i className="devicon-sass-original"></i><div className="label">SASS</div></div>
-
+        <div className="column is-3-mobile is-one-fifth-desktop"><i className="devicon-javascript-plain"></i><div className="label">Java&shy;Script</div></div>
         <div className="column is-3-mobile is-one-fifth-desktop"><i className="devicon-react-original"></i><div className="label">Re&shy;act&shy;.js</div></div>
+        <div className="column is-3-mobile is-one-fifth-desktop"><i className="devicon-django-plain"></i><div className="label">Djan&shy;go</div></div>
+        <div className="column is-3-mobile is-one-fifth-desktop"><i className="devicon-docker-plain"></i><div className="label">Docker</div></div>
+
+        <div className="column is-3-mobile is-one-fifth-desktop"><i className="devicon-postgresql-plain"></i><div className="label">Post&shy;gre&shy;SQL</div></div>
+        <div className="column is-3-mobile is-one-fifth-desktop"><i className="devicon-mongodb-plain"></i><div className="label">Mongo&shy;DB</div></div>
+        <div className="column is-3-mobile is-one-fifth-desktop">
+          <figure className="image is-square is-paddingless">
+            <svg height="64" width="64" xmlns="http://www.w3.org/2000/svg"><g fill-rule="evenodd" transform="matrix(.826767 0 0 .826767 8.416322 51.138164)"><path d="m39.1 15.557v-24.43l-21.16-12.22v24.43zm0-27.1-21.16-12.22v-24.44l21.16 12.22z" fill="#5c4ee5"/><path d="m62.6-23.773v-24.44l-21.17 12.22v24.44z" fill="#4040b2"/><path d="m15.62-25.193v-24.44l-21.16-12.22v24.44z" fill="#5c4ee5"/></g></svg>
+          </figure>
+          <div className="label">Terra&shy;form</div>
+        </div>
+
+        <div className="column is-3-mobile is-one-fifth-desktop">
+          <figure className="image is-square is-paddingless">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="22.34 10.9 64 64" width="64" height="64"><path d="M37.17 42.916l-5.957-20.484-3.377 1.688v37.527l3.377 1.657z" fill="#9d5125"/><path d="M31.212 63.304l6.53-1.53V23.993l-6.53-1.53z" fill="#f58534"/><path d="M46.408 42.916l-6.18 24.912-4.97-2.485V20.425l4.97-2.485z" fill="#9d5125"/><path d="M40.228 17.94l10.13 3.25v43.325l-10.13 3.218z" fill="#f58534"/><path d="M77.468 57.76l-4.078-.223V26.7h4.078z" fill="#9d5125"/><path d="M77.15 26.7l.446 3.982-4.1.573-15.833-4.1L62.2 24.8z" fill="#6b3b19"/><path d="M77.723 55.085l-4.1-.573-15.833 4.1 4.556 2.357z" fill="#fcbf92"/><g fill="#9d5125"><path d="M67.083 32.658l-8.155 1.083v18.286l8.155 1.083z"/><path d="M61.126 42.852L54.34 10.9l-7.932 3.95v56.068l7.932 3.95z"/></g><path d="M77.468 55.15l-15.196 4.556v-33.64l15.196 4.556zM54.34 10.9v64l26.505-13.252V24.152zm12.743 42.274l8.442-10.258-8.442-10.258z" fill="#f58534"/></svg>
+          </figure>
+          <div className="label">AWS Lamb&shy;da</div>
+        </div>
+        <div className="column is-3-mobile is-one-fifth-desktop"><i className="devicon-github-plain"></i><div className="label">Git&shy;Hub</div></div>
+
         <div className="column is-3-mobile is-one-fifth-desktop"><i className="devicon-nodejs-plain"></i><div className="label">Node&shy;.js</div></div>
         <div className="column is-3-mobile is-one-fifth-desktop"><i className="devicon-express-original"></i><div className="label">Ex&shy;press&shy;.js</div></div>
         <div className="column is-3-mobile is-one-fifth-desktop"><i className="devicon-webpack-plain"></i><div className="label">Web&shy;pack</div></div>
-        <div className="column is-3-mobile is-one-fifth-desktop"><i className="devicon-django-plain"></i><div className="label">Djan&shy;go</div></div>
-
-        <div className="column is-3-mobile is-one-fifth-desktop"><i className="fab fa-npm"></i><div className="label">NPM</div></div>
         <div className="column is-3-mobile is-one-fifth-desktop"><i className="fab fa-yarn"></i><div className="label">Yarn</div></div>
-        <div className="column is-3-mobile is-one-fifth-desktop"><i className="devicon-mongodb-plain"></i><div className="label">Mongo&shy;DB</div></div>
-        <div className="column is-3-mobile is-one-fifth-desktop"><i className="devicon-postgresql-plain"></i><div className="label">Post&shy;gre&shy;SQL</div></div>
         <div className="column is-3-mobile is-one-fifth-desktop">
           <figure className="image is-square is-paddingless">
             <svg viewBox="0 0 24 24" height="50" xmlns="http://www.w3.org/2000/svg"><path d="M14.051 2.751l4.935 2.85c.816-.859 2.173-.893 3.032-.077.148.14.274.301.377.477.589 1.028.232 2.339-.796 2.928-.174.1-.361.175-.558.223v5.699c1.146.273 1.854 1.423 1.58 2.569-.048.204-.127.4-.232.581-.592 1.023-1.901 1.374-2.927.782-.196-.113-.375-.259-.526-.429l-4.905 2.832c.372 1.124-.238 2.335-1.361 2.706-.217.071-.442.108-.67.108-1.181.001-2.139-.955-2.14-2.136 0-.205.029-.41.088-.609l-4.936-2.847c-.816.854-2.171.887-3.026.07-.854-.816-.886-2.171-.07-3.026.283-.297.646-.506 1.044-.603l.001-5.699c-1.15-.276-1.858-1.433-1.581-2.584.047-.198.123-.389.224-.566.592-1.024 1.902-1.374 2.927-.782.177.101.339.228.48.377l4.938-2.85C9.613 1.612 10.26.423 11.39.088 11.587.029 11.794 0 12 0c1.181-.001 2.139.954 2.14 2.134.001.209-.03.418-.089.617zm-.515.877c-.019.021-.037.039-.058.058l6.461 11.19c.026-.009.056-.016.082-.023V9.146c-1.145-.283-1.842-1.442-1.558-2.588.006-.024.012-.049.019-.072l-4.946-2.858zm-3.015.059l-.06-.06-4.946 2.852c.327 1.135-.327 2.318-1.461 2.645-.026.008-.051.014-.076.021v5.708l.084.023 6.461-11.19-.002.001zm2.076.507c-.39.112-.803.112-1.192 0l-6.46 11.189c.294.283.502.645.6 1.041h12.911c.097-.398.307-.761.603-1.044L12.597 4.194zm.986 16.227l4.913-2.838c-.015-.047-.027-.094-.038-.142H5.542l-.021.083 4.939 2.852c.388-.404.934-.653 1.54-.653.627 0 1.19.269 1.583.698z"/></svg>          
           </figure>
           <div className="label">Graph&shy;QL</div>
         </div>
-        
-        <div className="column is-3-mobile is-one-fifth-desktop"><i className="devicon-git-plain"></i><div className="label">Git</div></div>
-        <div className="column is-3-mobile is-one-fifth-desktop"><i className="devicon-github-plain"></i><div className="label">Git&shy;Hub</div></div>
+
+        <div className="column is-3-mobile is-one-fifth-desktop"><i className="devicon-sass-original"></i><div className="label">SASS</div></div>
+        <div className="column is-3-mobile is-one-fifth-desktop"><i className="devicon-materialui-plain"></i><div className="label">Material&shy;UI</div></div>
         <div className="column is-3-mobile is-one-fifth-desktop"><i className="devicon-heroku-original"></i><div className="label">He&shy;ro&shy;ku</div></div>
         <div className="column is-3-mobile is-one-fifth-desktop"><i className="devicon-visualstudio-plain"></i><div className="label">VS&shy;Code</div></div>
-
+        <div className="column is-3-mobile is-one-fifth-desktop"><i className="devicon-jupyter-plain"></i><div className="label">Ju&shy;py&shy;ter</div></div>
+        
         <div className="column is-3-mobile is-one-fifth-desktop">
           <figure className="image is-square is-paddingless">
             <svg viewBox="0 0 129 129" height="50" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg">
@@ -119,12 +131,6 @@ const Skills = () => {
         </div>
         <div className="column is-3-mobile is-one-fifth-desktop">
           <figure className="image is-square is-paddingless">
-            <svg viewBox="0 0 24 24" height="47" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg"><path d="M23.553 3.102h-8.04V4.59h2.37v2.354h-2.37v.75h2.37v2.357h-2.37v.771h2.37v2.229h-2.37v.893h2.37v2.234h-2.37v.893h2.37v2.247h-2.37v1.639h8.04c.127-.038.233-.188.318-.448.085-.262.129-.475.129-.636V3.374c0-.128-.044-.205-.129-.232-.085-.026-.191-.04-.318-.04zM22.51 19.316h-3.857v-2.245h3.857v2.247-.002zm0-3.138h-3.857v-2.235h3.857v2.235zm0-3.128h-3.857v-2.219h3.857v2.221-.002zm0-3h-3.857V7.696h3.857v2.355-.001zm0-3.119h-3.857v-2.34h3.857v2.355-.015zM0 2.731v18.601l14.16 2.449V.219L0 2.739v-.008zm8.393 14.071c-.054-.146-.308-.766-.758-1.863-.449-1.096-.72-1.734-.799-1.916h-.025l-1.519 3.615-2.03-.137 2.408-4.5-2.205-4.5 2.07-.109 1.368 3.521h.027l1.545-3.681 2.139-.135-2.547 4.87 2.625 4.968-2.299-.135v.002z"/></svg>
-          </figure>
-          <div className="label">Ex&shy;cel</div>
-        </div>
-        <div className="column is-3-mobile is-one-fifth-desktop">
-          <figure className="image is-square is-paddingless">
             <svg viewBox="0 0 24 24" height="50" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg"><path d="M4.323 16.248C3.13 15.354 1.64 14.31 0 13.118l5.814-2.236 2.385 1.789c-1.789 2.087-2.981 2.832-3.876 3.578zm15.95-6.26c-.447-1.193-.745-2.385-1.193-3.578-.447-1.342-.894-2.534-1.64-3.578-.298-.447-.894-1.491-1.64-1.491-.149 0-.298.149-.447.149-.447.149-1.043 1.043-1.193 1.64-.447.745-1.342 1.938-1.938 2.683-.149.298-.447.596-.596.745-.447.298-.894.745-1.491 1.043-.149 0-.298.149-.447.149-.447 0-.745.298-1.043.447-.447.447-.894 1.043-1.342 1.491 0 .149-.149.298-.298.447l2.236 1.64c1.64-1.938 3.578-3.876 4.919-7.602 0 0-.447 4.025-4.025 8.348-2.236 2.534-4.025 3.876-4.323 4.174 0 0 .596-.149 1.193.149 1.193.447 1.789 2.087 2.236 3.279.298.894.745 1.64 1.043 2.534 1.193-.298 1.938-.745 2.683-1.491s1.491-1.64 2.236-2.385c1.342-1.64 2.981-3.727 5.068-2.683.298.149.745.447.894.596.447.298.745.596 1.193 1.043.745.596 1.043 1.043 1.64 1.342-1.491-2.981-2.534-5.963-3.727-9.093z"/></svg>
           </figure>
           <div className="label">Mat&shy;lab</div>
@@ -142,6 +148,7 @@ const Skills = () => {
           <div className="label">Photo&shy;shop</div>
         </div>
 
+
         
 
       </div>
@@ -154,3 +161,4 @@ const Skills = () => {
 }
 
 export default Skills
+
