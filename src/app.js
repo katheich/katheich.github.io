@@ -15,7 +15,7 @@ const App = () => {
   return (<>
     <Hero />
     <div className="section">
-      <div className="container columns">
+      <div className="container columns is-desktop">
         <div className="column is-5-desktop">
           <About />
         </div>
