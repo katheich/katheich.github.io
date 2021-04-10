@@ -10,7 +10,7 @@ const info = {
   pop: {
     company: 'We Got POP',
     dates: 'since April 2020',
-    title: [{ position: 'Associate Software Developer', details: ''}],
+    title: [{ position: 'Software Developer', details: ''}],
     location: 'London, United Kingdom',
     link: 'https://www.wegotpop.com/'
   },
