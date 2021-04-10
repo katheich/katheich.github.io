@@ -22,7 +22,7 @@ const Skills = () => {
         <div className="column is-3-mobile is-one-fifth-tablet"><i className="devicon-mongodb-plain"></i><div className="label">Mongo&shy;DB</div></div>
         <div className="column is-3-mobile is-one-fifth-tablet">
           <figure className="image is-square is-paddingless">
-            <svg height="64" width="64" xmlns="http://www.w3.org/2000/svg"><g fill-rule="evenodd" transform="matrix(.826767 0 0 .826767 8.416322 51.138164)"><path d="m39.1 15.557v-24.43l-21.16-12.22v24.43zm0-27.1-21.16-12.22v-24.44l21.16 12.22z" fill="#5c4ee5"/><path d="m62.6-23.773v-24.44l-21.17 12.22v24.44z" fill="#4040b2"/><path d="m15.62-25.193v-24.44l-21.16-12.22v24.44z" fill="#5c4ee5"/></g></svg>
+            <svg height="64" width="64" xmlns="http://www.w3.org/2000/svg"><g fillRule="evenodd" transform="matrix(.826767 0 0 .826767 8.416322 51.138164)"><path d="m39.1 15.557v-24.43l-21.16-12.22v24.43zm0-27.1-21.16-12.22v-24.44l21.16 12.22z" fill="#5c4ee5"/><path d="m62.6-23.773v-24.44l-21.17 12.22v24.44z" fill="#4040b2"/><path d="m15.62-25.193v-24.44l-21.16-12.22v24.44z" fill="#5c4ee5"/></g></svg>
           </figure>
           <div className="label">Terra&shy;form</div>
         </div>
