@@ -1,32 +1,16 @@
-import React, { useState, useEffect } from 'react'
-import { useSwipeable } from 'react-swipeable'
+import React, { useState } from 'react'
 
-import ProjectVacMan from './projects/ProjectVacMan'
-import ProjectSkystalker from './projects/ProjectSkystalker'
-import ProjectMetropolists from './projects/ProjectMetropolists'
-import ProjectPlaceholder from './projects/ProjectPlaceholder'
-import ProjectTripBit from './projects/ProjectTripBit'
-import ProjectJogLog from './projects/ProjectJogLog'
-import ProjectWNWN from './projects/ProjectWNWN'
-import GeneralProject from './projects/GeneralProject'
+import GeneralProject from './GeneralProject'
 
-import ProjectInfo from './projects/project_info.json'
-
-const config = {
-  delta: 10,                             // min distance(px) before a swipe starts
-  preventDefaultTouchmoveEvent: true,   // preventDefault on touchmove, *See Details*
-  trackTouch: true,                      // track touch input
-  trackMouse: false,                     // track mouse input
-  rotationAngle: 0                      // set a rotation angle
-}
+import ProjectInfo from './data/project_info.json'
 
 const lastPage = 6
 
 const Projects = () => {
 
   const [page, setPage] = useState(1)
-  const handlers = useSwipeable({ onSwipedLeft: (eventData) => handlePrevious, onSwipedRight: (eventData) => handleNext, ...config })
   const projectData = ProjectInfo[0]
+  const slides = [...Array(lastPage).keys()]
 
   function handlePrevious() {
     if (page !== 1) {
@@ -62,42 +46,18 @@ const Projects = () => {
           <a className={'pagenum level-item is-centered is-size-5 is-family-secondary ' + `${page === 4 ? 'current' : ''}`} onClick={handlePage} id='4' aria-label="Goto page 4">4</a>
           <a className={'pagenum level-item is-centered is-size-5 is-family-secondary ' + `${page === 5 ? 'current' : ''}`} onClick={handlePage} id='5' aria-label="Goto page 5">5</a>
           <a className={'pagenum level-item is-centered is-size-5 is-family-secondary ' + `${page === 6 ? 'current' : ''}`} onClick={handlePage} id='6' aria-label="Goto page 6">6</a>
-          {/* <a className={'pagenum level-item is-centered is-size-5 is-family-secondary ' + `${page === 7 ? 'current' : ''}`} onClick={handlePage} id='7' aria-label="Goto page 6">7</a> */}
           <a className={'arrow level-item is-centered is-size-5 ' + `${page === lastPage ? '' : 'active'}`} onClick={handleNext}><i className="fas fa-angle-right"></i></a>
         </nav>
       </div>
 
-      
-      <div {...handlers} className={'slide ' + `${page === 3 ? 'selected' : ''}`} id="tripbit">
-        <ProjectTripBit />
-      </div>
+      {slides.map((slide, index) => {
+        const slideNumber = index + 1
 
+        return (<div key={slideNumber} className={'slide ' + `${page === slideNumber ? 'selected' : ''}`} >
+          <GeneralProject data={projectData[slideNumber]} />
+        </div>)
 
-      <div {...handlers} className={'slide ' + `${page === 4 ? 'selected' : ''}`} id="placeholder">
-        <ProjectPlaceholder />
-      </div>
-
-      <div {...handlers} className={'slide ' + `${page === 5 ? 'selected' : ''}`} id="metropolists">
-        <ProjectMetropolists />
-      </div>
-
-      {/* <div {...handlers} className={'slide ' + `${page === 6 ? 'selected' : ''}`} id="skystalker">
-        <ProjectSkystalker />
-      </div> */}
-
-
-      <div {...handlers} className={'slide ' + `${page === 6 ? 'selected' : ''}`} id="vacman">
-        <ProjectVacMan />
-      </div>
-
-      <div {...handlers} className={'slide ' + `${page === 2 ? 'selected' : ''}`} >
-        <GeneralProject data={projectData['2']} />
-      </div>
-     
-      <div {...handlers} className={'slide ' + `${page === 1 ? 'selected' : ''}`} >
-        <GeneralProject data={projectData['1']} />
-      </div>
-
+      })}
       
     </div>
   </section>)

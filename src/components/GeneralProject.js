@@ -7,12 +7,12 @@ const GeneralProject = ({ data }) => {
     <div className="tile is-6 is-vertical">
       <div className="tile">
         <div className="tile is-parent">
-          <div className="tile is-child box">           
+          <div className={`tile is-child box ${data['desktop_images']['logo']['padding'] ? '' : 'is-paddingless'}`}>           
             <figure className="image desktop-only" id="logo">
-              <img src={data['desktop_images']['logo']} />
+              <img src={data['desktop_images']['logo']['url']} />
             </figure>
             <figure className="image is-2by1 mobile-only" id="logo">
-              <img src={data['mobile_images']['logo']} />
+              <img src={data['mobile_images']['logo']['url']} />
             </figure>
           </div>
         </div>
