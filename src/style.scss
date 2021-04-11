@@ -330,7 +330,7 @@ html {
     display: none !important;
   }
 
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 1023px) {
     .desktop-only {
       display: none !important;
     }
@@ -343,6 +343,15 @@ html {
       padding: 10px 8px;
     }
   }
+
+  @media screen and (max-width: 1023px) {
+
+    .tile:not(.is-child) {
+      display: block;
+      width: 100%;
+    }
+
+}
 
   .screenshot {
     background-size: cover;
