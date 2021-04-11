@@ -8,6 +8,9 @@ import ProjectPlaceholder from './projects/ProjectPlaceholder'
 import ProjectTripBit from './projects/ProjectTripBit'
 import ProjectJogLog from './projects/ProjectJogLog'
 import ProjectWNWN from './projects/ProjectWNWN'
+import GeneralProject from './projects/GeneralProject'
+
+import ProjectInfo from './projects/project_info.json'
 
 const config = {
   delta: 10,                             // min distance(px) before a swipe starts
@@ -23,7 +26,7 @@ const Projects = () => {
 
   const [page, setPage] = useState(1)
   const handlers = useSwipeable({ onSwipedLeft: (eventData) => handlePrevious, onSwipedRight: (eventData) => handleNext, ...config })
-
+  const projectData = ProjectInfo[0]
 
   function handlePrevious() {
     if (page !== 1) {
@@ -92,7 +95,7 @@ const Projects = () => {
       </div>
      
       <div {...handlers} className={'slide ' + `${page === 1 ? 'selected' : ''}`} id="wnwn">
-        <ProjectWNWN />
+        <GeneralProject data={projectData['1']} />
       </div>
 
       
