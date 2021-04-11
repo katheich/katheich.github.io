@@ -30,18 +30,14 @@ const Skills = () => {
         <div className="column is-3-mobile is-one-fifth-tablet">
           <figure className="image is-square is-paddingless">
             <svg height="50" width="50" viewBox="-3.02291033 -.22032094 420.92291033 433.54032094" xmlns="http://www.w3.org/2000/svg"><path d="m208.45 227.89c-1.59 2.26-2.93 4.12-4.22 6q-30.86 45.42-61.7 90.83-28.69 42.24-57.44 84.43a3.88 3.88 0 0 1 -2.73 1.59q-40.59-.35-81.16-.88c-.3 0-.61-.09-1.2-.18a14.44 14.44 0 0 1 .76-1.65q28.31-43.89 56.62-87.76 25.11-38.88 50.25-77.74 27.86-43.18 55.69-86.42c2.74-4.25 5.59-8.42 8.19-12.75a5.26 5.26 0 0 0 .56-3.83c-5-15.94-10.1-31.84-15.19-47.74-2.18-6.81-4.46-13.58-6.5-20.43-.66-2.2-1.75-2.87-4-2.86-17 .07-33.9.05-50.85.05-3.22 0-3.23 0-3.23-3.18 0-20.84 0-41.68-.06-62.52 0-2.32.76-2.84 2.94-2.84q51.19.09 102.4 0a3.29 3.29 0 0 1 3.6 2.43q27 67.91 54 135.77 31.5 79.14 63 158.3c6.52 16.38 13.09 32.75 19.54 49.17.77 2 1.57 2.38 3.59 1.76 17.89-5.53 35.82-10.91 53.7-16.45 2.25-.7 3.07-.23 3.77 2 6.1 19.17 12.32 38.3 18.5 57.45.21.66.37 1.33.62 2.25-1.28.47-2.48 1-3.71 1.34q-61 19.33-121.93 38.68c-1.94.61-2.52-.05-3.17-1.68q-18.61-47.16-37.31-94.28-18.29-46.14-36.6-92.28c-1.83-4.62-3.63-9.26-5.46-13.88-.29-.79-.69-1.48-1.27-2.7z" fill="#fa7e14"/></svg>          </figure>
-          <div className="label">AWS Lamb&shy;da</div>
+          <div className="label">AWS Lambda</div>
         </div>
         <div className="column is-3-mobile is-one-fifth-tablet"><i className="devicon-github-plain"></i><div className="label">Git&shy;Hub</div></div>
 
         <div className="column is-3-mobile is-one-fifth-tablet"><i className="devicon-nodejs-plain"></i><div className="label">Node&shy;.js</div></div>
         <div className="column is-3-mobile is-one-fifth-tablet"><i className="devicon-express-original"></i><div className="label">Ex&shy;press&shy;.js</div></div>
         <div className="column is-3-mobile is-one-fifth-tablet"><i className="devicon-webpack-plain"></i><div className="label">Web&shy;pack</div></div>
-        <div className="column is-3-mobile is-one-fifth-tablet">
-          <figure className="image is-square is-paddingless">
-            <svg viewBox="0 0 24 24" height="50" xmlns="http://www.w3.org/2000/svg"><path d="M14.051 2.751l4.935 2.85c.816-.859 2.173-.893 3.032-.077.148.14.274.301.377.477.589 1.028.232 2.339-.796 2.928-.174.1-.361.175-.558.223v5.699c1.146.273 1.854 1.423 1.58 2.569-.048.204-.127.4-.232.581-.592 1.023-1.901 1.374-2.927.782-.196-.113-.375-.259-.526-.429l-4.905 2.832c.372 1.124-.238 2.335-1.361 2.706-.217.071-.442.108-.67.108-1.181.001-2.139-.955-2.14-2.136 0-.205.029-.41.088-.609l-4.936-2.847c-.816.854-2.171.887-3.026.07-.854-.816-.886-2.171-.07-3.026.283-.297.646-.506 1.044-.603l.001-5.699c-1.15-.276-1.858-1.433-1.581-2.584.047-.198.123-.389.224-.566.592-1.024 1.902-1.374 2.927-.782.177.101.339.228.48.377l4.938-2.85C9.613 1.612 10.26.423 11.39.088 11.587.029 11.794 0 12 0c1.181-.001 2.139.954 2.14 2.134.001.209-.03.418-.089.617zm-.515.877c-.019.021-.037.039-.058.058l6.461 11.19c.026-.009.056-.016.082-.023V9.146c-1.145-.283-1.842-1.442-1.558-2.588.006-.024.012-.049.019-.072l-4.946-2.858zm-3.015.059l-.06-.06-4.946 2.852c.327 1.135-.327 2.318-1.461 2.645-.026.008-.051.014-.076.021v5.708l.084.023 6.461-11.19-.002.001zm2.076.507c-.39.112-.803.112-1.192 0l-6.46 11.189c.294.283.502.645.6 1.041h12.911c.097-.398.307-.761.603-1.044L12.597 4.194zm.986 16.227l4.913-2.838c-.015-.047-.027-.094-.038-.142H5.542l-.021.083 4.939 2.852c.388-.404.934-.653 1.54-.653.627 0 1.19.269 1.583.698z"/></svg>          
-          </figure>
-          <div className="label">Graph&shy;QL</div>
+        <div className="column is-3-mobile is-one-fifth-tablet"><i className="devicon-graphql-plain"></i><div className="label">Graph&shy;QL</div>
         </div>
         <div className="column is-3-mobile is-one-fifth-tablet"><i className="devicon-heroku-original"></i><div className="label">He&shy;ro&shy;ku</div></div>
 
