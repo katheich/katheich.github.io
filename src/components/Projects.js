@@ -2,14 +2,13 @@ import React, { useState } from 'react'
 
 import GeneralProject from './GeneralProject'
 
-import ProjectInfo from './data/project_info.json'
+import projectData from './data/project_info.json'
 
 const lastPage = 6
 
 const Projects = () => {
 
   const [page, setPage] = useState(1)
-  const projectData = ProjectInfo[0]
   const slides = [...Array(lastPage).keys()]
 
   function handlePrevious() {

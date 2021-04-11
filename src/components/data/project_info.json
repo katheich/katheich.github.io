@@ -1,164 +1,162 @@
-[
-  {
-    "1": {
-      "title": "WasteNotWantNot",
-      "paragraph_1": "Project chosen as the winning submission for the Code First Girls Hack From Home hackathon. Created in a team of four over the month of April 2020.",
-      "paragraph_2": "Combatting food waste and shortages during the Covid-19 lockdown, we built a fullstack app that allows users to search recipes based on the ingredients they have at home, using the Spoonacular API. User can also connect to others nearby to arrange the exchange of ingredients (while respecting social distancing guidelines).",
-      "links": {
-        "project": "https://waste-not-want-not.herokuapp.com",
-        "github": "https://github.com/ajames14/cfg-hackathon"
-      },
-      "tech_icons": [
-        "icon devicon-react-original is-size-3",
-        "icon devicon-django-plain is-size-2",
-        "icon devicon-postgresql-plain is-size-3"
-      ],
-      "desktop_images": {
-        "logo": {"url": "https://i.imgur.com/xAXXk2v.png", "padding": true},
-        "main": {"url": "https://i.imgur.com/iozowrR.png", "position": ""},
-        "vertical_1": {"url": "https://i.imgur.com/DntpCx7.png", "position": ""},
-        "vertical_2": {"url": "https://i.imgur.com/0vLpSw7.png", "position": ""},
-        "bottom": {"url": "https://i.imgur.com/oZ3Ktlx.png", "position": ""}
-      },
-      "mobile_images": {
-        "logo": {"url": "https://i.imgur.com/QZF6wuG.png", "padding": true},
-        "main": {"url": "https://i.imgur.com/iozowrR.png", "position": ""},
-        "three_verticals": {"url": "https://i.imgur.com/EI5aMKx.png", "position": "center"},
-        "bottom": {"url": "https://i.imgur.com/oZ3Ktlx.png", "position": ""}
-      }
+{
+  "1": {
+    "title": "WasteNotWantNot",
+    "paragraph_1": "Project chosen as the winning submission for the Code First Girls Hack From Home hackathon. Created in a team of four over the month of April 2020.",
+    "paragraph_2": "Combatting food waste and shortages during the Covid-19 lockdown, we built a fullstack app that allows users to search recipes based on the ingredients they have at home, using the Spoonacular API. User can also connect to others nearby to arrange the exchange of ingredients (while respecting social distancing guidelines).",
+    "links": {
+      "project": "https://waste-not-want-not.herokuapp.com",
+      "github": "https://github.com/ajames14/cfg-hackathon"
     },
-    "2": {
-      "title": "JogLog",
-      "paragraph_1": "Personal project to try out GraphQL and create a full stack app where users can create running plans and log actual runs. It also allows keeping track of different types of run (endurance, interval, tempo, easy or uncategorised).",
-      "paragraph_2": "",
-      "links": {
-        "project": "https://joglog-ke.herokuapp.com",
-        "github": "https://github.com/katheich/joglog"
-      },
-      "tech_icons": [
-        "icon devicon-react-original is-size-3",
-        "icon devicon-graphql-plain is-size-3",
-        "icon devicon-django-plain is-size-2",
-        "icon devicon-postgresql-plain is-size-3"
-      ],
-      "desktop_images": {
-        "logo": {"url": "https://i.imgur.com/NwsSvTn.png", "padding": true},
-        "main": {"url": "https://i.imgur.com/Vli9yNS.png", "position": "right"},
-        "vertical_1": {"url": "https://i.imgur.com/jX5sVfw.png", "position": ""},
-        "vertical_2": {"url": "https://i.imgur.com/09WtU5P.png", "position": ""},
-        "bottom": {"url": "https://i.imgur.com/lNk715C.png", "position": ""}
-      },
-      "mobile_images": {
-        "logo": {"url": "https://i.imgur.com/ssAzU9U.png", "padding": true},
-        "main": {"url": "https://i.imgur.com/Vli9yNS.png", "position": "right"},
-        "three_verticals": {"url": "https://i.imgur.com/IRXv9G9.png", "position": "center"},
-        "bottom": {"url": "https://i.imgur.com/lNk715C.png", "position": ""}
-      }
+    "tech_icons": [
+      "icon devicon-react-original is-size-3",
+      "icon devicon-django-plain is-size-2",
+      "icon devicon-postgresql-plain is-size-3"
+    ],
+    "desktop_images": {
+      "logo": {"url": "https://i.imgur.com/xAXXk2v.png", "padding": true},
+      "main": {"url": "https://i.imgur.com/iozowrR.png", "position": ""},
+      "vertical_1": {"url": "https://i.imgur.com/DntpCx7.png", "position": ""},
+      "vertical_2": {"url": "https://i.imgur.com/0vLpSw7.png", "position": ""},
+      "bottom": {"url": "https://i.imgur.com/oZ3Ktlx.png", "position": ""}
     },
-    "3": {
-      "title": "TripBit",
-      "paragraph_1": "Final project at GA to create a full-stack application individually or in teams within one week.",
-      "paragraph_2": "In a team of four, we built a platform where users select cities they have travelled to, earning badges for certain achievements. Users can also create and join groups, where they may see how their scores and travel locations compare.",
-      "links": {
-        "project": "ttps://tripbit.herokuapp.com",
-        "github": "https://github.com/katheich/tripbit"
-      },
-      "tech_icons": [
-        "icon devicon-react-original is-size-3",
-        "icon devicon-django-plain is-size-2",
-        "icon devicon-postgresql-plain is-size-3"
-      ],
-      "desktop_images": {
-        "logo":{"url": "https://i.imgur.com/JV1UCvn.png", "padding": false},
-        "main": {"url": "https://i.imgur.com/4ncZCBB.png", "position": ""},
-        "vertical_1": {"url": "https://i.imgur.com/fHVQjpt.png", "position": ""},
-        "vertical_2": {"url": "https://i.imgur.com/REjbJpJ.png", "position": "top"},
-        "bottom": {"url": "https://i.imgur.com/yBwkjDa.png", "position": "top"}
-      },
-      "mobile_images": {
-        "logo": {"url": "https://i.imgur.com/kurpFUP.png", "padding": false},
-        "main": {"url": "https://i.imgur.com/4ncZCBB.png", "position": ""},
-        "three_verticals": {"url": "https://i.imgur.com/TAqR3D8.png", "position": ""},
-        "bottom": {"url": "https://i.imgur.com/yBwkjDa.png", "position": "top"}
-      }
+    "mobile_images": {
+      "logo": {"url": "https://i.imgur.com/QZF6wuG.png", "padding": true},
+      "main": {"url": "https://i.imgur.com/iozowrR.png", "position": ""},
+      "three_verticals": {"url": "https://i.imgur.com/EI5aMKx.png", "position": "center"},
+      "bottom": {"url": "https://i.imgur.com/oZ3Ktlx.png", "position": ""}
+    }
+  },
+  "2": {
+    "title": "JogLog",
+    "paragraph_1": "Personal project to try out GraphQL and create a full stack app where users can create running plans and log actual runs. It also allows keeping track of different types of run (endurance, interval, tempo, easy or uncategorised).",
+    "paragraph_2": "",
+    "links": {
+      "project": "https://joglog-ke.herokuapp.com",
+      "github": "https://github.com/katheich/joglog"
     },
-    "4": {
-      "title": "Placeholder",
-      "paragraph_1": "Third project at GA, tasked to create a full-stack MERN application in a team of three and within one week.",
-      "paragraph_2": "We built a platform that allows users to store favourite locations (e.g. restaurants, pubs, shops) and displays them using Mapbox. We also included a 'circles' feature, through which users to add other users to their Cirlce and thereby share their locations with them.",
-      "links": {
-        "project": "https://ga-placeholder.herokuapp.com",
-        "github": "https://github.com/katheich/placeholder"
-      },
-      "tech_icons": [
-        "icon devicon-react-original is-size-3",
-        "icon devicon-express-original is-size-3",
-        "icon devicon-nodejs-plain is-size-3",
-        "icon devicon-mongodb-plain is-size-3"
-      ],
-      "desktop_images": {
-        "logo": {"url": "https://i.imgur.com/EMNILai.png", "padding": true},
-        "main": {"url": "https://i.imgur.com/tcK7afx.png", "position": ""},
-        "vertical_1": {"url": "https://i.imgur.com/acSZm6f.png", "position": ""},
-        "vertical_2": {"url": "https://i.imgur.com/AdDrtxI.png", "position": ""},
-        "bottom": {"url": "https://i.imgur.com/lhosrSI.png", "position": "top"}
-      },
-      "mobile_images": {
-        "logo": {"url": "https://i.imgur.com/NBuLqlL.png", "padding": true},
-        "main": {"url": "https://i.imgur.com/tcK7afx.png)", "position": ""},
-        "three_verticals": {"url": "https://i.imgur.com/50ksv7d.png", "position": ""},
-        "bottom": {"url": "https://i.imgur.com/lhosrSI.png", "position": "top"}
-      }
+    "tech_icons": [
+      "icon devicon-react-original is-size-3",
+      "icon devicon-graphql-plain is-size-3",
+      "icon devicon-django-plain is-size-2",
+      "icon devicon-postgresql-plain is-size-3"
+    ],
+    "desktop_images": {
+      "logo": {"url": "https://i.imgur.com/NwsSvTn.png", "padding": true},
+      "main": {"url": "https://i.imgur.com/Vli9yNS.png", "position": "right"},
+      "vertical_1": {"url": "https://i.imgur.com/jX5sVfw.png", "position": ""},
+      "vertical_2": {"url": "https://i.imgur.com/09WtU5P.png", "position": ""},
+      "bottom": {"url": "https://i.imgur.com/lNk715C.png", "position": ""}
     },
-    "5": {
-      "title": "Metropolists",
-      "paragraph_1": "Second project at GA, as a mini hackathon to build a React application consuming a public API. to be completed in pair-programming within 48 hours.",
-      "paragraph_2": "We created a front-end React app for the Teleport API, which provides standard-of-living statistics for numerous cities around the world, allowing users to get details on individual cities or comparing two cities side-by-side.",
-      "links": {
-        "project": "https://kathrineichinger.com/metropolists",
-        "github": "https://github.com/katheich/metropolists"
-      },
-      "tech_icons": ["icon devicon-react-original is-size-3"],
-      "desktop_images": {
-        "logo": {"url": "https://i.imgur.com/KdkS0XI.png", "padding": true},
-        "main": {"url": "https://i.imgur.com/cUEp2Rb.png", "position": ""},
-        "vertical_1": {"url": "https://i.imgur.com/F9HKaBb.png", "position": ""},
-        "vertical_2": {"url": "https://i.imgur.com/YWyiupn.png", "position": ""},
-        "bottom": {"url": "https://i.imgur.com/hLNfjDQ.png", "position": ""}
-      },
-      "mobile_images": {
-        "logo": {"url": "https://i.imgur.com/pg9LX0q.png", "padding": true},
-        "main": {"url": "https://i.imgur.com/cUEp2Rb.png", "position": ""},
-        "three_verticals": {"url": "https://i.imgur.com/F9HKaBb.png", "position": ""},
-        "bottom": {"url": "https://i.imgur.com/hLNfjDQ.png", "position": ""}
-      }
+    "mobile_images": {
+      "logo": {"url": "https://i.imgur.com/ssAzU9U.png", "padding": true},
+      "main": {"url": "https://i.imgur.com/Vli9yNS.png", "position": "right"},
+      "three_verticals": {"url": "https://i.imgur.com/IRXv9G9.png", "position": "center"},
+      "bottom": {"url": "https://i.imgur.com/lNk715C.png", "position": ""}
+    }
+  },
+  "3": {
+    "title": "TripBit",
+    "paragraph_1": "Final project at GA to create a full-stack application individually or in teams within one week.",
+    "paragraph_2": "In a team of four, we built a platform where users select cities they have travelled to, earning badges for certain achievements. Users can also create and join groups, where they may see how their scores and travel locations compare.",
+    "links": {
+      "project": "ttps://tripbit.herokuapp.com",
+      "github": "https://github.com/katheich/tripbit"
     },
-    "6": {
-      "title": "Vac-Man",
-      "paragraph_1": "First project at GA to build a grid-based game, to be completed individually in one week.",
-      "paragraph_2": "I built a single-level version of Pac-Man using vanilla JavaScript, HTML and CSS. I also created the artwork.",
-      "links": {
-        "project": "https://kathrineichinger.com/vac-man",
-        "github": "https://github.com/katheich/vac-man"
-      },
-      "tech_icons": [
-        "icon devicon-javascript-plain is-size-3",
-        "icon devicon-html5-plain is-size-3",
-        "icon devicon-css3-plain is-size-3"
-      ],
-      "desktop_images": {
-        "logo": {"url": "https://i.imgur.com/8AB3XGU.png", "padding": true},
-        "main": {"url": "https://i.imgur.com/9GN2Erl.png", "position": ""},
-        "vertical_1": {"url": "https://i.imgur.com/0NZpkpW.png", "position": ""},
-        "vertical_2": {"url": "https://i.imgur.com/jExuySx.png", "position": ""},
-        "bottom": {"url": "https://i.imgur.com/HgrTtM2.png", "position": ""}
-      },
-      "mobile_images": {
-        "logo": {"url": "https://i.imgur.com/7hofUMl.png", "padding": true},
-        "main": {"url": "https://i.imgur.com/9GN2Erl.png", "position": ""},
-        "three_verticals": {"url": "https://i.imgur.com/0NZpkpW.png", "position": ""},
-        "bottom": {"url": "https://i.imgur.com/HgrTtM2.png", "position": ""}
-      }
+    "tech_icons": [
+      "icon devicon-react-original is-size-3",
+      "icon devicon-django-plain is-size-2",
+      "icon devicon-postgresql-plain is-size-3"
+    ],
+    "desktop_images": {
+      "logo":{"url": "https://i.imgur.com/JV1UCvn.png", "padding": false},
+      "main": {"url": "https://i.imgur.com/4ncZCBB.png", "position": ""},
+      "vertical_1": {"url": "https://i.imgur.com/fHVQjpt.png", "position": ""},
+      "vertical_2": {"url": "https://i.imgur.com/REjbJpJ.png", "position": "top"},
+      "bottom": {"url": "https://i.imgur.com/yBwkjDa.png", "position": "top"}
+    },
+    "mobile_images": {
+      "logo": {"url": "https://i.imgur.com/kurpFUP.png", "padding": false},
+      "main": {"url": "https://i.imgur.com/4ncZCBB.png", "position": ""},
+      "three_verticals": {"url": "https://i.imgur.com/TAqR3D8.png", "position": ""},
+      "bottom": {"url": "https://i.imgur.com/yBwkjDa.png", "position": "top"}
+    }
+  },
+  "4": {
+    "title": "Placeholder",
+    "paragraph_1": "Third project at GA, tasked to create a full-stack MERN application in a team of three and within one week.",
+    "paragraph_2": "We built a platform that allows users to store favourite locations (e.g. restaurants, pubs, shops) and displays them using Mapbox. We also included a 'circles' feature, through which users to add other users to their Cirlce and thereby share their locations with them.",
+    "links": {
+      "project": "https://ga-placeholder.herokuapp.com",
+      "github": "https://github.com/katheich/placeholder"
+    },
+    "tech_icons": [
+      "icon devicon-react-original is-size-3",
+      "icon devicon-express-original is-size-3",
+      "icon devicon-nodejs-plain is-size-3",
+      "icon devicon-mongodb-plain is-size-3"
+    ],
+    "desktop_images": {
+      "logo": {"url": "https://i.imgur.com/EMNILai.png", "padding": true},
+      "main": {"url": "https://i.imgur.com/tcK7afx.png", "position": ""},
+      "vertical_1": {"url": "https://i.imgur.com/acSZm6f.png", "position": ""},
+      "vertical_2": {"url": "https://i.imgur.com/AdDrtxI.png", "position": ""},
+      "bottom": {"url": "https://i.imgur.com/lhosrSI.png", "position": "top"}
+    },
+    "mobile_images": {
+      "logo": {"url": "https://i.imgur.com/NBuLqlL.png", "padding": true},
+      "main": {"url": "https://i.imgur.com/tcK7afx.png)", "position": ""},
+      "three_verticals": {"url": "https://i.imgur.com/50ksv7d.png", "position": ""},
+      "bottom": {"url": "https://i.imgur.com/lhosrSI.png", "position": "top"}
+    }
+  },
+  "5": {
+    "title": "Metropolists",
+    "paragraph_1": "Second project at GA, as a mini hackathon to build a React application consuming a public API. to be completed in pair-programming within 48 hours.",
+    "paragraph_2": "We created a front-end React app for the Teleport API, which provides standard-of-living statistics for numerous cities around the world, allowing users to get details on individual cities or comparing two cities side-by-side.",
+    "links": {
+      "project": "https://kathrineichinger.com/metropolists",
+      "github": "https://github.com/katheich/metropolists"
+    },
+    "tech_icons": ["icon devicon-react-original is-size-3"],
+    "desktop_images": {
+      "logo": {"url": "https://i.imgur.com/KdkS0XI.png", "padding": true},
+      "main": {"url": "https://i.imgur.com/cUEp2Rb.png", "position": ""},
+      "vertical_1": {"url": "https://i.imgur.com/F9HKaBb.png", "position": ""},
+      "vertical_2": {"url": "https://i.imgur.com/YWyiupn.png", "position": ""},
+      "bottom": {"url": "https://i.imgur.com/hLNfjDQ.png", "position": ""}
+    },
+    "mobile_images": {
+      "logo": {"url": "https://i.imgur.com/pg9LX0q.png", "padding": true},
+      "main": {"url": "https://i.imgur.com/cUEp2Rb.png", "position": ""},
+      "three_verticals": {"url": "https://i.imgur.com/F9HKaBb.png", "position": ""},
+      "bottom": {"url": "https://i.imgur.com/hLNfjDQ.png", "position": ""}
+    }
+  },
+  "6": {
+    "title": "Vac-Man",
+    "paragraph_1": "First project at GA to build a grid-based game, to be completed individually in one week.",
+    "paragraph_2": "I built a single-level version of Pac-Man using vanilla JavaScript, HTML and CSS. I also created the artwork.",
+    "links": {
+      "project": "https://kathrineichinger.com/vac-man",
+      "github": "https://github.com/katheich/vac-man"
+    },
+    "tech_icons": [
+      "icon devicon-javascript-plain is-size-3",
+      "icon devicon-html5-plain is-size-3",
+      "icon devicon-css3-plain is-size-3"
+    ],
+    "desktop_images": {
+      "logo": {"url": "https://i.imgur.com/8AB3XGU.png", "padding": true},
+      "main": {"url": "https://i.imgur.com/9GN2Erl.png", "position": ""},
+      "vertical_1": {"url": "https://i.imgur.com/0NZpkpW.png", "position": ""},
+      "vertical_2": {"url": "https://i.imgur.com/jExuySx.png", "position": ""},
+      "bottom": {"url": "https://i.imgur.com/HgrTtM2.png", "position": ""}
+    },
+    "mobile_images": {
+      "logo": {"url": "https://i.imgur.com/7hofUMl.png", "padding": true},
+      "main": {"url": "https://i.imgur.com/9GN2Erl.png", "position": ""},
+      "three_verticals": {"url": "https://i.imgur.com/0NZpkpW.png", "position": ""},
+      "bottom": {"url": "https://i.imgur.com/HgrTtM2.png", "position": ""}
     }
   }
-]
+}
