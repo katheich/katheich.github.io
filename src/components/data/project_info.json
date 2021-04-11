@@ -13,14 +13,14 @@
       "icon devicon-postgresql-plain is-size-3"
     ],
     "desktop_images": {
-      "logo": {"url": "https://i.imgur.com/xAXXk2v.png", "padding": true},
+      "logo": {"url": "https://i.imgur.com/Sr0Q3xs.png", "padding": false},
       "main": {"url": "https://i.imgur.com/iozowrR.png", "position": ""},
       "vertical_1": {"url": "https://i.imgur.com/DntpCx7.png", "position": ""},
       "vertical_2": {"url": "https://i.imgur.com/0vLpSw7.png", "position": ""},
       "bottom": {"url": "https://i.imgur.com/oZ3Ktlx.png", "position": ""}
     },
     "mobile_images": {
-      "logo": {"url": "https://i.imgur.com/QZF6wuG.png", "padding": true},
+      "logo": {"url": "https://i.imgur.com/m3Okb87.png", "padding": false},
       "main": {"url": "https://i.imgur.com/iozowrR.png", "position": ""},
       "three_verticals": {"url": "https://i.imgur.com/EI5aMKx.png", "position": "center"},
       "bottom": {"url": "https://i.imgur.com/oZ3Ktlx.png", "position": ""}
