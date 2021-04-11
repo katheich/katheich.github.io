@@ -23,8 +23,22 @@ const GeneralProject = ({ data }) => {
               {data['title']}
             </div>
             <div className="links has-text-centered">
-              <a href={data['links']['github']} className="github" target="_blank" rel="noopener noreferrer"><i className="fab fa-github is-size-4"></i></a>
-              <a href={data['links']['project']} className="link" target="_blank" rel="noopener noreferrer"><i className="fas fa-link is-size-4"></i></a>
+              <a 
+                href={data['links']['github']} 
+                className="github" 
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                <i className="fab fa-github is-size-4"></i>
+              </a>
+              <a 
+                href={data['links']['project']} 
+                className="link" 
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                <i className="fas fa-link is-size-4"></i>
+              </a>
             </div>
             <br />
             <div className="text is-size-7-desktop is-size-6-mobile">
@@ -32,7 +46,7 @@ const GeneralProject = ({ data }) => {
             </div>
             <br />
             <div className="text is-size-7-desktop is-size-6-mobile">
-              {data['paragraph_1']}                 
+              {data['paragraph_2']}                 
             </div>
             <br />
             <div className="text is-size-7-desktop is-size-6-mobile">
@@ -48,10 +62,28 @@ const GeneralProject = ({ data }) => {
       <div className="tile is-parent">
         <div className="tile is-child box is-paddingless">
           <figure className="image is-2by1 desktop-only">
-            <img className="screenshot" src={Transparency} style={{ backgroundImage: `url(${data['desktop_images']['bottom']})` }}/>
+            <img 
+              className="screenshot" 
+              src={Transparency} 
+              style={
+                { 
+                  backgroundImage: `url(${data['desktop_images']['bottom']['url']})`, 
+                  backgroundPosition: data['desktop_images']['bottom']['position'] 
+                }
+              }
+            />
           </figure> 
           <figure className="image is-3by2 mobile-only">
-            <img className="screenshot" src={Transparency} style={{ backgroundImage: `url(${data['mobile_images']['bottom']})` }} />
+            <img 
+              className="screenshot" 
+              src={Transparency} 
+              style={
+                { 
+                  backgroundImage: `url(${data['mobile_images']['bottom']['url']})`, 
+                  backgroundPosition: data['mobile_images']['bottom']['position'] 
+                }
+              } 
+            />
           </figure> 
         </div>
       </div>
@@ -62,7 +94,16 @@ const GeneralProject = ({ data }) => {
         <div className="tile is-parent">
           <div className="tile is-child box is-paddingless">
             <figure className="image is-3by2">
-              <img className="screenshot" src={Transparency} style={{ backgroundImage: `url(${data['desktop_images']['main']})` }} />
+              <img 
+                className="screenshot" 
+                src={Transparency} 
+                style={
+                  { 
+                    backgroundImage: `url(${data['desktop_images']['main']['url']})`, 
+                    backgroundPosition: data['desktop_images']['main']['position'] 
+                  }
+                } 
+              />
             </figure> 
           </div>
         </div>
@@ -70,17 +111,44 @@ const GeneralProject = ({ data }) => {
           <div className="tile is-parent">
             <div className="tile is-child box is-paddingless">
               <figure className="image is-2by3 desktop-only">
-                <img className="screenshot" src={Transparency} style={{ backgroundImage: `url(${data['desktop_images']['vertical_1']})` }} />
+                <img 
+                  className="screenshot" 
+                  src={Transparency} 
+                  style={
+                    { 
+                      backgroundImage: `url(${data['desktop_images']['vertical_1']['url']})`, 
+                      backgroundPosition: data['desktop_images']['vertical_1']['position'] 
+                    }
+                  } 
+                />
               </figure>
               <figure className="image is-2by1 mobile-only">
-                <img className="screenshot" src={Transparency} style={{ backgroundImage: `url(${data['mobile_images']['three_verticals']})` }} />
+                <img 
+                  className="screenshot" 
+                  src={Transparency} 
+                  style={
+                    { 
+                      backgroundImage: `url(${data['mobile_images']['three_verticals']['url']})`, 
+                      backgroundPosition: data['mobile_images']['three_verticals']['position'] 
+                    }
+                  } 
+                />
               </figure>                   
             </div>
           </div>
           <div className="tile is-parent desktop-only">
             <div className="tile is-child box is-paddingless">
               <figure className="image is-2by3">
-                <img className="screenshot" src={Transparency} style={{ backgroundImage: `url(${data['desktop_images']['vertical_2']})` }} />
+                <img 
+                  className="screenshot" 
+                  src={Transparency} 
+                  style={
+                    { 
+                      backgroundImage: `url(${data['desktop_images']['vertical_2']['url']})`, 
+                      backgroundPosition: data['desktop_images']['vertical_2']['position'] 
+                    }
+                  } 
+                />
               </figure> 
             </div>
           </div>

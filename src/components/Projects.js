@@ -90,11 +90,11 @@ const Projects = () => {
         <ProjectVacMan />
       </div>
 
-      <div {...handlers} className={'slide ' + `${page === 2 ? 'selected' : ''}`} id="joglog">
-        <ProjectJogLog />
+      <div {...handlers} className={'slide ' + `${page === 2 ? 'selected' : ''}`} >
+        <GeneralProject data={projectData['2']} />
       </div>
      
-      <div {...handlers} className={'slide ' + `${page === 1 ? 'selected' : ''}`} id="wnwn">
+      <div {...handlers} className={'slide ' + `${page === 1 ? 'selected' : ''}`} >
         <GeneralProject data={projectData['1']} />
       </div>
 

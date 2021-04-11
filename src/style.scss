@@ -481,45 +481,13 @@ html {
     }
   }
 
-  #joglog {
-    .screenshot {
-      background-size: cover;
-      background-position: center;
-      background-repeat: no-repeat;
-      background-position: top;
-    }
-
-    #image4 {
-      background-image: url(https://i.imgur.com/lNk715C.png);
-    }
-
-    #image2 {
-      background-image: url(https://i.imgur.com/jX5sVfw.png);
-    }
-
-    #image2a {
-      background-image: url(https://i.imgur.com/IRXv9G9.png);
-      background-position: center;
-    }
-
-    #image3 {
-      background-image: url(https://i.imgur.com/09WtU5P.png);
-    }
-
-    #image1 {
-      background-position: right;
-      background-image: url(https://i.imgur.com/Vli9yNS.png);
-    }
+  .screenshot {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: top;
   }
 
-  #wnwn {
-    .screenshot {
-      background-size: cover;
-      background-position: center;
-      background-repeat: no-repeat;
-      background-position: top;
-    }
-  }
 
 }
 

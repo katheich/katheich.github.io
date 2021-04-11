@@ -15,16 +15,43 @@
       ],
       "desktop_images": {
         "logo": "https://i.imgur.com/xAXXk2v.png",
-        "main": "https://i.imgur.com/iozowrR.png",
-        "vertical_1": "https://i.imgur.com/DntpCx7.png",
-        "vertical_2": "https://i.imgur.com/0vLpSw7.png",
-        "bottom": "https://i.imgur.com/oZ3Ktlx.png"
+        "main": {"url": "https://i.imgur.com/iozowrR.png", "position": ""},
+        "vertical_1": {"url": "https://i.imgur.com/DntpCx7.png", "position": ""},
+        "vertical_2": {"url": "https://i.imgur.com/0vLpSw7.png", "position": ""},
+        "bottom": {"url": "https://i.imgur.com/oZ3Ktlx.png", "position": ""}
       },
       "mobile_images": {
         "logo": "https://i.imgur.com/QZF6wuG.png",
-        "main": "https://i.imgur.com/iozowrR.png",
-        "three_verticals": "https://i.imgur.com/EI5aMKx.png",
-        "bottom": "https://i.imgur.com/oZ3Ktlx.png"
+        "main": {"url": "https://i.imgur.com/iozowrR.png", "position": ""},
+        "three_verticals": {"url": "https://i.imgur.com/EI5aMKx.png", "position": "center"},
+        "bottom": {"url": "https://i.imgur.com/oZ3Ktlx.png", "position": ""}
+      }
+    },
+    "2": {
+      "title": "JogLog",
+      "paragraph_1": "Personal project to try out GraphQL and create a full stack app where users can create running plans and log actual runs. It also allows keeping track of different types of run (endurance, interval, tempo, easy or uncategorised).",
+      "paragraph_2": "",
+      "links": {
+        "project": "https://joglog-ke.herokuapp.com",
+        "github": "https://github.com/katheich/joglog"
+      },
+      "tech_icons": [
+        "icon devicon-react-original is-size-3",
+        "icon devicon-django-plain is-size-2",
+        "icon devicon-postgresql-plain is-size-3"
+      ],
+      "desktop_images": {
+        "logo": "https://i.imgur.com/NwsSvTn.png",
+        "main": {"url": "https://i.imgur.com/Vli9yNS.png", "position": "right"},
+        "vertical_1": {"url": "https://i.imgur.com/jX5sVfw.png", "position": ""},
+        "vertical_2": {"url": "https://i.imgur.com/09WtU5P.png", "position": ""},
+        "bottom": {"url": "https://i.imgur.com/lNk715C.png", "position": ""}
+      },
+      "mobile_images": {
+        "logo": "https://i.imgur.com/ssAzU9U.png",
+        "main": {"url": "https://i.imgur.com/Vli9yNS.png", "position": "right"},
+        "three_verticals": {"url": "https://i.imgur.com/IRXv9G9.png", "position": "center"},
+        "bottom": {"url": "https://i.imgur.com/lNk715C.png", "position": ""}
       }
     }
   }
