@@ -18,8 +18,9 @@ const Skills = () => {
         <div className="column is-3-mobile is-one-fifth-tablet"><i className="devicon-django-plain"></i><div className="label">Djan&shy;go</div></div>
         <div className="column is-3-mobile is-one-fifth-tablet"><i className="devicon-docker-plain"></i><div className="label">Docker</div></div>
 
-        <div className="column is-3-mobile is-one-fifth-tablet"><i className="devicon-postgresql-plain"></i><div className="label">Post&shy;gre&shy;SQL</div></div>
         <div className="column is-3-mobile is-one-fifth-tablet"><i className="devicon-mongodb-plain"></i><div className="label">Mongo&shy;DB</div></div>
+        <div className="column is-3-mobile is-one-fifth-tablet"><i className="devicon-postgresql-plain"></i><div className="label">Post&shy;gre&shy;SQL</div></div>
+        <div className="column is-3-mobile is-one-fifth-tablet"><i className="larger devicon-sqlalchemy-plain"></i><div className="label">SQL&shy;Alchemy</div></div>
         <div className="column is-3-mobile is-one-fifth-tablet">
           <figure className="image is-square is-paddingless">
             <svg height="64" width="64" xmlns="http://www.w3.org/2000/svg"><g fillRule="evenodd" transform="matrix(.826767 0 0 .826767 8.416322 51.138164)"><path d="m39.1 15.557v-24.43l-21.16-12.22v24.43zm0-27.1-21.16-12.22v-24.44l21.16 12.22z" fill="#5c4ee5"/><path d="m62.6-23.773v-24.44l-21.17 12.22v24.44z" fill="#4040b2"/><path d="m15.62-25.193v-24.44l-21.16-12.22v24.44z" fill="#5c4ee5"/></g></svg>
@@ -32,13 +33,12 @@ const Skills = () => {
             <svg height="50" width="50" viewBox="-3.02291033 -.22032094 420.92291033 433.54032094" xmlns="http://www.w3.org/2000/svg"><path d="m208.45 227.89c-1.59 2.26-2.93 4.12-4.22 6q-30.86 45.42-61.7 90.83-28.69 42.24-57.44 84.43a3.88 3.88 0 0 1 -2.73 1.59q-40.59-.35-81.16-.88c-.3 0-.61-.09-1.2-.18a14.44 14.44 0 0 1 .76-1.65q28.31-43.89 56.62-87.76 25.11-38.88 50.25-77.74 27.86-43.18 55.69-86.42c2.74-4.25 5.59-8.42 8.19-12.75a5.26 5.26 0 0 0 .56-3.83c-5-15.94-10.1-31.84-15.19-47.74-2.18-6.81-4.46-13.58-6.5-20.43-.66-2.2-1.75-2.87-4-2.86-17 .07-33.9.05-50.85.05-3.22 0-3.23 0-3.23-3.18 0-20.84 0-41.68-.06-62.52 0-2.32.76-2.84 2.94-2.84q51.19.09 102.4 0a3.29 3.29 0 0 1 3.6 2.43q27 67.91 54 135.77 31.5 79.14 63 158.3c6.52 16.38 13.09 32.75 19.54 49.17.77 2 1.57 2.38 3.59 1.76 17.89-5.53 35.82-10.91 53.7-16.45 2.25-.7 3.07-.23 3.77 2 6.1 19.17 12.32 38.3 18.5 57.45.21.66.37 1.33.62 2.25-1.28.47-2.48 1-3.71 1.34q-61 19.33-121.93 38.68c-1.94.61-2.52-.05-3.17-1.68q-18.61-47.16-37.31-94.28-18.29-46.14-36.6-92.28c-1.83-4.62-3.63-9.26-5.46-13.88-.29-.79-.69-1.48-1.27-2.7z" fill="#fa7e14"/></svg>          </figure>
           <div className="label">AWS Lambda</div>
         </div>
-        <div className="column is-3-mobile is-one-fifth-tablet"><i className="devicon-github-plain"></i><div className="label">Git&shy;Hub</div></div>
 
         <div className="column is-3-mobile is-one-fifth-tablet"><i className="devicon-nodejs-plain"></i><div className="label">Node&shy;.js</div></div>
         <div className="column is-3-mobile is-one-fifth-tablet"><i className="devicon-express-original"></i><div className="label">Ex&shy;press&shy;.js</div></div>
         <div className="column is-3-mobile is-one-fifth-tablet"><i className="devicon-webpack-plain"></i><div className="label">Web&shy;pack</div></div>
-        <div className="column is-3-mobile is-one-fifth-tablet"><i className="devicon-graphql-plain"></i><div className="label">Graph&shy;QL</div>
-        </div>
+        <div className="column is-3-mobile is-one-fifth-tablet"><i className="devicon-typescript-plain"></i><div className="label">Type&shy;Script</div></div>
+        <div className="column is-3-mobile is-one-fifth-tablet"><i className="devicon-graphql-plain"></i><div className="label">Graph&shy;QL</div></div>
         <div className="column is-3-mobile is-one-fifth-tablet"><i className="devicon-heroku-original"></i><div className="label">He&shy;ro&shy;ku</div></div>
 
         <div className="column is-3-mobile is-one-fifth-tablet"><i className="devicon-sass-original"></i><div className="label">SASS</div></div>
@@ -130,21 +130,11 @@ const Skills = () => {
           <div className="label">Sta&shy;ta</div>
         </div>
         <div className="column is-3-mobile is-one-fifth-tablet">
-          <figure className="image is-square is-paddingless">
-            <svg viewBox="0 0 24 24" height="50" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg"><path d="M4.323 16.248C3.13 15.354 1.64 14.31 0 13.118l5.814-2.236 2.385 1.789c-1.789 2.087-2.981 2.832-3.876 3.578zm15.95-6.26c-.447-1.193-.745-2.385-1.193-3.578-.447-1.342-.894-2.534-1.64-3.578-.298-.447-.894-1.491-1.64-1.491-.149 0-.298.149-.447.149-.447.149-1.043 1.043-1.193 1.64-.447.745-1.342 1.938-1.938 2.683-.149.298-.447.596-.596.745-.447.298-.894.745-1.491 1.043-.149 0-.298.149-.447.149-.447 0-.745.298-1.043.447-.447.447-.894 1.043-1.342 1.491 0 .149-.149.298-.298.447l2.236 1.64c1.64-1.938 3.578-3.876 4.919-7.602 0 0-.447 4.025-4.025 8.348-2.236 2.534-4.025 3.876-4.323 4.174 0 0 .596-.149 1.193.149 1.193.447 1.789 2.087 2.236 3.279.298.894.745 1.64 1.043 2.534 1.193-.298 1.938-.745 2.683-1.491s1.491-1.64 2.236-2.385c1.342-1.64 2.981-3.727 5.068-2.683.298.149.745.447.894.596.447.298.745.596 1.193 1.043.745.596 1.043 1.043 1.64 1.342-1.491-2.981-2.534-5.963-3.727-9.093z"/></svg>
-          </figure>
+          <i className="devicon-matlab-plain"></i>
           <div className="label">Mat&shy;lab</div>
         </div>
         <div className="column is-3-mobile is-one-fifth-tablet">
-          <figure className="image is-square is-paddingless">
-            <svg viewBox="0 0 24 24" height="45" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg"><path d="M0 .3v23.4h24V.3H0zm1 1h22v21.4H1V1.3zm7.775 15.218c0 .1-.017.132-.132.132H7.107c-.1 0-.132-.05-.132-.132V5.782c0-.1.05-.132.132-.132H8.66c.082 0 .115.033.115.116v10.752zm1.77-3.872c0-2.393 1.578-4.257 4.102-4.257.214 0 .33 0 .528.015V5.75c0-.066.05-.1.1-.1H16.9c.084 0 .1.034.1.084v9.355c0 .28 0 .625.05 1.004 0 .066-.02.083-.087.116-.858.413-1.766.595-2.624.595-2.213 0-3.797-1.37-3.797-4.158zm4.63-2.624c-.148-.066-.347-.1-.594-.1-1.285 0-2.187.99-2.187 2.64 0 1.882.918 2.64 2.073 2.64.247 0 .512-.032.71-.115v-5.065z"/></svg>
-          </figure>
-          <div className="label">In&shy;Design</div>
-        </div>
-        <div className="column is-3-mobile is-one-fifth-tablet">
-          <figure className="image is-square is-paddingless">
-            <svg viewBox="0 0 24 24" height="45" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg"><path d="M0 .3v23.4h24V.3H0zm1 1h22v21.4H1V1.3zm4.8 4.48c0-.067.14-.116.224-.116.644-.033 1.588-.05 2.578-.05 2.772 0 3.85 1.52 3.85 3.466 0 2.54-1.842 3.63-4.102 3.63-.38 0-.51-.017-.775-.017v3.842c0 .083-.033.116-.115.116H5.916c-.083 0-.115-.03-.115-.113V5.78zm1.775 5.312c.23.016.412.016.81.016 1.17 0 2.27-.412 2.27-1.996 0-1.27-.786-1.914-2.122-1.914-.396 0-.775.016-.957.033v3.864zm8.607-1.188c-.792 0-1.056.396-1.056.726 0 .363.18.61 1.237 1.155 1.568.76 2.062 1.485 2.062 2.557 0 1.6-1.22 2.46-2.87 2.46-.876 0-1.62-.183-2.05-.43-.065-.033-.08-.082-.08-.165V14.74c0-.1.048-.133.114-.084.624.413 1.352.594 2.012.594.792 0 1.122-.33 1.122-.776 0-.363-.23-.677-1.237-1.205-1.42-.68-2.014-1.37-2.014-2.527 0-1.287 1.006-2.36 2.755-2.36.86 0 1.464.132 1.794.28.082.05.1.132.1.198v1.37c0 .083-.05.133-.15.1-.444-.264-1.1-.43-1.743-.43z"/></svg>
-          </figure>
+          <i className="devicon-photoshop-plain"></i>
           <div className="label">Photo&shy;shop</div>
         </div>
 
