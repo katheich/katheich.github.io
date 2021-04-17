@@ -1,8 +1,8 @@
 {
   "1": {
     "title": "WasteNotWantNot",
-    "paragraph_1": "Project chosen as the winning submission for the Code First Girls Hack From Home hackathon. Created in a team of four over the month of April 2020.",
-    "paragraph_2": "Combatting food waste and shortages during the Covid-19 lockdown, we built a fullstack app that allows users to search recipes based on the ingredients they have at home, using the Spoonacular API. User can also connect to others nearby to arrange the exchange of ingredients (while respecting social distancing guidelines).",
+    "paragraph_1": "Project chosen as the winning submission for the Code First Girls \"Hack From Home\" hackathon. Created in a team of four over the month of April 2020.",
+    "paragraph_2": "Combatting food waste and shortages during the first Covid-19 lockdown in the UK, we built a fullstack app that allows users to search recipes based on the ingredients they have at home, using the Spoonacular API. User can also connect to others nearby to arrange the exchange of ingredients (while respecting social distancing guidelines).",
     "links": {
       "project": "https://waste-not-want-not.herokuapp.com",
       "github": "https://github.com/ajames14/cfg-hackathon"
