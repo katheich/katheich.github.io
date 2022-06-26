@@ -1,8 +1,10 @@
+import styles from "./Section.module.css";
+
 function About() {
   return (
-    <div className="section">
-      <div className="sectionHeader">About me</div>
-      <div className="sectionText">
+    <div className={styles.section}>
+      <div className={styles.sectionHeader}>About me</div>
+      <div className={styles.sectionText}>
         <p>
           I am a software developer based in London and working in FilmTech.
         </p>
