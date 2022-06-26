@@ -4,10 +4,9 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  font-family: 'PT Sans Narrow', sans-serif;
+  font-family: "PT Sans Narrow", sans-serif;
   font-size: 1rem;
 }
-
 
 .App-header {
   background-color: #a9e6f3;
@@ -19,12 +18,11 @@
   font-size: 3.5rem;
   color: white;
   width: 50vw;
-  font-family: 'Arapey', serif;
-
+  font-family: "Arapey", serif;
 }
 
 .App-subtitle {
-  font-family: 'PT Sans Narrow', sans-serif;
+  font-family: "PT Sans Narrow", sans-serif;
   font-size: 2rem;
 }
 
@@ -37,7 +35,7 @@
 }
 
 .sectionHeader {
-  font-family: 'Arapey', serif;
+  font-family: "Arapey", serif;
   font-size: 2.7rem;
   padding-bottom: 1rem;
 }
