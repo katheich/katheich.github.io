@@ -1,12 +1,8 @@
 import styles from "./Sections.module.css";
 
-import { isHomePage } from "../helpers/isHomePage";
-
-function About({ page }) {
+function About() {
   return (
-    <div
-      className={isHomePage(page) ? styles.homeSection : styles.fullSections}
-    >
+    <div className={styles.sectionContainer}>
       <div className={styles.sectionHeader}>About me</div>
       <div className={styles.sectionText}>
         <p>

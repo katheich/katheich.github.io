@@ -3,4 +3,5 @@ body {
   font-family: "Arapey", serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  width: calc(3 * 50vw);
 }

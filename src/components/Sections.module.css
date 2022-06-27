@@ -1,23 +1,8 @@
 .sectionContainer {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.homeSection {
   min-height: calc(100vh - 4rem);
   font-size: 3rem;
-  max-width: 40vw;
+  min-width: calc(50vw - 4rem);
   margin: 2rem;
-  text-align: left;
-}
-
-.fullSections {
-  min-height: calc(80vh - 3rem);
-  font-size: 3rem;
-  width: calc(40vw - 4rem);
-  padding: 1.5rem;
   text-align: left;
 }
 
@@ -39,16 +24,6 @@
 
 .social:hover {
   color: #fca28a;
-}
-
-.arrow {
-  font-size: 2.5rem;
-  width: 10vw;
-}
-
-.arrow:hover {
-  cursor: pointer;
-  color: #ecdb9b;
 }
 
 .skill {

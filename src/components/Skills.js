@@ -1,13 +1,8 @@
 import styles from "./Sections.module.css";
 
-import { isHomePage } from "../helpers/isHomePage";
-
-function Skills({ page }) {
-  if (isHomePage(page)) {
-    return <></>;
-  }
+function Skills() {
   return (
-    <div className={styles.fullSections}>
+    <div className={styles.sectionContainer}>
       <div className={styles.sectionHeader}>Tech I've worked with</div>
       <div className={styles.sectionText}>
         <i className={`devicon-python-plain ${styles.skill}`}></i>

@@ -7,25 +7,11 @@
   justify-content: center;
   font-size: 3.5rem;
   color: white;
-  width: 50vw;
+  min-width: 50vw;
   font-family: "Arapey", serif;
 }
 
 .subtitle {
   font-family: "PT Sans Narrow", sans-serif;
   font-size: 2rem;
-}
-
-.footer {
-  width: 100vw;
-  height: 20vh;
-  background-color: #a9e6f3;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: 3.5rem;
-  color: white;
-  font-family: "Arapey", serif;
-  animation: fade-in-left 2s ease;
 }

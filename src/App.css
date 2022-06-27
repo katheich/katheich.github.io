@@ -1,17 +1,7 @@
-.App.home {
+.App {
   text-align: center;
   display: flex;
   flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  font-family: "PT Sans Narrow", sans-serif;
-  font-size: 1rem;
-}
-
-.App.sections {
-  text-align: center;
-  display: flex;
-  flex-direction: column-reverse;
   align-items: center;
   justify-content: center;
   font-family: "PT Sans Narrow", sans-serif;
