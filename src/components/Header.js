@@ -1,8 +1,10 @@
 import styles from "./Header.module.css";
 
-function Header() {
+import { isHomePage } from "../helpers/isHomePage";
+
+function Header({ page }) {
   return (
-    <header className={styles.header}>
+    <header className={isHomePage(page) ? styles.header : styles.footer}>
       Kathrin Eichinger
       <div className={styles.subtitle}>Software Developer</div>
     </header>
