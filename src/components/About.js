@@ -15,6 +15,23 @@ function About() {
           “why”, I always look for opportunities to learn from and share my
           knowledge with others.
         </p>
+        <p>Explore my full experience and projects on Linkedin and Github:</p>
+        <a
+          className={styles.social}
+          href="https://www.linkedin.com/in/kathrineichinger"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i className="fab fa-linkedin"></i>
+        </a>
+        <a
+          className={styles.social}
+          href="https://github.com/katheich"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i className="fab fa-github-square"></i>
+        </a>
       </div>
     </div>
   );

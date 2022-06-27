@@ -15,3 +15,13 @@
 .sectionText {
   font-size: 1rem;
 }
+
+.social {
+  color: #a9e6f3;
+  padding: 2rem;
+  font-size: 3rem;
+}
+
+.social:hover {
+  color: #fca28a;
+}
