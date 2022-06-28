@@ -9,7 +9,7 @@ Created using [create-react-app](https://create-react-app.dev/) and [gh-pages](h
 To run locally:
 
 ```
-yarn start
+npm run start
 ```
 
 Web-dev server will run at `localhost:3000`.
