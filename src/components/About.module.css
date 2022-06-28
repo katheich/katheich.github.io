@@ -19,9 +19,6 @@
   flex-grow: 1;
   font-size: 2rem;
   color: #ecdb9b;
-  /* text-align: right; */
-  font-family: "Arapey", serif;
-  font-style: italic;
   display: flex;
   align-items: flex-end;
   justify-content: flex-end;
