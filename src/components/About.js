@@ -19,9 +19,9 @@ function About({ scroll }) {
           knowledge with others.
         </p>
         <p>
-          My qualifications include a Master's Degree in Economics from Bocconi
+          My qualifications include a Master's degree in economics from Bocconi
           University and completing General Assembly's Software Engineering
-          Bootcamp.
+          Immersive bootcamp.
         </p>
         <p>
           I have volunteered with Code First Girls to teach the Introduction to
