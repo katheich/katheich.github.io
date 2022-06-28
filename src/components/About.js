@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 
-import styles from "./Sections.module.css";
+import sectionStyles from "./Sections.module.css";
+import aboutStyles from "./About.module.css";
 
 function About() {
   const [scroll, setScroll] = useState(0);
@@ -20,9 +21,11 @@ function About() {
   }, []);
 
   return (
-    <div className={`${styles.sectionContainer} ${styles.aboutSection}`}>
-      <div className={styles.sectionHeader}>About me</div>
-      <div className={styles.sectionText}>
+    <div
+      className={`${sectionStyles.sectionContainer} ${aboutStyles.aboutSection}`}
+    >
+      <div className={sectionStyles.sectionHeader}>About me</div>
+      <div className={sectionStyles.sectionText}>
         <p>
           I am a software developer based in London and working in FilmTech.
         </p>
@@ -46,7 +49,7 @@ function About() {
         </p>
         <p>Explore my full experience and projects on Linkedin and Github:</p>
         <a
-          className={styles.social}
+          className={aboutStyles.social}
           href="https://www.linkedin.com/in/kathrineichinger"
           target="_blank"
           rel="noopener noreferrer"
@@ -54,7 +57,7 @@ function About() {
           <i className="fab fa-linkedin"></i>
         </a>
         <a
-          className={styles.social}
+          className={aboutStyles.social}
           href="https://github.com/katheich"
           target="_blank"
           rel="noopener noreferrer"
@@ -62,10 +65,10 @@ function About() {
           <i className="fab fa-github-square"></i>
         </a>
       </div>
-      <div className={styles.sectionFooter}>
+      <div className={aboutStyles.sectionFooter}>
         <i
-          class={`fa-solid fa-angles-right ${styles.arrowRight} ${
-            scroll < 100 ? "" : styles.arrowGone
+          class={`fa-solid fa-angles-right ${aboutStyles.arrowRight} ${
+            scroll < 100 ? "" : aboutStyles.arrowGone
           }`}
         ></i>
       </div>

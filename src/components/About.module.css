@@ -1,0 +1,54 @@
+.social {
+  color: #a9e6f3;
+  padding: 2rem;
+  font-size: 3rem;
+}
+
+.social:hover {
+  color: #fca28a;
+}
+
+.aboutSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.sectionFooter {
+  flex-grow: 1;
+  font-size: 1.5rem;
+  color: #ecdb9b;
+  text-align: right;
+  font-family: "Arapey", serif;
+  font-style: italic;
+}
+
+.arrowRight {
+  -webkit-animation: bounceRight 2s infinite;
+  animation: bounceRight 2s infinite;
+  float: right;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.arrowGone {
+  opacity: 0;
+}
+
+@keyframes bounceRight {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+  }
+  40% {
+    -ms-transform: translateX(-30px);
+    transform: translateX(-30px);
+  }
+  60% {
+    -ms-transform: translateX(-15px);
+    transform: translateX(-15px);
+  }
+}

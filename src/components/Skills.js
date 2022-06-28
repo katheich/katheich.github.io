@@ -1,135 +1,176 @@
-import styles from "./Sections.module.css";
+import sectionStyles from "./Sections.module.css";
+import skillsStyles from "./Skills.module.css";
 
 import ArcGISLogo from "./SVGs/ArcGIS";
 import StataLogo from "./SVGs/Stata";
 
 function Skills() {
   return (
-    <div className={styles.sectionContainer}>
-      <div className={styles.sectionHeader}>Tech I've worked with</div>
-      <div className={styles.skillsContainer}>
+    <div className={sectionStyles.sectionContainer}>
+      <div className={sectionStyles.sectionHeader}>Tech I've worked with</div>
+      <div className={skillsStyles.skillsContainer}>
         {/* Python */}
-        <div className={`${styles.singleSkillContainer} ${styles.greenSkill}`}>
-          <div className={styles.skillName}>Python</div>
-          <i className={`devicon-python-plain ${styles.skill}`}></i>
+        <div
+          className={`${skillsStyles.singleSkillContainer} ${skillsStyles.greenSkill}`}
+        >
+          <div className={skillsStyles.skillName}>Python</div>
+          <i className={`devicon-python-plain ${skillsStyles.skill}`}></i>
         </div>
 
         {/* JavaScript */}
-        <div className={`${styles.singleSkillContainer} ${styles.orangeSkill}`}>
-          <div className={styles.skillName}>JavaScript</div>
-          <i className={`devicon-javascript-plain ${styles.skill}`}></i>
+        <div
+          className={`${skillsStyles.singleSkillContainer} ${skillsStyles.orangeSkill}`}
+        >
+          <div className={skillsStyles.skillName}>JavaScript</div>
+          <i className={`devicon-javascript-plain ${skillsStyles.skill}`}></i>
         </div>
 
         {/* React */}
-        <div className={`${styles.singleSkillContainer} ${styles.blueSkill}`}>
-          <div className={styles.skillName}>React</div>
-          <i className={`devicon-react-original ${styles.skill}`}></i>
+        <div
+          className={`${skillsStyles.singleSkillContainer} ${skillsStyles.blueSkill}`}
+        >
+          <div className={skillsStyles.skillName}>React</div>
+          <i className={`devicon-react-original ${skillsStyles.skill}`}></i>
         </div>
 
         {/* TypeScript */}
-        <div className={`${styles.singleSkillContainer} ${styles.greenSkill}`}>
-          <div className={styles.skillName}>TypeScript</div>
-          <i className={`devicon-typescript-plain ${styles.skill}`}></i>
+        <div
+          className={`${skillsStyles.singleSkillContainer} ${skillsStyles.greenSkill}`}
+        >
+          <div className={skillsStyles.skillName}>TypeScript</div>
+          <i className={`devicon-typescript-plain ${skillsStyles.skill}`}></i>
         </div>
 
         {/* Docker */}
-        <div className={`${styles.singleSkillContainer} ${styles.orangeSkill}`}>
-          <div className={styles.skillName}>Docker</div>
-          <i className={`devicon-docker-plain ${styles.skill}`}></i>
+        <div
+          className={`${skillsStyles.singleSkillContainer} ${skillsStyles.orangeSkill}`}
+        >
+          <div className={skillsStyles.skillName}>Docker</div>
+          <i className={`devicon-docker-plain ${skillsStyles.skill}`}></i>
         </div>
 
         {/* PostgreSQL */}
-        <div className={`${styles.singleSkillContainer} ${styles.blueSkill}`}>
-          <div className={styles.skillName}>Postgre&shy;SQL</div>
-          <i className={`devicon-postgresql-plain ${styles.skill}`}></i>
+        <div
+          className={`${skillsStyles.singleSkillContainer} ${skillsStyles.blueSkill}`}
+        >
+          <div className={skillsStyles.skillName}>Postgre&shy;SQL</div>
+          <i className={`devicon-postgresql-plain ${skillsStyles.skill}`}></i>
         </div>
 
         {/* AWS */}
-        <div className={`${styles.singleSkillContainer} ${styles.greenSkill}`}>
-          <div className={styles.skillName}>AWS</div>
-          <i className={`fa-brands fa-aws ${styles.skill}`}></i>
+        <div
+          className={`${skillsStyles.singleSkillContainer} ${skillsStyles.greenSkill}`}
+        >
+          <div className={skillsStyles.skillName}>AWS</div>
+          <i className={`fa-brands fa-aws ${skillsStyles.skill}`}></i>
         </div>
 
         {/* Terraform */}
-        <div className={`${styles.singleSkillContainer} ${styles.orangeSkill}`}>
-          <div className={styles.skillName}>Terraform</div>
-          <i className={`devicon-terraform-plain ${styles.skill}`}></i>
+        <div
+          className={`${skillsStyles.singleSkillContainer} ${skillsStyles.orangeSkill}`}
+        >
+          <div className={skillsStyles.skillName}>Terraform</div>
+          <i className={`devicon-terraform-plain ${skillsStyles.skill}`}></i>
         </div>
 
         {/* Node */}
-        <div className={`${styles.singleSkillContainer} ${styles.blueSkill}`}>
-          <div className={styles.skillName}>Node.js</div>
-          <i className={`devicon-nodejs-plain ${styles.skill}`}></i>
+        <div
+          className={`${skillsStyles.singleSkillContainer} ${skillsStyles.blueSkill}`}
+        >
+          <div className={skillsStyles.skillName}>Node.js</div>
+          <i className={`devicon-nodejs-plain ${skillsStyles.skill}`}></i>
         </div>
 
         {/* Django */}
-        <div className={`${styles.singleSkillContainer} ${styles.greenSkill}`}>
-          <div className={styles.skillName}>Django</div>
-          <i className={`devicon-django-plain ${styles.skill}`}></i>
+        <div
+          className={`${skillsStyles.singleSkillContainer} ${skillsStyles.greenSkill}`}
+        >
+          <div className={skillsStyles.skillName}>Django</div>
+          <i className={`devicon-django-plain ${skillsStyles.skill}`}></i>
         </div>
 
         {/* SASS */}
-        <div className={`${styles.singleSkillContainer} ${styles.orangeSkill}`}>
-          <div className={styles.skillName}>Sass</div>
-          <i className={`devicon-sass-original ${styles.skill}`}></i>
+        <div
+          className={`${skillsStyles.singleSkillContainer} ${skillsStyles.orangeSkill}`}
+        >
+          <div className={skillsStyles.skillName}>Sass</div>
+          <i className={`devicon-sass-original ${skillsStyles.skill}`}></i>
         </div>
 
         {/* Bootstrap */}
-        <div className={`${styles.singleSkillContainer} ${styles.blueSkill}`}>
-          <div className={styles.skillName}>Bootstrap</div>
-          <i className={`devicon-bootstrap-plain ${styles.skill}`}></i>
+        <div
+          className={`${skillsStyles.singleSkillContainer} ${skillsStyles.blueSkill}`}
+        >
+          <div className={skillsStyles.skillName}>Bootstrap</div>
+          <i className={`devicon-bootstrap-plain ${skillsStyles.skill}`}></i>
         </div>
 
         {/* SQLAlchemy */}
-        <div className={`${styles.singleSkillContainer} ${styles.greenSkill}`}>
-          <div className={styles.skillName}>SQL&shy;Alchemy</div>
-          <i className={`devicon-sqlalchemy-plain ${styles.skill}`}></i>
+        <div
+          className={`${skillsStyles.singleSkillContainer} ${skillsStyles.greenSkill}`}
+        >
+          <div className={skillsStyles.skillName}>SQL&shy;Alchemy</div>
+          <i className={`devicon-sqlalchemy-plain ${skillsStyles.skill}`}></i>
         </div>
 
         {/* SQLite */}
-        <div className={`${styles.singleSkillContainer} ${styles.orangeSkill}`}>
-          <div className={styles.skillName}>SQLite</div>
-          <i className={`devicon-sqlite-plain ${styles.skill}`}></i>
+        <div
+          className={`${skillsStyles.singleSkillContainer} ${skillsStyles.orangeSkill}`}
+        >
+          <div className={skillsStyles.skillName}>SQLite</div>
+          <i className={`devicon-sqlite-plain ${skillsStyles.skill}`}></i>
         </div>
 
         {/* MongoDB */}
-        <div className={`${styles.singleSkillContainer} ${styles.blueSkill}`}>
-          <div className={styles.skillName}>MongoDB</div>
-          <i className={`devicon-mongodb-plain ${styles.skill}`}></i>
+        <div
+          className={`${skillsStyles.singleSkillContainer} ${skillsStyles.blueSkill}`}
+        >
+          <div className={skillsStyles.skillName}>MongoDB</div>
+          <i className={`devicon-mongodb-plain ${skillsStyles.skill}`}></i>
         </div>
 
         {/* Jupyter */}
-        <div className={`${styles.singleSkillContainer} ${styles.greenSkill}`}>
-          <div className={styles.skillName}>Jupyter</div>
-          <i className={`devicon-jupyter-plain ${styles.skill}`}></i>
+        <div
+          className={`${skillsStyles.singleSkillContainer} ${skillsStyles.greenSkill}`}
+        >
+          <div className={skillsStyles.skillName}>Jupyter</div>
+          <i className={`devicon-jupyter-plain ${skillsStyles.skill}`}></i>
         </div>
 
         {/* Stata */}
-        <div className={`${styles.singleSkillContainer} ${styles.orangeSkill}`}>
-          <div className={styles.skillName}>Stata</div>
-          <figure className={`${styles.logoSVG} ${styles.skill}`}>
+        <div
+          className={`${skillsStyles.singleSkillContainer} ${skillsStyles.orangeSkill}`}
+        >
+          <div className={skillsStyles.skillName}>Stata</div>
+          <figure className={`${skillsStyles.logoSVG} ${skillsStyles.skill}`}>
             <StataLogo />
           </figure>
         </div>
 
         {/* ArcGIS Pro */}
-        <div className={`${styles.singleSkillContainer} ${styles.blueSkill}`}>
-          <div className={styles.skillName}>ArcGIS Pro</div>
-          <figure className={`${styles.logoSVG} ${styles.skill}`}>
+        <div
+          className={`${skillsStyles.singleSkillContainer} ${skillsStyles.blueSkill}`}
+        >
+          <div className={skillsStyles.skillName}>ArcGIS Pro</div>
+          <figure className={`${skillsStyles.logoSVG} ${skillsStyles.skill}`}>
             <ArcGISLogo />
           </figure>
         </div>
 
         {/* LaTeX */}
-        <div className={`${styles.singleSkillContainer} ${styles.greenSkill}`}>
-          <div className={styles.skillName}>Latex</div>
-          <i className={`devicon-latex-original ${styles.skill}`}></i>
+        <div
+          className={`${skillsStyles.singleSkillContainer} ${skillsStyles.greenSkill}`}
+        >
+          <div className={skillsStyles.skillName}>Latex</div>
+          <i className={`devicon-latex-original ${skillsStyles.skill}`}></i>
         </div>
 
         {/* Matlab */}
-        <div className={`${styles.singleSkillContainer} ${styles.orangeSkill}`}>
-          <div className={styles.skillName}>Matlab</div>
-          <i className={`devicon-matlab-plain ${styles.skill}`}></i>
+        <div
+          className={`${skillsStyles.singleSkillContainer} ${skillsStyles.orangeSkill}`}
+        >
+          <div className={skillsStyles.skillName}>Matlab</div>
+          <i className={`devicon-matlab-plain ${skillsStyles.skill}`}></i>
         </div>
       </div>
     </div>
