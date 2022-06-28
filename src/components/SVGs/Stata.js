@@ -1,4 +1,4 @@
-import styles from "../Sections.module.css";
+import styles from "../Skills.module.css";
 
 function StataLogo() {
   return (
