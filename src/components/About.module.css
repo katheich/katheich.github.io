@@ -1,12 +1,12 @@
 .social {
-  color: #a9e6f3;
+  color: #fca28a;
   padding: 2rem;
   font-size: 3rem;
   transition: color 0.5s ease-in-out;
 }
 
 .social:hover {
-  color: #fca28a;
+  color: #ecdb9b;
 }
 
 .aboutSection {
