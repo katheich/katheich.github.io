@@ -16,3 +16,9 @@
   font-size: 1rem;
   flex-grow: 4;
 }
+
+@media screen and (max-width: 1023px) {
+  .sectionContainer {
+    min-width: calc(100vw - 4rem);
+  }
+}

@@ -4,4 +4,11 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   width: calc(3 * 50vw);
+  height: 100vh;
+}
+
+@media screen and (max-width: 1023px) {
+  body {
+    width: calc(3 * 100vw);
+  }
 }
