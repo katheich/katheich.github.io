@@ -2,7 +2,7 @@
   display: flex;
   align-items: flex-start;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: flex-start;
 }
 
 .singleSkillContainer {
@@ -13,7 +13,7 @@
 
 .skill {
   font-size: 3.5rem;
-  margin: 2vw;
+  margin: 2.2vw;
 }
 
 .skillName {
