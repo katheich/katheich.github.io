@@ -16,7 +16,7 @@ function StataLogo() {
           fill="none"
           stroke="#000000"
           fillOpacity="1"
-          stroke-width="3.0963"
+          strokeWidth="3.0963"
           strokeMiterlimit="4"
           strokeDasharray="none"
           className={styles.color}

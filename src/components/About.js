@@ -49,7 +49,7 @@ function About({ scroll }) {
       </div>
       <div className={aboutStyles.sectionFooter}>
         <i
-          class={`fa-solid fa-angles-right ${aboutStyles.arrowRight} ${
+          className={`fa-solid fa-angles-right ${aboutStyles.arrowRight} ${
             scroll < 100 ? "" : aboutStyles.arrowGone
           }`}
         ></i>

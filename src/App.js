@@ -24,7 +24,7 @@ function App() {
 
   return (
     <div className="App">
-      <Header scroll={scroll} />
+      <Header />
       <About scroll={scroll} />
       <Skills />
     </div>

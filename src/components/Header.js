@@ -1,6 +1,6 @@
 import styles from "./Header.module.css";
 
-function Header({ scroll }) {
+function Header() {
   return (
     <header className={styles.header}>
       <div className={styles.filler}></div>
@@ -8,7 +8,7 @@ function Header({ scroll }) {
       <div className={styles.subtitle}>Software Developer</div>
       <div className={styles.filler}>
         <div className={styles.headerFooter}>
-          <i class={`fa-solid fa-angles-right ${styles.arrowRight}`}></i>
+          <i className={`fa-solid fa-angles-right ${styles.arrowRight}`}></i>
         </div>
       </div>
     </header>
