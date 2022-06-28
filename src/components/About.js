@@ -1,25 +1,7 @@
-import { useState, useEffect } from "react";
-
 import sectionStyles from "./Sections.module.css";
 import aboutStyles from "./About.module.css";
 
-function About() {
-  const [scroll, setScroll] = useState(0);
-
-  function handleScroll() {
-    setScroll(window.scrollX);
-  }
-
-  useEffect(() => {
-    window.addEventListener("scroll", handleScroll);
-  }, []);
-
-  useEffect(() => {
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
-
+function About({ scroll }) {
   return (
     <div
       className={`${sectionStyles.sectionContainer} ${aboutStyles.aboutSection}`}
