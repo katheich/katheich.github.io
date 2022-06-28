@@ -4,6 +4,7 @@ import "./App.css";
 import Header from "./components/Header";
 import About from "./components/About";
 import Skills from "./components/Skills";
+import Projects from "./components/Projects";
 
 function App() {
   const [scroll, setScroll] = useState(0);
@@ -27,6 +28,7 @@ function App() {
       <Header />
       <About scroll={scroll} />
       <Skills />
+      <Projects />
     </div>
   );
 }
