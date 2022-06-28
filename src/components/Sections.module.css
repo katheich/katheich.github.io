@@ -1,7 +1,7 @@
 .sectionContainer {
-  min-height: calc(100vh - 4rem);
+  height: calc(100vh - 4rem);
   font-size: 3rem;
-  min-width: calc(50vw - 4rem);
+  width: calc(50vw - 4rem);
   margin: 2rem;
   text-align: left;
 }
@@ -19,6 +19,6 @@
 
 @media screen and (max-width: 1023px) {
   .sectionContainer {
-    min-width: calc(100vw - 4rem);
+    width: calc(100vw - 4rem);
   }
 }

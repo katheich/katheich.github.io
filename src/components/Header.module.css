@@ -1,17 +1,19 @@
 .header {
   background-color: #a9e6f3;
-  min-height: 100vh;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  min-width: 50vw;
+  width: 50vw;
   color: white;
 }
 
 .title {
   font-size: 3.5rem;
   font-family: "Arapey", serif;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
 }
 
 .subtitle {
@@ -25,7 +27,7 @@
 
 @media screen and (max-width: 1023px) {
   .header {
-    min-width: 100vw;
+    width: 100vw;
   }
 
   .filler {
@@ -47,6 +49,7 @@
     float: right;
     transition: opacity 0.5s ease-in-out;
     margin: 5vh;
+    margin-bottom: 10vh;
     font-size: 2rem;
   }
 
