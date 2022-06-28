@@ -14,6 +14,7 @@
 .skill {
   font-size: 3.5rem;
   margin: 2.2vw;
+  transition: color 0.5s ease-in-out;
 }
 
 .skillName {
