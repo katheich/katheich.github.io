@@ -1,8 +1,26 @@
+import { useState, useEffect } from "react";
+
 import styles from "./Sections.module.css";
 
 function About() {
+  const [scroll, setScroll] = useState(0);
+
+  function handleScroll() {
+    setScroll(window.scrollX);
+  }
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+  }, []);
+
+  useEffect(() => {
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
-    <div className={styles.sectionContainer}>
+    <div className={`${styles.sectionContainer} ${styles.aboutSection}`}>
       <div className={styles.sectionHeader}>About me</div>
       <div className={styles.sectionText}>
         <p>
@@ -42,6 +60,13 @@ function About() {
         >
           <i className="fab fa-github-square"></i>
         </a>
+      </div>
+      <div className={styles.sectionFooter}>
+        <i
+          class={`fa-solid fa-angles-right ${styles.arrowRight} ${
+            scroll < 100 ? "" : styles.arrowGone
+          }`}
+        ></i>
       </div>
     </div>
   );
