@@ -34,14 +34,15 @@ function About() {
           knowledge with others.
         </p>
         <p>
-          I hold a Master's Degree in Economics from Bocconi University and
-          completed General Assembly's Software Engineering Bootcamp.
+          My qualifications include a Master's Degree in Economics from Bocconi
+          University and completing General Assembly's Software Engineering
+          Bootcamp.
         </p>
         <p>
-          After being part of the winning team in Code First Girls'
-          #HackFromHome Hackathon in 2020, I have volunteered with Code First
-          Girls to teach the Introduction to Python course to female and
-          non-binary student from different academic backgrounds.
+          I have volunteered with Code First Girls to teach the Introduction to
+          Python course to female and non-binary student from different academic
+          backgrounds and have run the London Landmarks Half Marathon
+          fundraising for WWF.
         </p>
         <p>Explore my full experience and projects on Linkedin and Github:</p>
         <a
