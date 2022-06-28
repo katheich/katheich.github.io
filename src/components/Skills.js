@@ -9,11 +9,7 @@ function Skills() {
       <div className={styles.sectionHeader}>Tech I've worked with</div>
       <div className={styles.skillsContainer}>
         {/* Python */}
-        <div
-          className={`${`${styles.singleSkillContainer} ${styles.greenSkill}`} ${
-            styles.orangeSkill
-          }`}
-        >
+        <div className={`${styles.singleSkillContainer} ${styles.greenSkill}`}>
           <div className={styles.skillName}>Python</div>
           <i className={`devicon-python-plain ${styles.skill}`}></i>
         </div>
