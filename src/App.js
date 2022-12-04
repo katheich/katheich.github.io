@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 
 import "./App.css";
 import Header from "./components/Header";
@@ -6,27 +6,27 @@ import About from "./components/About";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 
+function scrollHorizontally(e) {
+  e.preventDefault();
+  document.documentElement.scrollLeft += e.deltaY + e.deltaX;
+}
+
 function App() {
-  const [scroll, setScroll] = useState(0);
-
-  function handleScroll() {
-    setScroll(window.scrollX);
-  }
+  const ref = useRef();
 
   useEffect(() => {
-    window.addEventListener("scroll", handleScroll);
-  }, []);
+    const div = ref.current;
+    div.addEventListener("wheel", scrollHorizontally, false);
 
-  useEffect(() => {
     return () => {
-      window.removeEventListener("scroll", handleScroll);
+      div.removeEventListener("wheel", scrollHorizontally, false);
     };
   }, []);
 
   return (
-    <div className="App">
+    <div className="App" ref={ref}>
       <Header />
-      <About scroll={scroll} />
+      <About />
       <Skills />
       <Projects />
     </div>

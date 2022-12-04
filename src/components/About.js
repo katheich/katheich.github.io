@@ -1,7 +1,7 @@
 import sectionStyles from "./Sections.module.css";
 import aboutStyles from "./About.module.css";
 
-function About({ scroll }) {
+function About() {
   return (
     <div
       className={`${sectionStyles.sectionContainer} ${aboutStyles.aboutSection}`}
@@ -43,13 +43,6 @@ function About({ scroll }) {
         >
           <i className="fab fa-github-square"></i>
         </a>
-      </div>
-      <div className={aboutStyles.sectionFooter}>
-        <i
-          className={`fa-solid fa-angles-right ${aboutStyles.arrowRight} ${
-            scroll < 100 ? "" : aboutStyles.arrowGone
-          }`}
-        ></i>
       </div>
     </div>
   );

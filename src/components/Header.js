@@ -3,14 +3,8 @@ import styles from "./Header.module.css";
 function Header() {
   return (
     <header className={styles.header}>
-      <div className={styles.filler}></div>
       <div className={styles.title}>Kathrin Eichinger</div>
       <div className={styles.subtitle}>Software Developer</div>
-      <div className={styles.filler}>
-        <div className={styles.headerFooter}>
-          <i className={`fa-solid fa-angles-right ${styles.arrowRight}`}></i>
-        </div>
-      </div>
     </header>
   );
 }
