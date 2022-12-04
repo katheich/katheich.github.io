@@ -10,7 +10,7 @@ function About({ scroll }) {
       <div className={sectionStyles.sectionText}>
         <p>I am a software developer based in London.</p>
         <p>
-          My experience is mainly in web development and data-processing, coming
+          My experience is mainly in web development and data analysis, coming
           from a background in economic consulting. Thriving in a collaborative
           environment and bringing with me an incessant need to understand
           “why”, I always look for opportunities to learn from and share my
