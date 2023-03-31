@@ -3,6 +3,7 @@ import skillsStyles from "./Skills.module.css";
 
 import ArcGISLogo from "./SVGs/ArcGIS";
 import StataLogo from "./SVGs/Stata";
+import DataDogLogo from "./SVGs/DataDog";
 
 function Skills() {
   return (
@@ -25,36 +26,36 @@ function Skills() {
           <i className={`devicon-javascript-plain ${skillsStyles.skill}`}></i>
         </div>
 
-        {/* React */}
-        <div
-          className={`${skillsStyles.singleSkillContainer} ${skillsStyles.blueSkill}`}
-        >
-          <div className={skillsStyles.skillName}>React</div>
-          <i className={`devicon-react-original ${skillsStyles.skill}`}></i>
-        </div>
-
         {/* TypeScript */}
         <div
-          className={`${skillsStyles.singleSkillContainer} ${skillsStyles.greenSkill}`}
+          className={`${skillsStyles.singleSkillContainer} ${skillsStyles.blueSkill}`}
         >
           <div className={skillsStyles.skillName}>TypeScript</div>
           <i className={`devicon-typescript-plain ${skillsStyles.skill}`}></i>
         </div>
 
-        {/* Docker */}
+        {/* Ruby */}
         <div
-          className={`${skillsStyles.singleSkillContainer} ${skillsStyles.orangeSkill}`}
+          className={`${skillsStyles.singleSkillContainer} ${skillsStyles.greenSkill}`}
         >
-          <div className={skillsStyles.skillName}>Docker</div>
-          <i className={`devicon-docker-plain ${skillsStyles.skill}`}></i>
+          <div className={skillsStyles.skillName}>Ruby</div>
+          <i className={`devicon-ruby-plain ${skillsStyles.skill}`}></i>
         </div>
 
         {/* PostgreSQL */}
         <div
-          className={`${skillsStyles.singleSkillContainer} ${skillsStyles.blueSkill}`}
+          className={`${skillsStyles.singleSkillContainer} ${skillsStyles.orangeSkill}`}
         >
           <div className={skillsStyles.skillName}>Postgre&shy;SQL</div>
           <i className={`devicon-postgresql-plain ${skillsStyles.skill}`}></i>
+        </div>
+
+        {/* Docker */}
+        <div
+          className={`${skillsStyles.singleSkillContainer} ${skillsStyles.blueSkill}`}
+        >
+          <div className={skillsStyles.skillName}>Docker</div>
+          <i className={`devicon-docker-plain ${skillsStyles.skill}`}></i>
         </div>
 
         {/* AWS */}
@@ -73,9 +74,27 @@ function Skills() {
           <i className={`devicon-terraform-plain ${skillsStyles.skill}`}></i>
         </div>
 
-        {/* Node */}
+        {/* DataDog */}
         <div
           className={`${skillsStyles.singleSkillContainer} ${skillsStyles.blueSkill}`}
+        >
+          <div className={skillsStyles.skillName}>DataDog</div>
+          <figure className={`${skillsStyles.logoSVG} ${skillsStyles.skill}`}>
+            <DataDogLogo />
+          </figure>
+        </div>
+
+        {/* React */}
+        <div
+          className={`${skillsStyles.singleSkillContainer} ${skillsStyles.greenSkill}`}
+        >
+          <div className={skillsStyles.skillName}>React</div>
+          <i className={`devicon-react-original ${skillsStyles.skill}`}></i>
+        </div>
+
+        {/* Node */}
+        <div
+          className={`${skillsStyles.singleSkillContainer} ${skillsStyles.orangeSkill}`}
         >
           <div className={skillsStyles.skillName}>Node.js</div>
           <i className={`devicon-nodejs-plain ${skillsStyles.skill}`}></i>
@@ -83,7 +102,7 @@ function Skills() {
 
         {/* Django */}
         <div
-          className={`${skillsStyles.singleSkillContainer} ${skillsStyles.greenSkill}`}
+          className={`${skillsStyles.singleSkillContainer} ${skillsStyles.blueSkill}`}
         >
           <div className={skillsStyles.skillName}>Django</div>
           <i className={`devicon-django-plain ${skillsStyles.skill}`}></i>
@@ -91,7 +110,7 @@ function Skills() {
 
         {/* SASS */}
         <div
-          className={`${skillsStyles.singleSkillContainer} ${skillsStyles.orangeSkill}`}
+          className={`${skillsStyles.singleSkillContainer} ${skillsStyles.greenSkill}`}
         >
           <div className={skillsStyles.skillName}>Sass</div>
           <i className={`devicon-sass-original ${skillsStyles.skill}`}></i>
@@ -99,26 +118,10 @@ function Skills() {
 
         {/* Bootstrap */}
         <div
-          className={`${skillsStyles.singleSkillContainer} ${skillsStyles.blueSkill}`}
+          className={`${skillsStyles.singleSkillContainer} ${skillsStyles.orangeSkill}`}
         >
           <div className={skillsStyles.skillName}>Bootstrap</div>
           <i className={`devicon-bootstrap-plain ${skillsStyles.skill}`}></i>
-        </div>
-
-        {/* SQLAlchemy */}
-        <div
-          className={`${skillsStyles.singleSkillContainer} ${skillsStyles.greenSkill}`}
-        >
-          <div className={skillsStyles.skillName}>SQL&shy;Alchemy</div>
-          <i className={`devicon-sqlalchemy-plain ${skillsStyles.skill}`}></i>
-        </div>
-
-        {/* SQLite */}
-        <div
-          className={`${skillsStyles.singleSkillContainer} ${skillsStyles.orangeSkill}`}
-        >
-          <div className={skillsStyles.skillName}>SQLite</div>
-          <i className={`devicon-sqlite-plain ${skillsStyles.skill}`}></i>
         </div>
 
         {/* MongoDB */}
