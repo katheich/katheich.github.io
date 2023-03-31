@@ -1,6 +1,6 @@
 import styles from "../Skills.module.css";
 
-function StataLogo() {
+export function StataLogo() {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -61,5 +61,3 @@ function StataLogo() {
     </svg>
   );
 }
-
-export default StataLogo;

@@ -1,6 +1,6 @@
 import styles from "./Header.module.css";
 
-function Header() {
+export function Header() {
   return (
     <header className={styles.header}>
       <div className={styles.title}>Kathrin Eichinger</div>
@@ -8,5 +8,3 @@ function Header() {
     </header>
   );
 }
-
-export default Header;

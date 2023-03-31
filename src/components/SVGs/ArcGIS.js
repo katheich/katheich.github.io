@@ -1,6 +1,6 @@
 import styles from "../Skills.module.css";
 
-function ArcGISLogo() {
+export function ArcGISLogo() {
   return (
     <svg
       viewBox="0 0 129 129"
@@ -43,5 +43,3 @@ function ArcGISLogo() {
     </svg>
   );
 }
-
-export default ArcGISLogo;

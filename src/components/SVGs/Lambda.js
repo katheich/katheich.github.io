@@ -1,4 +1,4 @@
-function LambdaLogo() {
+export function LambdaLogo() {
   return (
     <svg
       height="50"
@@ -13,5 +13,3 @@ function LambdaLogo() {
     </svg>
   );
 }
-
-export default LambdaLogo;

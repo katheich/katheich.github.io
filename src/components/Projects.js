@@ -1,6 +1,6 @@
 import sectionStyles from "./Sections.module.css";
 
-function Projects() {
+export function Projects() {
   return (
     <div className={sectionStyles.sectionContainer}>
       <div className={sectionStyles.sectionHeader}>Selected projects</div>
@@ -10,5 +10,3 @@ function Projects() {
     </div>
   );
 }
-
-export default Projects;

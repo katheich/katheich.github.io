@@ -1,6 +1,6 @@
 import styles from "../Skills.module.css";
 
-function DataDogLogo() {
+export function DataDogLogo() {
   return (
     <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64">
       <defs>
@@ -65,5 +65,3 @@ function DataDogLogo() {
     </svg>
   );
 }
-
-export default DataDogLogo;

@@ -1,11 +1,11 @@
 import sectionStyles from "./Sections.module.css";
 import skillsStyles from "./Skills.module.css";
 
-import ArcGISLogo from "./SVGs/ArcGIS";
-import StataLogo from "./SVGs/Stata";
-import DataDogLogo from "./SVGs/DataDog";
+import { ArcGISLogo } from "./SVGs/ArcGIS";
+import { StataLogo } from "./SVGs/Stata";
+import { DataDogLogo } from "./SVGs/DataDog";
 
-function Skills() {
+export function Skills() {
   return (
     <div className={sectionStyles.sectionContainer}>
       <div className={sectionStyles.sectionHeader}>Tech I've worked with</div>
@@ -179,5 +179,3 @@ function Skills() {
     </div>
   );
 }
-
-export default Skills;

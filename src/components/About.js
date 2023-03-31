@@ -1,7 +1,7 @@
 import sectionStyles from "./Sections.module.css";
 import aboutStyles from "./About.module.css";
 
-function About() {
+export function About() {
   return (
     <div
       className={`${sectionStyles.sectionContainer} ${aboutStyles.aboutSection}`}
@@ -47,5 +47,3 @@ function About() {
     </div>
   );
 }
-
-export default About;
