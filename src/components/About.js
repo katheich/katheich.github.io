@@ -14,7 +14,7 @@ export function About() {
           Site Reliability Engineer (SRE) 
           at <a href="https://careers.deliveroo.co.uk/" target="_blank">Deliveroo</a> after
           a few years 
-          at <a href="https://www.ep.com/" target="_blank">Entertainment Partners</a>. 
+          at <a href="https://www.ep.com/casting/" target="_blank">Entertainment Partners</a>. 
           I also have a background in data analysis, with an education in economics and 
           experience in a more client-facing role in economic consulting
           at <a href="https://www.rbbecon.com/" target="_blank">RBB Economics</a>. 
