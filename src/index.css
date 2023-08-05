@@ -1,6 +1,5 @@
 body {
   margin: 0;
-  font-family: "Arapey", serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   width: calc(4 * 50vw);
