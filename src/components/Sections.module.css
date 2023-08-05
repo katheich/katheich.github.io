@@ -4,7 +4,6 @@
   width: calc(50vw - 8rem);
   margin: 2rem 4rem;
   text-align: left;
-  overflow: scroll;
 }
 
 .sectionHeader {
@@ -22,5 +21,6 @@
   .sectionContainer {
     width: calc(100vw - 4rem);
     margin: 2rem;
+    overflow: scroll;
   }
 }
