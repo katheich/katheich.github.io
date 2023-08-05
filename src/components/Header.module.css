@@ -42,4 +42,8 @@
   .header {
     width: 100vw;
   }
+
+  .title {
+    font-size: 3.6rem;
+  }
 }
