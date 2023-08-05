@@ -44,31 +44,31 @@
 }
 
 .blueSkill:hover .skillName {
-  text-shadow: #a9e6f3 0px 0px 2px, #a9e6f3 0px 0px 2px, #a9e6f3 0px 0px 2px,
-    #a9e6f3 0px 0px 2px;
+  text-shadow: #78d4f5 0px 0px 2px, #78d4f5 0px 0px 2px, #78d4f5 0px 0px 2px,
+    #78d4f5 0px 0px 2px;
   opacity: 1;
 }
 
 .blueSkill:hover {
-  color: #a9e6f3;
+  color: #78d4f5;
 }
 
 .blueSkill:hover .color {
-  fill: #a9e6f3;
+  fill: #78d4f5;
 }
 
 .greenSkill:hover .skillName {
-  text-shadow: #ecdb9b 0px 0px 2px, #ecdb9b 0px 0px 2px, #ecdb9b 0px 0px 2px,
-    #ecdb9b 0px 0px 2px;
+  text-shadow: #ccec9b 0px 0px 2px, #ccec9b 0px 0px 2px, #ccec9b 0px 0px 2px,
+    #ccec9b 0px 0px 2px;
   opacity: 1;
 }
 
 .greenSkill:hover {
-  color: #ecdb9b;
+  color: #ccec9b;
 }
 
 .greenSkill:hover .color {
-  fill: #ecdb9b;
+  fill: #ccec9b;
 }
 
 .logoSVG {
