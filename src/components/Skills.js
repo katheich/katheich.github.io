@@ -42,9 +42,17 @@ export function Skills() {
           <i className={`devicon-ruby-plain ${skillsStyles.skill}`}></i>
         </div>
 
-        {/* PostgreSQL */}
+        {/* Golang */}
         <div
           className={`${skillsStyles.singleSkillContainer} ${skillsStyles.orangeSkill}`}
+        >
+          <div className={skillsStyles.skillName}>Go</div>
+          <i className={`devicon-go-plain ${skillsStyles.skill}`}></i>
+        </div>
+
+        {/* PostgreSQL */}
+        <div
+          className={`${skillsStyles.singleSkillContainer} ${skillsStyles.blueSkill}`}
         >
           <div className={skillsStyles.skillName}>Postgre&shy;SQL</div>
           <i className={`devicon-postgresql-plain ${skillsStyles.skill}`}></i>
@@ -52,7 +60,7 @@ export function Skills() {
 
         {/* Docker */}
         <div
-          className={`${skillsStyles.singleSkillContainer} ${skillsStyles.blueSkill}`}
+          className={`${skillsStyles.singleSkillContainer} ${skillsStyles.greenSkill}`}
         >
           <div className={skillsStyles.skillName}>Docker</div>
           <i className={`devicon-docker-plain ${skillsStyles.skill}`}></i>
@@ -60,7 +68,7 @@ export function Skills() {
 
         {/* AWS */}
         <div
-          className={`${skillsStyles.singleSkillContainer} ${skillsStyles.greenSkill}`}
+          className={`${skillsStyles.singleSkillContainer} ${skillsStyles.orangeSkill}`}
         >
           <div className={skillsStyles.skillName}>AWS</div>
           <i className={`fa-brands fa-aws ${skillsStyles.skill}`}></i>
@@ -68,7 +76,7 @@ export function Skills() {
 
         {/* Terraform */}
         <div
-          className={`${skillsStyles.singleSkillContainer} ${skillsStyles.orangeSkill}`}
+          className={`${skillsStyles.singleSkillContainer} ${skillsStyles.blueSkill}`}
         >
           <div className={skillsStyles.skillName}>Terraform</div>
           <i className={`devicon-terraform-plain ${skillsStyles.skill}`}></i>
@@ -76,7 +84,7 @@ export function Skills() {
 
         {/* DataDog */}
         <div
-          className={`${skillsStyles.singleSkillContainer} ${skillsStyles.blueSkill}`}
+          className={`${skillsStyles.singleSkillContainer} ${skillsStyles.greenSkill}`}
         >
           <div className={skillsStyles.skillName}>DataDog</div>
           <figure className={`${skillsStyles.logoSVG} ${skillsStyles.skill}`}>
@@ -86,7 +94,7 @@ export function Skills() {
 
         {/* React */}
         <div
-          className={`${skillsStyles.singleSkillContainer} ${skillsStyles.greenSkill}`}
+          className={`${skillsStyles.singleSkillContainer} ${skillsStyles.orangeSkill}`}
         >
           <div className={skillsStyles.skillName}>React</div>
           <i className={`devicon-react-original ${skillsStyles.skill}`}></i>
@@ -94,7 +102,7 @@ export function Skills() {
 
         {/* Node */}
         <div
-          className={`${skillsStyles.singleSkillContainer} ${skillsStyles.orangeSkill}`}
+          className={`${skillsStyles.singleSkillContainer} ${skillsStyles.blueSkill}`}
         >
           <div className={skillsStyles.skillName}>Node.js</div>
           <i className={`devicon-nodejs-plain ${skillsStyles.skill}`}></i>
@@ -102,18 +110,10 @@ export function Skills() {
 
         {/* Django */}
         <div
-          className={`${skillsStyles.singleSkillContainer} ${skillsStyles.blueSkill}`}
+          className={`${skillsStyles.singleSkillContainer} ${skillsStyles.greenSkill}`}
         >
           <div className={skillsStyles.skillName}>Django</div>
           <i className={`devicon-django-plain ${skillsStyles.skill}`}></i>
-        </div>
-
-        {/* SASS */}
-        <div
-          className={`${skillsStyles.singleSkillContainer} ${skillsStyles.greenSkill}`}
-        >
-          <div className={skillsStyles.skillName}>Sass</div>
-          <i className={`devicon-sass-original ${skillsStyles.skill}`}></i>
         </div>
 
         {/* Bootstrap */}
