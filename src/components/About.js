@@ -12,10 +12,12 @@ export function About() {
         <p>
           My experience is mainly in full-stack web development, currently working as a 
           Site Reliability Engineer (SRE) 
-          at <a href="https://careers.deliveroo.co.uk/" target="_blank">Deliveroo</a>. 
+          at <a href="https://careers.deliveroo.co.uk/" target="_blank">Deliveroo</a> after
+          a few years 
+          at <a href="https://www.ep.com/" target="_blank">Entertainment Partners</a>. 
           I also have a background in data analysis, with an education in economics and 
-          experience in a more client-facing role 
-          in <a href="https://www.rbbecon.com/" target="_blank">economic consulting</a>. 
+          experience in a more client-facing role in economic consulting
+          at <a href="https://www.rbbecon.com/" target="_blank">RBB Economics</a>. 
         </p>
         <p>
           My qualifications include a Master's degree in economics 
