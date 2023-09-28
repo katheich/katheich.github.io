@@ -132,27 +132,25 @@ export function Skills() {
           <i className={`devicon-mongodb-plain ${skillsStyles.skill}`}></i>
         </div>
 
-        {/* Jupyter */}
+        {/* Figma */}
         <div
           className={`${skillsStyles.singleSkillContainer} ${skillsStyles.greenSkill}`}
+        >
+          <div className={skillsStyles.skillName}>Figma</div>
+          <i className={`devicon-figma-plain ${skillsStyles.skill}`}></i>
+        </div>
+
+        {/* Jupyter */}
+        <div
+          className={`${skillsStyles.singleSkillContainer} ${skillsStyles.orangeSkill}`}
         >
           <div className={skillsStyles.skillName}>Jupyter</div>
           <i className={`devicon-jupyter-plain ${skillsStyles.skill}`}></i>
         </div>
 
-        {/* Stata */}
-        <div
-          className={`${skillsStyles.singleSkillContainer} ${skillsStyles.orangeSkill}`}
-        >
-          <div className={skillsStyles.skillName}>Stata</div>
-          <figure className={`${skillsStyles.logoSVG} ${skillsStyles.skill}`}>
-            <StataLogo />
-          </figure>
-        </div>
-
         {/* ArcGIS Pro */}
         <div
-          className={`${skillsStyles.singleSkillContainer} ${skillsStyles.blueSkill}`}
+          className={`${skillsStyles.singleSkillContainer} ${skillsStyles.greenSkill}`}
         >
           <div className={skillsStyles.skillName}>ArcGIS Pro</div>
           <figure className={`${skillsStyles.logoSVG} ${skillsStyles.skill}`}>
@@ -160,20 +158,22 @@ export function Skills() {
           </figure>
         </div>
 
-        {/* LaTeX */}
+        {/* Stata */}
         <div
-          className={`${skillsStyles.singleSkillContainer} ${skillsStyles.greenSkill}`}
+          className={`${skillsStyles.singleSkillContainer} ${skillsStyles.blueSkill}`}
         >
-          <div className={skillsStyles.skillName}>Latex</div>
-          <i className={`devicon-latex-original ${skillsStyles.skill}`}></i>
+          <div className={skillsStyles.skillName}>Stata</div>
+          <figure className={`${skillsStyles.logoSVG} ${skillsStyles.skill}`}>
+            <StataLogo />
+          </figure>
         </div>
 
-        {/* Matlab */}
+        {/* LaTeX */}
         <div
           className={`${skillsStyles.singleSkillContainer} ${skillsStyles.orangeSkill}`}
         >
-          <div className={skillsStyles.skillName}>Matlab</div>
-          <i className={`devicon-matlab-plain ${skillsStyles.skill}`}></i>
+          <div className={skillsStyles.skillName}>Latex</div>
+          <i className={`devicon-latex-original ${skillsStyles.skill}`}></i>
         </div>
       </div>
     </div>
