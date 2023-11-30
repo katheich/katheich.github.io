@@ -45,11 +45,6 @@ export function About() {
           's Software Engineering Immersive bootcamp.
         </p>
         <p>
-          Thriving in a collaborative environment and bringing with me an
-          incessant need to understand “why”, I always look for opportunities to
-          learn from and share my knowledge with others.
-        </p>
-        <p>
           Outside of work, I have volunteered with{" "}
           <a href="https://codefirstgirls.com/" target="_blank">
             Code First Girls
