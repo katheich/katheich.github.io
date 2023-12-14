@@ -63,7 +63,10 @@ export function About() {
           </a>
           .
         </p>
-        <p>Explore my full experience and projects on Linkedin and Github:</p>
+        <p>
+          Explore my full experience and projects on Linkedin, Github or XING
+          (German):
+        </p>
         <a
           className={aboutStyles.social}
           href="https://www.linkedin.com/in/kathrineichinger"
@@ -79,6 +82,14 @@ export function About() {
           rel="noopener noreferrer"
         >
           <i className="fab fa-github-square"></i>
+        </a>
+        <a
+          className={aboutStyles.social}
+          href="https://www.xing.com/profile/Kathrin_Eichinger3"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i class="fa-brands fa-square-xing"></i>
         </a>
       </div>
     </div>
