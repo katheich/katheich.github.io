@@ -15,8 +15,15 @@
   justify-content: space-between;
 }
 
-p {
-  padding: 0 0 0.3rem 0;
+.bulletIcon {
+  display: inline-block;
+  width: 1.3rem;
+  min-width: 1.3rem;
+  height: 100%;
+}
+
+p.aboutParagraph {
+  margin-bottom: 0.3rem;
 }
 
 ul {
@@ -26,11 +33,13 @@ ul {
 }
 
 li {
-  margin: 0.1rem;
+  display: flex;
+  flex-direction: row;
+  margin: 0.2rem;
 }
 
 @media screen and (max-width: 1023px) {
-  p {
+  p.aboutParagraph {
     padding: 0 0 0.1rem 0;
   }
 
@@ -39,6 +48,6 @@ li {
   }
 
   li {
-    margin: 0.2rem;
+    margin: 0.5rem;
   }
 }
