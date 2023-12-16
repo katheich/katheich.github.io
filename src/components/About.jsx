@@ -12,17 +12,29 @@ export function About() {
         <p>
           My experience is mainly in full-stack web development, currently
           working as a Site Reliability Engineer (SRE) at{" "}
-          <a href="https://careers.deliveroo.co.uk/" target="_blank">
+          <a
+            href="https://careers.deliveroo.co.uk/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Deliveroo
           </a>{" "}
           after a few years at{" "}
-          <a href="https://www.ep.com/casting/" target="_blank">
+          <a
+            href="https://www.ep.com/casting/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Entertainment Partners
           </a>
           . I also have a background in data analysis, with an education in
           economics and experience in a more client-facing role in economic
           consulting at{" "}
-          <a href="https://www.rbbecon.com/" target="_blank">
+          <a
+            href="https://www.rbbecon.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             RBB Economics
           </a>
           .
@@ -32,6 +44,7 @@ export function About() {
           <a
             href="https://www.unibocconi.eu/wps/wcm/connect/bocconi/sitopubblico_en/navigation+tree/home/programs/master+of+science/economic+and+social+sciences/"
             target="_blank"
+            rel="noopener noreferrer"
           >
             Bocconi University
           </a>{" "}
@@ -39,6 +52,7 @@ export function About() {
           <a
             href="https://generalassemb.ly/education/software-engineering-immersive/london"
             target="_blank"
+            rel="noopener noreferrer"
           >
             General Assembly
           </a>
@@ -46,18 +60,27 @@ export function About() {
         </p>
         <p>
           Outside of work, I have volunteered with{" "}
-          <a href="https://codefirstgirls.com/" target="_blank">
+          <a
+            href="https://codefirstgirls.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Code First Girls
           </a>{" "}
           to teach the Introduction to Python course and have run the London
           Landmarks Half Marathon fundraising for{" "}
-          <a href="https://www.wwf.org.uk/events/running" target="_blank">
+          <a
+            href="https://www.wwf.org.uk/events/running"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             WWF
           </a>
           . I am also a cat foster carer at{" "}
           <a
             href="https://www.battersea.org.uk/support-us/fostering"
             target="_blank"
+            rel="noopener noreferrer"
           >
             Battersea Dogs & Cats Home
           </a>
