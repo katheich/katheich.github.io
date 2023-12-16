@@ -10,81 +10,114 @@ export function About() {
       <div className={sectionStyles.sectionText}>
         <p>I am a software developer based in London.</p>
         <p>
-          My experience is mainly in full-stack web development, currently
-          working as a Site Reliability Engineer (SRE) at{" "}
-          <a
-            href="https://careers.deliveroo.co.uk/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Deliveroo
-          </a>{" "}
-          after a few years at{" "}
-          <a
-            href="https://www.ep.com/casting/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Entertainment Partners
-          </a>
-          . I also have a background in data analysis, with an education in
-          economics and experience in a more client-facing role in economic
-          consulting at{" "}
-          <a
-            href="https://www.rbbecon.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            RBB Economics
-          </a>
-          .
+          My experience is mainly in full-stack web development, coming from a
+          background in economics.
+          <ul>
+            <li>
+              🦘 Site Reliability Engineer (SRE) at{" "}
+              <a
+                href="https://careers.deliveroo.co.uk/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Deliveroo
+              </a>{" "}
+              (current)
+            </li>
+            <li>
+              🎬 Full-Stack Developer at{" "}
+              <a
+                href="https://www.ep.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Entertainment Partners
+              </a>
+            </li>
+            <li>
+              📊 Economic Consultant at{" "}
+              <a
+                href="https://www.rbbecon.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                RBB Economics
+              </a>
+            </li>
+          </ul>
         </p>
         <p>
-          My qualifications include a Master's degree in economics from{" "}
-          <a
-            href="https://www.unibocconi.eu/wps/wcm/connect/bocconi/sitopubblico_en/navigation+tree/home/programs/master+of+science/economic+and+social+sciences/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Bocconi University
-          </a>{" "}
-          and completing{" "}
-          <a
-            href="https://generalassemb.ly/education/software-engineering-immersive/london"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            General Assembly
-          </a>
-          's Software Engineering Immersive bootcamp.
+          My qualifications include education in computer science and economics.
+          <ul>
+            <li>
+              🖥️ Master's degree in Computer Science from{" "}
+              <a
+                href="https://online.york.ac.uk/study-online/msc-computer-science-online/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                University of York
+              </a>{" "}
+              (incoming March '24)
+            </li>
+            <li>
+              🎓 Master's degree in Economics from{" "}
+              <a
+                href="https://www.unibocconi.eu/wps/wcm/connect/bocconi/sitopubblico_en/navigation+tree/home/programs/master+of+science/economic+and+social+sciences/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Bocconi University
+              </a>
+            </li>
+            <li>
+              👩‍💻 Software Engineering Immersive bootcamp at{" "}
+              <a
+                href="https://generalassemb.ly/education/software-engineering-immersive/london"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                General Assembly
+              </a>{" "}
+            </li>
+          </ul>
         </p>
         <p>
-          Outside of work, I have volunteered with{" "}
-          <a
-            href="https://codefirstgirls.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Code First Girls
-          </a>{" "}
-          to teach the Introduction to Python course and have run the London
-          Landmarks Half Marathon fundraising for{" "}
-          <a
-            href="https://www.wwf.org.uk/events/running"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            WWF
-          </a>
-          . I am also a cat foster carer at{" "}
-          <a
-            href="https://www.battersea.org.uk/support-us/fostering"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Battersea Dogs & Cats Home
-          </a>
-          .
+          Outside of work, some of the causes I support are animal welfare,
+          environmental protection and female representation in tech.
+          <ul>
+            <li>
+              🐱 Cat Foster Carer at{" "}
+              <a
+                href="https://www.battersea.org.uk/support-us/fostering"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Battersea Dogs & Cats Home
+              </a>
+            </li>
+            <li>
+              🐼 Team Panda Runner at London Landmarks Half Marathon for{" "}
+              <a
+                href="https://www.wwf.org.uk/events/running"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                WWF
+              </a>
+            </li>
+
+            <li>
+              🐍 Volunteer Python Instructor at{" "}
+              <a
+                href="https://codefirstgirls.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Code First Girls
+              </a>
+            </li>
+          </ul>
         </p>
         <p>
           Explore my full experience and projects on Linkedin, Github or XING
