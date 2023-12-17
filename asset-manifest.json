@@ -1,14 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.3598e20e.css",
-    "main.js": "/static/js/main.21fdefe6.js",
+    "main.css": "/static/css/main.1c3cb2ba.css",
+    "main.js": "/static/js/main.179846b6.js",
     "static/media/Ice-background.png": "/static/media/Ice-background.092e254bc90589ec6bb7.png",
+    "static/media/wnwn-logo-winners.png": "/static/media/wnwn-logo-winners.d15ef333deca6050c406.png",
+    "static/media/vm-logo.png": "/static/media/vm-logo.00eb6c9ba2da2413f5c2.png",
     "index.html": "/index.html",
-    "main.3598e20e.css.map": "/static/css/main.3598e20e.css.map",
-    "main.21fdefe6.js.map": "/static/js/main.21fdefe6.js.map"
+    "main.1c3cb2ba.css.map": "/static/css/main.1c3cb2ba.css.map",
+    "main.179846b6.js.map": "/static/js/main.179846b6.js.map"
   },
   "entrypoints": [
-    "static/css/main.3598e20e.css",
-    "static/js/main.21fdefe6.js"
+    "static/css/main.1c3cb2ba.css",
+    "static/js/main.179846b6.js"
   ]
 }
