@@ -2,12 +2,12 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  width: calc(4 * 50vw);
+  width: calc(5 * 50vw);
   height: 100vh;
 }
 
 @media screen and (max-width: 1023px) {
   body {
-    width: calc(4 * 100vw);
+    width: calc(5 * 100vw);
   }
 }

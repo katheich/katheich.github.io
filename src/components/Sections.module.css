@@ -15,6 +15,7 @@
 .sectionText {
   font-size: 1rem;
   flex-grow: 4;
+  text-align: left;
 }
 
 @media screen and (max-width: 1023px) {

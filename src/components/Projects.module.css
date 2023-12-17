@@ -1,0 +1,53 @@
+.projectsHeader {
+  width: calc(2 * (50vw - 8rem));
+}
+
+.projectsSection {
+  height: calc(100vh - 4rem);
+  font-size: 3rem;
+  width: calc(100vw - 8rem);
+  margin: 2rem 4rem;
+  text-align: left;
+}
+
+.allProjectsContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.projectContainer {
+  height: 100%;
+  width: calc(50vw - 8rem);
+  text-align: center;
+}
+
+.projectLogo {
+  width: 75%;
+}
+
+.techStack {
+  font-size: 2.5rem;
+  i {
+    padding: 0.3rem;
+  }
+}
+
+.github {
+  display: flex;
+  align-items: center;
+  i {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .projectsSection {
+    width: calc(200vw - 4rem);
+    margin: 2rem;
+  }
+
+  .projectContainer {
+    width: calc(100vw - 4rem);
+  }
+}
