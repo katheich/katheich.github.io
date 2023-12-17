@@ -8,7 +8,7 @@ import { DataDogLogo } from "./SVGs/DataDog";
 export function Skills() {
   return (
     <div className={sectionStyles.sectionContainer}>
-      <div className={sectionStyles.sectionHeader}>Tech I've worked with</div>
+      <div className={sectionStyles.sectionHeader}>Technologies</div>
       <div className={skillsStyles.skillsContainer}>
         {/* Python */}
         <div
