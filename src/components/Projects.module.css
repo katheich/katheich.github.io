@@ -50,4 +50,8 @@
   .projectContainer {
     width: calc(100vw - 4rem);
   }
+
+  .projectLogo {
+    width: 100%;
+  }
 }

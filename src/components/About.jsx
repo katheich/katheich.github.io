@@ -60,17 +60,16 @@ export function About() {
         </p>
         <ul>
           <li>
-            <div className={`${aboutStyles.bulletIcon}`}>🖥️</div>
+            <div className={`${aboutStyles.bulletIcon}`}>👩‍💻</div>
             <div>
-              Master's degree in Computer Science from{" "}
+              Software Engineering Immersive bootcamp at{" "}
               <a
-                href="https://online.york.ac.uk/study-online/msc-computer-science-online/"
+                href="https://generalassemb.ly/education/software-engineering-immersive/london"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                University of York
-              </a>{" "}
-              (incoming March '24)
+                General Assembly
+              </a>
             </div>
           </li>
           <li>
@@ -86,17 +85,19 @@ export function About() {
               </a>
             </div>
           </li>
+
           <li>
-            <div className={`${aboutStyles.bulletIcon}`}>👩‍💻</div>
+            <div className={`${aboutStyles.bulletIcon}`}>🖥️</div>
             <div>
-              Software Engineering Immersive bootcamp at{" "}
+              Master's degree in Computer Science from{" "}
               <a
-                href="https://generalassemb.ly/education/software-engineering-immersive/london"
+                href="https://online.york.ac.uk/study-online/msc-computer-science-online/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                General Assembly
-              </a>
+                University of York
+              </a>{" "}
+              (incoming March '24)
             </div>
           </li>
         </ul>
