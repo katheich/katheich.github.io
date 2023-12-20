@@ -42,7 +42,7 @@ export function Skills() {
       }
       return (
         <div
-          key={skill.label}
+          key={skill.id}
           className={`${skillsStyles.singleSkillContainer} ${colorStyle} ${
             index === highlight ? `${skillsStyles.highlight}` : ""
           }`}

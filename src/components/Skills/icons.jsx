@@ -89,84 +89,24 @@ const latexIcon = (
 );
 
 export const skillSet = [
-  {
-    label: <>Python</>,
-    icon: pythonIcon,
-  },
-  {
-    label: <>JavaScript</>,
-    icon: javascriptIcon,
-  },
-  {
-    label: <>TypeScript</>,
-    icon: typescriptIcon,
-  },
-  {
-    label: <>Ruby</>,
-    icon: rubyIcon,
-  },
-  {
-    label: <>Go</>,
-    icon: golangIcon,
-  },
-  {
-    label: <>Postgre&shy;SQL</>,
-    icon: postgresIcon,
-  },
-  {
-    label: <>Docker</>,
-    icon: dockerIcon,
-  },
-  {
-    label: <>AWS</>,
-    icon: awsIcon,
-  },
-  {
-    label: <>Terraform</>,
-    icon: terraformIcon,
-  },
-  {
-    label: <>DataDog</>,
-    icon: datadogIcon,
-  },
-  {
-    label: <>React</>,
-    icon: reactIcon,
-  },
-  {
-    label: <>Node.js</>,
-    icon: nodeIcon,
-  },
-  {
-    label: <>Django</>,
-    icon: djangoIcon,
-  },
-  {
-    label: <>Bootstrap</>,
-    icon: bootstrapIcon,
-  },
-  {
-    label: <>MongoDB</>,
-    icon: mongoIcon,
-  },
-  {
-    label: <>Figma</>,
-    icon: figmaIcon,
-  },
-  {
-    label: <>Jupyter</>,
-    icon: jupyterIcon,
-  },
-  {
-    label: <>ArcGIS Pro</>,
-    icon: arcgisIcon,
-  },
-  {
-    label: <>Stata</>,
-    icon: stataIcon,
-  },
-  {
-    label: <>Latex</>,
-    icon: latexIcon,
-  },
+  { id: "python", label: <>Python</>, icon: pythonIcon },
+  { id: "js", label: <>JavaScript</>, icon: javascriptIcon },
+  { id: "ts", label: <>TypeScript</>, icon: typescriptIcon },
+  { id: "ruby", label: <>Ruby</>, icon: rubyIcon },
+  { id: "go", label: <>Go</>, icon: golangIcon },
+  { id: "postgres", label: <>Postgre&shy;SQL</>, icon: postgresIcon },
+  { id: "docker", label: <>Docker</>, icon: dockerIcon },
+  { id: "aws", label: <>AWS</>, icon: awsIcon },
+  { id: "tf", label: <>Terraform</>, icon: terraformIcon },
+  { id: "d", label: <>DataDog</>, icon: datadogIcon },
+  { id: "react", label: <>React</>, icon: reactIcon },
+  { id: "node", label: <>Node.js</>, icon: nodeIcon },
+  { id: "django", label: <>Django</>, icon: djangoIcon },
+  { id: "bootstrap", label: <>Bootstrap</>, icon: bootstrapIcon },
+  { id: "mongo", label: <>MongoDB</>, icon: mongoIcon },
+  { id: "figma", label: <>Figma</>, icon: figmaIcon },
+  { id: "jupyter", label: <>Jupyter</>, icon: jupyterIcon },
+  { id: "arcgis", label: <>ArcGIS Pro</>, icon: arcgisIcon },
+  { id: "stata", label: <>Stata</>, icon: stataIcon },
+  { id: "latex", label: <>Latex</>, icon: latexIcon },
 ];
