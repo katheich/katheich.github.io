@@ -1,9 +1,29 @@
+import { useState, useEffect } from "react";
+
 import sectionStyles from "../Sections.module.css";
 import skillsStyles from "./Skills.module.css";
 
 import { skillSet } from "./icons";
 
+function getRandomSkillIndex() {
+  return Math.floor(Math.random() * skillSet.length);
+}
+
 export function Skills() {
+  const [highlight, setHighlight] = useState(0);
+
+  useEffect(() => {
+    const highglightSkill = () => {
+      const newIndex = getRandomSkillIndex();
+      setHighlight(newIndex);
+    };
+    const highlightTimer = setInterval(highglightSkill, 2000);
+
+    return () => {
+      clearInterval(highlightTimer);
+    };
+  }, []);
+
   const renderSkills = () => {
     return skillSet.map((skill, index) => {
       var colorStyle;
@@ -21,7 +41,12 @@ export function Skills() {
           colorStyle = `${skillsStyles.greenSkill}`;
       }
       return (
-        <div className={`${skillsStyles.singleSkillContainer} ${colorStyle}`}>
+        <div
+          key={skill.label}
+          className={`${skillsStyles.singleSkillContainer} ${colorStyle} ${
+            index === highlight ? `${skillsStyles.highlight}` : ""
+          }`}
+        >
           <div className={skillsStyles.skillName}>{skill.label}</div>
           {skill.icon}
         </div>
