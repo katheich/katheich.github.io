@@ -3,7 +3,7 @@ import { useEffect, useRef } from "react";
 import "./App.css";
 import { Header } from "./components/Header";
 import { About } from "./components/About";
-import { Skills } from "./components/Skills";
+import { Skills } from "./components/Skills/Skills";
 import { Projects } from "./components/Projects";
 
 function scrollHorizontally(e) {
