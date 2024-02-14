@@ -43,8 +43,8 @@ const reactIcon = (
   <i className={`devicon-react-original ${iconStyles.skillIcon}`}></i>
 );
 
-const nodeIcon = (
-  <i className={`devicon-nodejs-plain-wordmark ${iconStyles.skillIcon}`}></i>
+const expressIcon = (
+  <i className={`devicon-express-original ${iconStyles.skillIcon}`}></i>
 );
 
 const djangoIcon = (
@@ -94,12 +94,12 @@ export const skillSet = [
   { id: "docker", label: <>Docker</>, icon: dockerIcon },
   { id: "aws", label: <>AWS</>, icon: awsIcon },
   { id: "tf", label: <>Terraform</>, icon: terraformIcon },
-  { id: "node", label: <>Node.js</>, icon: nodeIcon },
   { id: "react", label: <>React</>, icon: reactIcon },
+  { id: "express", label: <>Express.js</>, icon: expressIcon },
   { id: "django", label: <>Django</>, icon: djangoIcon },
   { id: "rails", label: <>Rails</>, icon: railsIcon },
   { id: "postgres", label: <>Postgre&shy;SQL</>, icon: postgresIcon },
-  { id: "dynamo", label: <>Dynamo&shy;DB</>, icon: dynamodbIcon },
+  { id: "dynamo", label: <>DynamoDB</>, icon: dynamodbIcon },
   { id: "mongo", label: <>MongoDB</>, icon: mongoIcon },
   { id: "figma", label: <>Figma</>, icon: figmaIcon },
   { id: "jupyter", label: <>Jupyter</>, icon: jupyterIcon },
