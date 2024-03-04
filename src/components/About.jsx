@@ -60,6 +60,20 @@ export function About() {
         </p>
         <ul>
           <li>
+            <div className={`${aboutStyles.bulletIcon}`}>🖥️</div>
+            <div>
+              Master of Science in Computer Science from{" "}
+              <a
+                href="https://online.york.ac.uk/study-online/msc-computer-science-online/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                University of York
+              </a>{" "}
+              (in progress)
+            </div>
+          </li>
+          <li>
             <div className={`${aboutStyles.bulletIcon}`}>👩‍💻</div>
             <div>
               Software Engineering Immersive bootcamp at{" "}
@@ -75,7 +89,7 @@ export function About() {
           <li>
             <div className={`${aboutStyles.bulletIcon}`}>🎓</div>
             <div>
-              Master's degree in Economics from{" "}
+              Master of Science in Economics from{" "}
               <a
                 href="https://www.unibocconi.eu/wps/wcm/connect/bocconi/sitopubblico_en/navigation+tree/home/programs/master+of+science/economic+and+social+sciences/"
                 target="_blank"
@@ -83,21 +97,6 @@ export function About() {
               >
                 Bocconi University
               </a>
-            </div>
-          </li>
-
-          <li>
-            <div className={`${aboutStyles.bulletIcon}`}>🖥️</div>
-            <div>
-              Master's degree in Computer Science from{" "}
-              <a
-                href="https://online.york.ac.uk/study-online/msc-computer-science-online/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                University of York
-              </a>{" "}
-              (incoming March '24)
             </div>
           </li>
         </ul>
