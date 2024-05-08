@@ -1,0 +1,54 @@
+.section {
+  height: 100vh;
+  width: 100vw;
+}
+
+.sectionContainer {
+  height: calc(100% - 12rem);
+  width: calc(100% - 12rem);
+  padding: 6rem;
+}
+
+.sectionContent {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.sectionHalf {
+  width: 100%;
+  height: 45%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.sectionImageContainer {
+  width: 40vw;
+  max-height: 40vh;
+
+  img {
+    max-height: 100%;
+    max-width: 100%;
+  }
+}
+
+.sectionText {
+  max-width: 70vw;
+  margin-right: 2vw;
+  vertical-align: middle;
+}
+
+.right {
+  text-align: right;
+  margin-right: 0;
+  margin-left: 2vw;
+}
+
+.sectionTitle {
+  font-size: 2rem;
+  font-weight: bold;
+  padding-bottom: 1rem;
+}

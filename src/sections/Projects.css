@@ -1,0 +1,16 @@
+.winner {
+  height: 3rem;
+  padding-right: 0.5rem;
+}
+
+.wnwnTitle {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  padding-bottom: 1rem;
+
+  .sectionTitle {
+    padding: 0;
+  }
+}

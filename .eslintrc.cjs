@@ -30,5 +30,6 @@ module.exports = {
     ],
     'import/no-absolute-path': 0,
     'import/no-extraneous-dependencies': ['error', { devDependencies: true }],
+    'import/prefer-default-export': 0,
   },
 };
