@@ -4,6 +4,7 @@ import { Skills } from './sections/Skills.tsx';
 import { ProjectHeader } from './sections/ProjectHeader.tsx';
 import { Projects } from './sections/Projects.tsx';
 import { BorderSection } from './sections/BorderSecion.tsx';
+import { Contact } from './sections/Contact.tsx';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <ProjectHeader />
       <Projects />
       <BorderSection left />
+      <Contact />
     </>
   );
 }
