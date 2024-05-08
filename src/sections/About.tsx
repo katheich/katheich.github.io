@@ -13,7 +13,7 @@ export function About() {
               {' '}
               <img
                 src={WorkImage}
-                className="sectionImage"
+                className="sectionImage fullHeight"
                 alt="life monitor and other office stuff"
               />
             </div>

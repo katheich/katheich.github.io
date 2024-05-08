@@ -14,7 +14,7 @@ export function Skills() {
               {' '}
               <img
                 src={TechImage}
-                className="sectionImage"
+                className="sectionImage fullHeight"
                 alt="windows with developer code symbols"
               />
             </div>
