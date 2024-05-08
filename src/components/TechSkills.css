@@ -1,0 +1,42 @@
+.skillsContainer {
+  width: calc(5 * 5rem);
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.singleSkillContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.5rem;
+  width: 2.5rem;
+  margin-left: 2rem;
+  margin-bottom: 1rem;
+
+  img {
+    height: 100%;
+    width: 100%;
+    transition: opacity 0.5s ease-in-out;
+  }
+}
+
+.skillName {
+  color: #000;
+  -webkit-font-smoothing: antialiased;
+  font-size: 1rem;
+  position: absolute;
+  word-wrap: break-word;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.singleSkillContainer:hover .skillName {
+  opacity: 1;
+}
+
+.singleSkillContainer:hover img {
+  opacity: 0.5;
+}

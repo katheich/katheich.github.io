@@ -1,6 +1,7 @@
 import './common.css';
 import TechImage from '../assets/3d-casual-life-windows-with-developer-code-symbols.png';
 import CatImage from '../assets/3d-casual-life-cat-lies-on-document.png';
+import { TechSkills } from '../components/TechSkills.tsx';
 
 export function Skills() {
   return (
@@ -19,6 +20,7 @@ export function Skills() {
             </div>
             <div className="sectionText right">
               <div className="sectionTitle">Tech Stack</div>
+              <TechSkills />
             </div>
           </div>
           <div className="sectionHalf">
