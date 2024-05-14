@@ -48,6 +48,16 @@ export function Contact() {
             />
           </div>
         </div>
+        <div className="footer">
+          Illustrations & icons by{' '}
+          <a
+            href="https://icons8.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Icons8
+          </a>
+        </div>
       </div>
     </div>
   );
