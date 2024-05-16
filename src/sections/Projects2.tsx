@@ -4,7 +4,7 @@ import GroceryImage from '../assets/casual-life-3d-paper-bag-full-of-groceries.p
 import GameImage from '../assets/casual-life-3d-old-game-controller.png';
 import CFGWinners from '../assets/cfgwinners.png';
 
-export function Projects() {
+export function Projects2() {
   return (
     <div className="section">
       <div className="sectionContainer">
@@ -20,7 +20,7 @@ export function Projects() {
               />
             </div>
             <div className="sectionText right">
-              <div className="wnwnTitle">
+              <div className="titleWithIcon">
                 <img className="winner" src={CFGWinners} alt="" />
                 <div className="sectionTitle">WasteNotWantNot</div>
               </div>

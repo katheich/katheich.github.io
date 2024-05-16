@@ -1,9 +1,12 @@
-.winner {
-  height: 3rem;
-  padding-right: 0.5rem;
+.projectsTitle {
+  padding: 0;
+  font-size: 2.8rem;
+  font-weight: bold;
+  text-align: center;
+  width: 40vw;
 }
 
-.wnwnTitle {
+.titleWithIcon {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -12,5 +15,19 @@
 
   .sectionTitle {
     padding: 0;
+  }
+
+  &.defcon {
+    justify-content: flex-start;
+  }
+
+  .winner {
+    height: 3rem;
+    padding: 0 0.5rem;
+  }
+
+  .roo {
+    height: 2rem;
+    padding: 0 0.5rem;
   }
 }
