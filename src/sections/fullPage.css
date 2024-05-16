@@ -1,0 +1,10 @@
+.fullPage {
+  height: 100vh;
+  width: 100vw;
+}
+
+.fullPageContainer {
+  height: calc(100% - 12rem);
+  width: calc(100% - 12rem);
+  padding: 6rem;
+}

@@ -1,11 +1,11 @@
-import './common.css';
+import './fullPage.css';
 import './Header.css';
 import HeaderImage from '../assets/3d-casual-life-young-woman-at-work-with-laptop-writing.png';
 
 export function Header() {
   return (
-    <div className="section">
-      <div className="sectionContainer">
+    <div className="fullPage">
+      <div className="fullPageContainer">
         <div className="headerContent">
           <div className="title">
             <div className="name">Kathrin Eichinger</div>

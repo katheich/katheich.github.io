@@ -1,9 +1,13 @@
 import { Header } from './sections/Header.tsx';
-import { About } from './sections/About.tsx';
-import { Skills } from './sections/Skills.tsx';
-import { Projects1 } from './sections/Projects1.tsx';
-import { Projects2 } from './sections/Projects2.tsx';
 import { BorderSection } from './sections/BorderSecion.tsx';
+import { Experience } from './sections/Experience.tsx';
+import { Education } from './sections/Education.tsx';
+import { Tech } from './sections/Tech.tsx';
+import { Volunteering } from './sections/Volunteering.tsx';
+import { ProjectsTitle } from './sections/ProjectsTitle.tsx';
+import { ProjectDefcon } from './sections/ProjectDefcon.tsx';
+import { ProjectWNWN } from './sections/ProjectWNWN.tsx';
+import { ProjectVacMan } from './sections/ProjectVacMan.tsx';
 import { Contact } from './sections/Contact.tsx';
 
 function App() {
@@ -12,11 +16,15 @@ function App() {
       {' '}
       <Header />
       <BorderSection left={false} />
-      <About />
-      <Skills />
+      <Experience />
+      <Education />
+      <Tech />
+      <Volunteering />
       <BorderSection left />
-      <Projects1 />
-      <Projects2 />
+      <ProjectsTitle />
+      <ProjectDefcon />
+      <ProjectWNWN />
+      <ProjectVacMan />
       <BorderSection left={false} />
       <Contact />
     </>

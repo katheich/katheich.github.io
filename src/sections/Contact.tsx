@@ -1,4 +1,4 @@
-import './common.css';
+import './fullPage.css';
 import './Contact.css';
 import ContactImage from '../assets/3d-casual-life-student-girl-with-magnifying-glass.png';
 import LinkedinLogo from '../assets/contact/linkedin.png';
@@ -7,8 +7,8 @@ import XINGLogo from '../assets/contact/xing.png';
 
 export function Contact() {
   return (
-    <div className="section">
-      <div className="sectionContainer">
+    <div className="fullPage">
+      <div className="fullPageContainer">
         <div className="contactSection">
           <div className="contactText">
             Explore my full experience and projects on Linkedin, Github or XING
