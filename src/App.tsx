@@ -15,17 +15,17 @@ function App() {
     <>
       {' '}
       <Header />
-      <BorderSection left={false} />
+      <BorderSection left />
       <Experience />
       <Education />
       <Tech />
       <Volunteering />
-      <BorderSection left />
+      <BorderSection left={false} />
       <ProjectsTitle />
       <ProjectDefcon />
       <ProjectWNWN />
       <ProjectVacMan />
-      <BorderSection left={false} />
+      <BorderSection left />
       <Contact />
     </>
   );
