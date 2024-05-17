@@ -8,9 +8,9 @@ import XINGLogo from '../assets/contact/xing.png';
 export function Links() {
   return (
     <div className="fullPage">
-      <div className="fullPageContainer">
-        <div className="contactSection">
-          <div className="contactText">
+      <div className="linksContainer">
+        <div className="linksSection">
+          <div className="linksText">
             Explore my full experience and projects on Linkedin, Github or XING
             (German):
             <div className="contactLinks">
@@ -40,16 +40,16 @@ export function Links() {
               </a>
             </div>
           </div>
-          <div className="contactImageContainer">
+          <div className="linksImageContainer">
             <img
               src={ContactImage}
-              className="contactImage"
+              className="linksImage"
               alt="woman with magnifying glass"
             />
           </div>
         </div>
         <div className="footer">
-          Illustrations & icons by{' '}
+          © 2024 Kathrin Eichinger | Illustrations & icons by{' '}
           <a
             href="https://icons8.com"
             target="_blank"
