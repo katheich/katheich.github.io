@@ -8,12 +8,11 @@ import { ProjectsTitle } from './sections/ProjectsTitle.tsx';
 import { ProjectDefcon } from './sections/ProjectDefcon.tsx';
 import { ProjectWNWN } from './sections/ProjectWNWN.tsx';
 import { ProjectVacMan } from './sections/ProjectVacMan.tsx';
-import { Contact } from './sections/Contact.tsx';
+import { Links } from './sections/Links.tsx';
 
 function App() {
   return (
     <>
-      {' '}
       <Header />
       <BorderSection left />
       <Experience />
@@ -26,7 +25,7 @@ function App() {
       <ProjectWNWN />
       <ProjectVacMan />
       <BorderSection left />
-      <Contact />
+      <Links />
     </>
   );
 }

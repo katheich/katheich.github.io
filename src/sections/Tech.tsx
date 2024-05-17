@@ -7,7 +7,6 @@ export function Tech() {
     <div className="section">
       <div className="sectionContainer">
         <div className="sectionImageContainer">
-          {' '}
           <img
             src={TechImage}
             className="sectionImage"

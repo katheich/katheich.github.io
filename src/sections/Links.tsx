@@ -1,11 +1,11 @@
 import './fullPage.css';
-import './Contact.css';
+import './Links.css';
 import ContactImage from '../assets/3d-casual-life-student-girl-with-magnifying-glass.png';
 import LinkedinLogo from '../assets/contact/linkedin.png';
 import GithubLogo from '../assets/contact/github.png';
 import XINGLogo from '../assets/contact/xing.png';
 
-export function Contact() {
+export function Links() {
   return (
     <div className="fullPage">
       <div className="fullPageContainer">
