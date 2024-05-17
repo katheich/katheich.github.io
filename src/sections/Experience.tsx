@@ -8,7 +8,7 @@ export function Experience() {
         <div className="sectionImageContainer">
           <img
             src={WorkImage}
-            className="sectionImage fullHeight"
+            className="sectionImage"
             alt="life monitor and other office stuff"
           />
         </div>

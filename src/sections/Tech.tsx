@@ -10,7 +10,7 @@ export function Tech() {
           {' '}
           <img
             src={TechImage}
-            className="sectionImage fullHeight"
+            className="sectionImage"
             alt="windows with developer code symbols"
           />
         </div>
