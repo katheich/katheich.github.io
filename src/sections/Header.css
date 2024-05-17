@@ -29,3 +29,34 @@
 .subtitle {
   font-size: 2rem;
 }
+
+@media screen and (max-width: 1024px) {
+  .headerContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .title {
+    position: inherit;
+  }
+
+  .name {
+    font-size: 3.5rem;
+  }
+
+  .subtitle {
+    font-size: 1.5rem;
+  }
+
+  .headerImageContainer {
+    width: 100vw;
+    position: inherit;
+    height: fit-content;
+
+    img {
+      max-width: 100%;
+    }
+  }
+}

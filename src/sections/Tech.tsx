@@ -5,7 +5,7 @@ import { TechSkills } from '../components/TechSkills.tsx';
 export function Tech() {
   return (
     <div className="section">
-      <div className="sectionContainer">
+      <div className="sectionContainer right">
         <div className="sectionImageContainer">
           <img
             src={TechImage}
@@ -13,7 +13,7 @@ export function Tech() {
             alt="windows with developer code symbols"
           />
         </div>
-        <div className="sectionText right">
+        <div className="sectionText">
           <div className="sectionTitle">Tech Stack</div>
           <TechSkills />
         </div>

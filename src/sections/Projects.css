@@ -31,3 +31,13 @@
     padding: 0 0.5rem;
   }
 }
+
+@media screen and (max-width: 1024px) {
+  .projectsTitle {
+    width: 100%;
+  }
+
+  .titleWithIcon.wnwn {
+    flex-direction: row-reverse;
+  }
+}

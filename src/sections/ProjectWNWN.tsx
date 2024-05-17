@@ -6,7 +6,7 @@ import CFGWinners from '../assets/cfgwinners.png';
 export function ProjectWNWN() {
   return (
     <div className="section">
-      <div className="sectionContainer">
+      <div className="sectionContainer right">
         <div className="sectionImageContainer">
           <img
             src={GroceryImage}
@@ -14,8 +14,8 @@ export function ProjectWNWN() {
             alt="paper bag full of groceries"
           />
         </div>
-        <div className="sectionText right">
-          <div className="titleWithIcon">
+        <div className="sectionText">
+          <div className="titleWithIcon wnwn">
             <img className="winner" src={CFGWinners} alt="" />
             <div className="sectionTitle">WasteNotWantNot</div>
           </div>

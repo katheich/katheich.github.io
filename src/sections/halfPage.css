@@ -15,6 +15,7 @@
 .sectionImageContainer {
   width: 40vw;
   max-height: 40vh;
+  text-align: right;
 
   img {
     max-height: 100%;
@@ -28,13 +29,56 @@
 }
 
 .right {
-  text-align: right;
-  margin-right: 0;
-  margin-left: 2vw;
+  .sectionText {
+    text-align: right;
+    margin-right: 0;
+    margin-left: 2vw;
+  }
+
+  .sectionImageContainer {
+    text-align: left;
+  }
 }
 
 .sectionTitle {
   font-size: 2rem;
   font-weight: bold;
   padding-bottom: 1rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .section {
+    height: 100vh;
+    width: 100vw;
+  }
+
+  .sectionContainer {
+    flex-direction: column;
+    height: calc(100% - 4rem);
+    width: calc(100% - 6rem);
+    padding: 2rem 3rem;
+  }
+
+  .sectionText {
+    min-width: 100%;
+  }
+
+  .sectionImageContainer {
+    width: 100%;
+    height: fit-content;
+    max-height: none;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  .right {
+    flex-direction: column-reverse;
+
+    .sectionText {
+      text-align: left;
+      margin: 0;
+    }
+  }
 }

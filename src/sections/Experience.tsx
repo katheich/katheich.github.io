@@ -4,7 +4,7 @@ import WorkImage from '../assets/3d-casual-life-monitor-and-other-office-stuff.p
 export function Experience() {
   return (
     <div className="section">
-      <div className="sectionContainer">
+      <div className="sectionContainer right">
         <div className="sectionImageContainer">
           <img
             src={WorkImage}
@@ -12,7 +12,7 @@ export function Experience() {
             alt="life monitor and other office stuff"
           />
         </div>
-        <div className="sectionText right">
+        <div className="sectionText">
           <div className="sectionTitle">Experience</div>
           <div className="text">
             <p>
