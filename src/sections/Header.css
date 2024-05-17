@@ -39,11 +39,12 @@
   }
 
   .title {
+    padding-top: 5rem;
     position: inherit;
   }
 
   .name {
-    font-size: 3.5rem;
+    font-size: 2.5rem;
   }
 
   .subtitle {

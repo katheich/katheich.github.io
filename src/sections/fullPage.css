@@ -8,3 +8,11 @@
   width: calc(100% - 12rem);
   padding: 6rem;
 }
+
+@media screen and (max-width: 1024px) {
+  .fullPageContainer {
+    height: calc(100% - 4rem);
+    width: calc(100% - 6rem);
+    padding: 2rem 3rem;
+  }
+}
