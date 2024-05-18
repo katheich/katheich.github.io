@@ -1,7 +1,7 @@
 import './halfPage.css';
 import './Projects.css';
 import ErrorImage from '../assets/3d-casual-life-error-warning-on-laptop-background.png';
-import RooLogo from '../assets/deliveroo-logo.svg';
+import RooLogo from '../assets/logos/deliveroo-logo.svg';
 
 export function ProjectDefcon() {
   return (

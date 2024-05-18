@@ -1,5 +1,6 @@
 import './halfPage.css';
 import './Projects.css';
+import GALogo from '../assets/logos/ga.svg';
 import GameImage from '../assets/casual-life-3d-old-game-controller.png';
 
 export function ProjectVacMan() {
@@ -7,7 +8,10 @@ export function ProjectVacMan() {
     <div className="section">
       <div className="sectionContainer">
         <div className="sectionText">
-          <div className="sectionTitle">Vac-Man</div>
+          <div className="titleWithIcon vacman">
+            <div className="sectionTitle">Vac-Man</div>
+            <img className="roo" src={GALogo} alt="" />
+          </div>
           <div className="text">
             <p>
               Vac-Man was my first project of the software engineering bootcamp

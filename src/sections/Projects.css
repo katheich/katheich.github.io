@@ -18,7 +18,8 @@
     padding: 0;
   }
 
-  &.defcon {
+  &.defcon,
+  &.vacman {
     justify-content: flex-start;
   }
 

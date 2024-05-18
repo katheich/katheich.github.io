@@ -1,25 +1,25 @@
 import './TechSkills.css';
 
-import pythonIcon from '../assets/logos/python-plain.svg';
-import typescriptIcon from '../assets/logos/typescript-plain.svg';
-import rubyIcon from '../assets/logos/ruby-plain.svg';
-import golangIcon from '../assets/logos/go-plain.svg';
-import javaIcon from '../assets/logos/java-original.svg';
-import dockerIcon from '../assets/logos/docker-plain.svg';
-import awsIcon from '../assets/logos/amazonwebservices-plain-wordmark.svg';
-import terraformIcon from '../assets/logos/terraform-original.svg';
-import reactIcon from '../assets/logos/react-original.svg';
-import expressIcon from '../assets/logos/express-original.svg';
-import djangoIcon from '../assets/logos/django-plain.svg';
-import railsIcon from '../assets/logos/rails-plain.svg';
-import postgresIcon from '../assets/logos/postgresql-plain.svg';
-import dynamodbIcon from '../assets/logos/dynamodb-original.svg';
-import mongoIcon from '../assets/logos/mongodb-plain.svg';
-import figmaIcon from '../assets/logos/figma-original.svg';
-import jupyterIcon from '../assets/logos/jupyter-original-wordmark.svg';
-import latexIcon from '../assets/logos/latex-original.svg';
-import stataIcon from '../assets/logos/stata-original-wordmark.svg';
-import arcgisIcon from '../assets/logos/esri-3.svg';
+import pythonIcon from '../assets/tech/python-plain.svg';
+import typescriptIcon from '../assets/tech/typescript-plain.svg';
+import rubyIcon from '../assets/tech/ruby-plain.svg';
+import golangIcon from '../assets/tech/go-plain.svg';
+import javaIcon from '../assets/tech/java-original.svg';
+import dockerIcon from '../assets/tech/docker-plain.svg';
+import awsIcon from '../assets/tech/amazonwebservices-plain-wordmark.svg';
+import terraformIcon from '../assets/tech/terraform-original.svg';
+import reactIcon from '../assets/tech/react-original.svg';
+import expressIcon from '../assets/tech/express-original.svg';
+import djangoIcon from '../assets/tech/django-plain.svg';
+import railsIcon from '../assets/tech/rails-plain.svg';
+import postgresIcon from '../assets/tech/postgresql-plain.svg';
+import dynamodbIcon from '../assets/tech/dynamodb-original.svg';
+import mongoIcon from '../assets/tech/mongodb-plain.svg';
+import figmaIcon from '../assets/tech/figma-original.svg';
+import jupyterIcon from '../assets/tech/jupyter-original-wordmark.svg';
+import latexIcon from '../assets/tech/latex-original.svg';
+import stataIcon from '../assets/tech/stata-original-wordmark.svg';
+import arcgisIcon from '../assets/tech/esri-3.svg';
 
 const skillSet = [
   { id: 'python', label: <>Python</>, icon: pythonIcon },

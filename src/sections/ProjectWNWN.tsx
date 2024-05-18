@@ -1,7 +1,7 @@
 import './halfPage.css';
 import './Projects.css';
 import GroceryImage from '../assets/casual-life-3d-paper-bag-full-of-groceries.png';
-import CFGWinners from '../assets/cfgwinners.png';
+import CFGWinners from '../assets/logos/cfgwinners.png';
 
 export function ProjectWNWN() {
   return (
