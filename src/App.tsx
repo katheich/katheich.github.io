@@ -5,7 +5,6 @@ import { Education } from './sections/Education.tsx';
 import { Tech } from './sections/Tech.tsx';
 import { Volunteering } from './sections/Volunteering.tsx';
 import { ProjectsTitle } from './sections/ProjectsTitle.tsx';
-import { ProjectDefcon } from './sections/ProjectDefcon.tsx';
 import { ProjectWNWN } from './sections/ProjectWNWN.tsx';
 import { ProjectVacMan } from './sections/ProjectVacMan.tsx';
 import { Links } from './sections/Links.tsx';
@@ -21,7 +20,6 @@ function App() {
       <Volunteering />
       <BorderSection left={false} />
       <ProjectsTitle />
-      <ProjectDefcon />
       <ProjectWNWN />
       <ProjectVacMan />
       <BorderSection left />
