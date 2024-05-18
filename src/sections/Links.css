@@ -17,6 +17,7 @@
 .contactLinks {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .social {
@@ -57,23 +58,19 @@
   }
 
   .linksText {
-    padding: 3rem 0 0 5vw;
+    padding: 3rem 5vw;
+  }
+
+  .social {
+    height: 4rem;
   }
 
   .linksImageContainer {
-    height: fit-content;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
+    max-height: 60vh;
+    width: fit-content;
   }
 
   .linksImage {
     height: 100%;
-  }
-
-  .footer {
-    margin: 0;
-    padding-bottom: 0.5rem;
   }
 }
