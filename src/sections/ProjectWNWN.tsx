@@ -1,6 +1,6 @@
 import './halfPage.css';
 import './Projects.css';
-import GroceryImage from '../assets/casual-life-3d-paper-bag-full-of-groceries.png';
+import CookingImage from '../assets/casual-life-3d-avocado-and-orange-slices-on-cutting-board.png';
 import CFGWinners from '../assets/logos/cfgwinners.png';
 
 export function ProjectWNWN() {
@@ -9,9 +9,9 @@ export function ProjectWNWN() {
       <div className="sectionContainer right">
         <div className="sectionImageContainer">
           <img
-            src={GroceryImage}
+            src={CookingImage}
             className="sectionImage"
-            alt="paper bag full of groceries"
+            alt="avocado and orange slices on cutting board"
           />
         </div>
         <div className="sectionText">
