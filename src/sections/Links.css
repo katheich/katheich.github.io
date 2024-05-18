@@ -51,7 +51,7 @@
   font-size: 0.8rem;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1024px) and (orientation: portrait) {
   .linksSection {
     flex-direction: column;
     justify-content: space-between;
@@ -72,5 +72,11 @@
 
   .linksImage {
     height: 100%;
+  }
+}
+
+@media screen and (max-width: 1024px) and (orientation: landscape) {
+  .linksContainer {
+    height: 100vh;
   }
 }

@@ -62,3 +62,20 @@
     }
   }
 }
+
+@media screen and (max-width: 1024px) and (orientation: landscape) {
+  .headerContent {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .title {
+    padding-top: 2rem;
+  }
+
+  .headerImageContainer {
+    width: 60vw;
+  }
+}
