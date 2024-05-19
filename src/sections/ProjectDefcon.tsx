@@ -10,7 +10,7 @@ export function ProjectDefcon() {
         <div className="sectionText">
           <div className="titleWithIcon defcon">
             <div className="sectionTitle">DEFCON</div>
-            <img className="roo" src={RooLogo} alt="" />
+            <img className="orgLogo" src={RooLogo} alt="" />
           </div>
           <div className="text">
             <p>

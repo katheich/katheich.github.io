@@ -10,7 +10,7 @@ export function ProjectVacMan() {
         <div className="sectionText">
           <div className="titleWithIcon vacman">
             <div className="sectionTitle">Vac-Man</div>
-            <img className="roo" src={GALogo} alt="" />
+            <img className="orgLogo" src={GALogo} alt="" />
           </div>
           <div className="text">
             <p>

@@ -28,7 +28,7 @@
     padding: 0 0.5rem;
   }
 
-  .roo {
+  .orgLogo {
     height: 2rem;
     padding: 0 0.5rem;
   }
@@ -42,5 +42,15 @@
 
   .titleWithIcon.wnwn {
     flex-direction: row-reverse;
+  }
+
+  .titleWithIcon.defcon,
+  .titleWithIcon.vacman {
+    flex-wrap: wrap-reverse;
+
+    .sectionTitle,
+    .orgLogo {
+      margin-top: 0.5rem;
+    }
   }
 }
