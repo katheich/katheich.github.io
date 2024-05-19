@@ -37,7 +37,7 @@ export function ProjectVacMan() {
             <p>
               Find out more on{' '}
               <a
-                href="https://kathrineichinger.com/vac-man/"
+                href="https://github.com/katheich/vac-man"
                 target="_blank"
                 rel="noopener noreferrer"
               >
