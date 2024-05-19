@@ -2,7 +2,7 @@
 
 Personal Portfolio Website.
 
-Created using [vite.js](https://vitejs.dev/) and [gh-pages](https://create-react-app.dev/docs/deployment/#github-pages).
+Created using [vite.js](https://vitejs.dev/) and hosted on [Github Pages](https://pages.github.com/).
 
 Icons and illustrations purchased from [Icons8](https://icons8.com/).
 
