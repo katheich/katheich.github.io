@@ -5,7 +5,8 @@ import ProjectsImage from '../assets/3d-casual-life-business-woman-working-on-la
 export function ProjectsTitle() {
   return (
     <div className="section">
-      <div className="sectionContainer right titleSection">
+      <div className="sectionContainer titleSection">
+        <div className="projectsTitle">Selected Projects</div>
         <div className="sectionImageContainer">
           <img
             src={ProjectsImage}
@@ -13,7 +14,6 @@ export function ProjectsTitle() {
             alt="woman working on laptop while sitting on floor"
           />
         </div>
-        <div className="projectsTitle">Selected Projects</div>
       </div>
     </div>
   );
