@@ -1,9 +1,9 @@
 import './halfPage.css';
 import EducationImage from '../assets/casual-life-3d-books-graduation-hat-and-diploma-scroll.png';
-import CSImage from '../assets/icons/chip.svg';
-import CodeImage from '../assets/icons/code.svg';
-import EconImage from '../assets/icons/econ.svg';
-import IdeaImage from '../assets/icons/idea.svg';
+import CSIcon from '../assets/icons/binary.svg';
+import CodeIcon from '../assets/icons/code.svg';
+import EconIcon from '../assets/icons/econ.svg';
+import IdeaIcon from '../assets/icons/idea.svg';
 
 export function Education() {
   return (
@@ -15,7 +15,7 @@ export function Education() {
             <div className="textLine">
               <div className="icon">
                 {' '}
-                <img className="iconImg" src={CSImage} alt="" />
+                <img className="iconImg" src={CSIcon} alt="" />
               </div>
               <div>
                 Master of Science in Computer Science from{' '}
@@ -32,7 +32,7 @@ export function Education() {
             <div className="textLine">
               <div className="icon">
                 {' '}
-                <img className="iconImg" src={CodeImage} alt="" />
+                <img className="iconImg" src={CodeIcon} alt="" />
               </div>
               <div>
                 Software Engineering Immersive bootcamp at{' '}
@@ -48,7 +48,7 @@ export function Education() {
             <div className="textLine">
               <div className="icon">
                 {' '}
-                <img className="iconImg" src={EconImage} alt="" />
+                <img className="iconImg" src={EconIcon} alt="" />
               </div>
               <div>
                 Master of Science in Economic and Social Sciences from{' '}
@@ -64,7 +64,7 @@ export function Education() {
             <div className="textLine">
               <div className="icon">
                 {' '}
-                <img className="iconImg" src={IdeaImage} alt="" />
+                <img className="iconImg" src={IdeaIcon} alt="" />
               </div>
               <div>
                 Bachelor of Arts in Economics and Philosophy from{' '}

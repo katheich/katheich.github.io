@@ -1,8 +1,8 @@
 import './halfPage.css';
 import WorkImage from '../assets/3d-casual-life-monitor-and-other-office-stuff.png';
-import FoodImage from '../assets/icons/delivery.svg';
-import MovieImage from '../assets/icons/movie.svg';
-import LawImage from '../assets/icons/law.svg';
+import FoodIcon from '../assets/icons/delivery.svg';
+import MovieIcon from '../assets/icons/movie.svg';
+import LawIcon from '../assets/icons/law.svg';
 
 export function Experience() {
   return (
@@ -32,7 +32,7 @@ export function Experience() {
               </div>
               <div className="icon">
                 {' '}
-                <img className="iconImg" src={FoodImage} alt="" />
+                <img className="iconImg" src={FoodIcon} alt="" />
               </div>
             </div>
             <div className="textLine">
@@ -48,7 +48,7 @@ export function Experience() {
               </div>
               <div className="icon">
                 {' '}
-                <img className="iconImg" src={MovieImage} alt="" />
+                <img className="iconImg" src={MovieIcon} alt="" />
               </div>
             </div>
             <div className="textLine">
@@ -64,7 +64,7 @@ export function Experience() {
               </div>
               <div className="icon">
                 {' '}
-                <img className="iconImg" src={LawImage} alt="" />
+                <img className="iconImg" src={LawIcon} alt="" />
               </div>
             </div>
           </div>
