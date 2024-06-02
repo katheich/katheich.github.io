@@ -1,5 +1,8 @@
 import './halfPage.css';
 import WorkImage from '../assets/3d-casual-life-monitor-and-other-office-stuff.png';
+import FoodImage from '../assets/icons/delivery.svg';
+import MovieImage from '../assets/icons/movie.svg';
+import LawImage from '../assets/icons/law.svg';
 
 export function Experience() {
   return (
@@ -15,37 +18,55 @@ export function Experience() {
         <div className="sectionText">
           <div className="sectionTitle">Experience</div>
           <div className="text">
-            <p>
-              Site Reliability Engineer (SRE) at{' '}
-              <a
-                href="https://careers.deliveroo.co.uk/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Deliveroo
-              </a>{' '}
-              (current)
-            </p>
-            <p>
-              Full-Stack Developer at{' '}
-              <a
-                href="https://www.ep.com/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Entertainment Partners
-              </a>
-            </p>
-            <p>
-              Economic Consultant at{' '}
-              <a
-                href="https://www.rbbecon.com/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                RBB Economics
-              </a>
-            </p>
+            <div className="textLine">
+              <div>
+                Site Reliability Engineer (SRE) at{' '}
+                <a
+                  href="https://careers.deliveroo.co.uk/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Deliveroo
+                </a>{' '}
+                (current)
+              </div>
+              <div className="icon">
+                {' '}
+                <img className="iconImg" src={FoodImage} alt="" />
+              </div>
+            </div>
+            <div className="textLine">
+              <div>
+                Full-Stack Developer at{' '}
+                <a
+                  href="https://www.ep.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Entertainment Partners
+                </a>
+              </div>
+              <div className="icon">
+                {' '}
+                <img className="iconImg" src={MovieImage} alt="" />
+              </div>
+            </div>
+            <div className="textLine">
+              <div>
+                Economic Consultant at{' '}
+                <a
+                  href="https://www.rbbecon.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  RBB Economics
+                </a>
+              </div>
+              <div className="icon">
+                {' '}
+                <img className="iconImg" src={LawImage} alt="" />
+              </div>
+            </div>
           </div>
         </div>
       </div>

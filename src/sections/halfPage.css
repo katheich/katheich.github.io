@@ -26,6 +26,22 @@
   max-width: 70vw;
   margin-right: 2vw;
   vertical-align: middle;
+
+  .textLine {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 0.5rem;
+
+    .icon {
+      height: 2rem;
+      padding-right: 0.5rem;
+
+      img {
+        max-height: 100%;
+      }
+    }
+  }
 }
 
 .right {
@@ -33,6 +49,15 @@
     text-align: right;
     margin-right: 0;
     margin-left: 2vw;
+  }
+
+  .textLine {
+    justify-content: flex-end;
+  }
+
+  .icon {
+    padding-right: 0;
+    padding-left: 0.5rem;
   }
 
   .sectionImageContainer {
@@ -79,6 +104,16 @@
   .right {
     flex-direction: column;
     justify-content: flex-start;
+
+    .textLine {
+      justify-content: flex-start;
+      flex-direction: row-reverse;
+
+      .icon {
+        padding-right: 0.5rem;
+        padding-left: 0;
+      }
+    }
 
     .sectionText {
       text-align: left;
