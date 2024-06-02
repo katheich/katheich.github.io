@@ -2,7 +2,7 @@ import './halfPage.css';
 import EducationImage from '../assets/casual-life-3d-books-graduation-hat-and-diploma-scroll.png';
 import CSIcon from '../assets/icons/binary.svg';
 import CodeIcon from '../assets/icons/code.svg';
-import EconIcon from '../assets/icons/econ.svg';
+import EconIcon from '../assets/icons/chart.svg';
 import IdeaIcon from '../assets/icons/idea.svg';
 
 export function Education() {
