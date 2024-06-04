@@ -2,7 +2,7 @@ import './halfPage.css';
 import WorkImage from '../assets/3d-casual-life-monitor-and-other-office-stuff.png';
 import FoodIcon from '../assets/icons/delivery.svg';
 import MovieIcon from '../assets/icons/movie.svg';
-import ResearchIcon from '../assets/icons/research.svg';
+import ResearchIcon from '../assets/icons/chart.svg';
 import LawIcon from '../assets/icons/law.svg';
 
 export function Experience() {
