@@ -2,6 +2,7 @@ import './halfPage.css';
 import WorkImage from '../assets/3d-casual-life-monitor-and-other-office-stuff.png';
 import FoodIcon from '../assets/icons/delivery.svg';
 import MovieIcon from '../assets/icons/movie.svg';
+import ResearchIcon from '../assets/icons/research.svg';
 import LawIcon from '../assets/icons/law.svg';
 
 export function Experience() {
@@ -31,7 +32,6 @@ export function Experience() {
                 (current)
               </div>
               <div className="icon">
-                {' '}
                 <img className="iconImg" src={FoodIcon} alt="" />
               </div>
             </div>
@@ -47,8 +47,22 @@ export function Experience() {
                 </a>
               </div>
               <div className="icon">
-                {' '}
                 <img className="iconImg" src={MovieIcon} alt="" />
+              </div>
+            </div>
+            <div className="textLine">
+              <div>
+                Research Assistant at{' '}
+                <a
+                  href="https://ora.ox.ac.uk/objects/uuid:d8775bac-50a6-4fc1-bb8e-9aba781d06c8"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  University of Oxford
+                </a>
+              </div>
+              <div className="icon">
+                <img className="iconImg" src={ResearchIcon} alt="" />
               </div>
             </div>
             <div className="textLine">
@@ -63,7 +77,6 @@ export function Experience() {
                 </a>
               </div>
               <div className="icon">
-                {' '}
                 <img className="iconImg" src={LawIcon} alt="" />
               </div>
             </div>
