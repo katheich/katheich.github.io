@@ -23,7 +23,7 @@ export function Experience() {
               <div>
                 Site Reliability Engineer (SRE) at{' '}
                 <a
-                  href="https://careers.deliveroo.co.uk/"
+                  href="https://corporate.deliveroo.co.uk/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
