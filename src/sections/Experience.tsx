@@ -1,5 +1,6 @@
 import './halfPage.css';
 import WorkImage from '../assets/3d-casual-life-monitor-and-other-office-stuff.png';
+import LeafIcon from '../assets/icons/greentech.png';
 import FoodIcon from '../assets/icons/delivery.svg';
 import MovieIcon from '../assets/icons/movie.svg';
 import ResearchIcon from '../assets/icons/chart.svg';
@@ -21,6 +22,22 @@ export function Experience() {
           <div className="text">
             <div className="textLine">
               <div>
+                Backend Software Engineer at{' '}
+                <a
+                  href="https://ecoinvent.org/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  ecoinvent
+                </a>{' '}
+                (current)
+              </div>
+              <div className="icon">
+                <img className="iconImg" src={LeafIcon} alt="" />
+              </div>
+            </div>
+            <div className="textLine">
+              <div>
                 Site Reliability Engineer (SRE) at{' '}
                 <a
                   href="https://corporate.deliveroo.co.uk/"
@@ -28,8 +45,7 @@ export function Experience() {
                   rel="noopener noreferrer"
                 >
                   Deliveroo
-                </a>{' '}
-                (current)
+                </a>
               </div>
               <div className="icon">
                 <img className="iconImg" src={FoodIcon} alt="" />
