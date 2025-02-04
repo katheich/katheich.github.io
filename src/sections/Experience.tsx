@@ -55,7 +55,7 @@ export function Experience() {
               <div>
                 Full-Stack Developer at{' '}
                 <a
-                  href="https://www.ep.com/"
+                  href="https://www.ep.com/casting/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
