@@ -66,7 +66,7 @@ export function Experience() {
                 <img className="iconImg" src={MovieIcon} alt="" />
               </div>
             </div>
-            <div className="textLine">
+            {/* <div className="textLine">
               <div>
                 Research Assistant at{' '}
                 <a
@@ -80,7 +80,7 @@ export function Experience() {
               <div className="icon">
                 <img className="iconImg" src={ResearchIcon} alt="" />
               </div>
-            </div>
+            </div> */}
             <div className="textLine">
               <div>
                 Economic Consultant at{' '}

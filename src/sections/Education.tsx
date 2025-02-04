@@ -12,7 +12,7 @@ export function Education() {
         <div className="sectionText">
           <div className="sectionTitle">Education</div>
           <div className="text">
-            <div className="textLine">
+            {/* <div className="textLine">
               <div className="icon">
                 {' '}
                 <img className="iconImg" src={CSIcon} alt="" />
@@ -28,7 +28,7 @@ export function Education() {
                 </a>{' '}
                 (in progress)
               </div>
-            </div>
+            </div> */}
             <div className="textLine">
               <div className="icon">
                 {' '}
