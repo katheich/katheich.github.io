@@ -1,6 +1,6 @@
 import './halfPage.css';
 import WorkImage from '../assets/3d-casual-life-monitor-and-other-office-stuff.png';
-import LeafIcon from '../assets/icons/greentech.png';
+import LeafIcon from '../assets/icons/ecosystem.png';
 import FoodIcon from '../assets/icons/delivery.svg';
 import MovieIcon from '../assets/icons/movie.svg';
 import ResearchIcon from '../assets/icons/chart.svg';
