@@ -10,11 +10,11 @@ import awsIcon from '../assets/tech/amazonwebservices-plain-wordmark.svg';
 import terraformIcon from '../assets/tech/terraform-original.svg';
 import reactIcon from '../assets/tech/react-original.svg';
 import expressIcon from '../assets/tech/express-original.svg';
+import fastAPIIcon from '../assets/tech/fastapi-plain.svg';
 import djangoIcon from '../assets/tech/django-plain.svg';
 import railsIcon from '../assets/tech/rails-plain.svg';
 import postgresIcon from '../assets/tech/postgresql-plain.svg';
 import dynamodbIcon from '../assets/tech/dynamodb-original.svg';
-import mongoIcon from '../assets/tech/mongodb-plain.svg';
 import figmaIcon from '../assets/tech/figma-original.svg';
 import jupyterIcon from '../assets/tech/jupyter-original-wordmark.svg';
 import latexIcon from '../assets/tech/latex-original.svg';
@@ -27,19 +27,19 @@ const skillSet = [
   { id: 'ruby', label: <>Ruby</>, icon: rubyIcon },
   { id: 'go', label: <>Go</>, icon: golangIcon },
   { id: 'java', label: <>Java</>, icon: javaIcon },
+  { id: 'react', label: <>React</>, icon: reactIcon },
+  { id: 'express', label: <>Express.js</>, icon: expressIcon },
+  { id: 'fastapi', label: <>FastAPI</>, icon: fastAPIIcon },
+  { id: 'django', label: <>Django</>, icon: djangoIcon },
+  { id: 'rails', label: <>Rails</>, icon: railsIcon },
   { id: 'docker', label: <>Docker</>, icon: dockerIcon },
   { id: 'aws', label: <>AWS</>, icon: awsIcon },
   { id: 'tf', label: <>Terraform</>, icon: terraformIcon },
-  { id: 'react', label: <>React</>, icon: reactIcon },
-  { id: 'express', label: <>Express.js</>, icon: expressIcon },
-  { id: 'django', label: <>Django</>, icon: djangoIcon },
-  { id: 'rails', label: <>Rails</>, icon: railsIcon },
   { id: 'postgres', label: <>Postgre&shy;SQL</>, icon: postgresIcon },
   { id: 'dynamo', label: <>DynamoDB</>, icon: dynamodbIcon },
-  { id: 'mongo', label: <>MongoDB</>, icon: mongoIcon },
+  { id: 'arcgis', label: <>ArcGIS Pro</>, icon: arcgisIcon },
   { id: 'figma', label: <>Figma</>, icon: figmaIcon },
   { id: 'jupyter', label: <>Jupyter</>, icon: jupyterIcon },
-  { id: 'arcgis', label: <>ArcGIS Pro</>, icon: arcgisIcon },
   { id: 'stata', label: <>Stata</>, icon: stataIcon },
   { id: 'latex', label: <>Latex</>, icon: latexIcon },
 ];
